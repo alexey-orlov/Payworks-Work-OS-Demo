@@ -1,0 +1,814 @@
+---
+date: 2026-08-18
+type: call
+customers: [birchbark-books]
+areas: [expense-management, payroll]
+features: [firm-management]
+initiatives: [expense-management-vp2]
+themes: [expense-claims, receipt-capture, approval-thresholds, approval-workflow, mobile-access, channel-partner, multi-client-administration, cross-client-visibility, firm-templates, access-control, login-friction, record-retention, personal-vs-business-card, change-notification, support-burden, release-communication, practice-economics, year-end-crunch]
+tag-amendments: []
+---
+
+# Birchbark Books & Accounting — Channel Research Call, 2026-08-18 (raw transcript)
+
+Raw material, immutable. Customer-side speakers appear under role tokens; the record was
+anonymized on import. Corrections belong in the summary, never here.
+
+**Summary:** [../../customers/accounts/birchbark-books/calls/summaries/2026-08-18.md](../../customers/accounts/birchbark-books/calls/summaries/2026-08-18.md)
+**Filed from:** `product-development/inbox/2026-08-18-birchbark-books-call.txt`
+
+WEBVTT
+
+NOTE Synthetic material - generated for the Payworks Work OS; not a record of a real meeting. Customer-side speakers are role titles only; Payworks staff are fictional.
+
+1
+00:00:00.000 --> 00:00:05.320
+Amanda Rousseau: …and I think that's everybody. Can everyone hear alright?
+
+2
+00:00:05.680 --> 00:00:07.400
+senior.bookkeeper: Yep, all good here.
+
+3
+00:00:07.900 --> 00:00:12.240
+firm.principal: I'm going to be in and out for the first bit, I've got a client thing, but I'm here.
+
+4
+00:00:12.240 --> 00:00:13.560
+Amanda Rousseau: No problem at all.
+
+5
+00:00:14.100 --> 00:00:24.680
+Amanda Rousseau: So — quick framing and then I'll get out of the way. Margaret runs our product research, Michelle's the product manager for payroll and the expense side. And this is a research call, not a sales call.
+
+6
+00:00:24.680 --> 00:00:26.400
+firm.principal: [laughs] You always say that.
+
+7
+00:00:26.400 --> 00:00:28.240
+Amanda Rousseau: I always mean it, too.
+
+8
+00:00:28.680 --> 00:00:38.320
+Margaret Foster: It's true, and I'll prove it by not showing you anything. Um, thank you both for the time. Is it okay if I record? It's for our team only, it doesn't go anywhere else.
+
+9
+00:00:38.680 --> 00:00:39.900
+firm.principal: That's fine.
+
+10
+00:00:39.900 --> 00:00:40.680
+senior.bookkeeper: Fine by me.
+
+11
+00:00:41.240 --> 00:00:51.320
+Margaret Foster: Thank you. So — before we get into expenses, can you just describe the firm to me? Because I think we've got you in our system as a number and I'd rather have the picture.
+
+12
+00:00:51.680 --> 00:00:53.400
+firm.principal: Sure. Um.
+
+13
+00:00:53.900 --> 00:01:05.680
+firm.principal: We're a bookkeeping practice. There's six of us. We do full-cycle bookkeeping for about forty small businesses, and we do payroll for — what is it now, thirty-one of them?
+
+14
+00:01:05.680 --> 00:01:07.400
+senior.bookkeeper: Thirty-three as of last month.
+
+15
+00:01:07.400 --> 00:01:08.900
+firm.principal: Thirty-three. She keeps count.
+
+16
+00:01:09.240 --> 00:01:10.680
+Margaret Foster: And what do those clients look like?
+
+17
+00:01:11.100 --> 00:01:23.320
+firm.principal: Trades, mostly. Plumbing, electrical, a couple of HVAC. Two restaurants, which I regret. A dental practice. A landscaping outfit, actually, small one, nothing like the ones you probably deal with.
+
+18
+00:01:23.680 --> 00:01:24.900
+Margaret Foster: [laughs] And sizes?
+
+19
+00:01:24.900 --> 00:01:35.680
+firm.principal: Average is, what, twenty-five, twenty-seven people. The biggest is a hundred and forty, that's the HVAC one. The smallest is three, and one of those three is the owner's wife.
+
+20
+00:01:36.100 --> 00:01:37.400
+Margaret Foster: So across the whole book?
+
+21
+00:01:37.400 --> 00:01:41.320
+senior.bookkeeper: About eleven hundred employees. I ran it in the spring, it was eleven-oh-something.
+
+22
+00:01:41.680 --> 00:01:43.900
+Margaret Foster: That's a lot of people to be responsible for.
+
+23
+00:01:43.900 --> 00:01:52.680
+senior.bookkeeper: It's a lot of people who don't know I exist. That's the strange part of this job. Eleven hundred people get paid because of us and maybe forty of them know our name.
+
+24
+00:01:53.100 --> 00:01:54.400
+Margaret Foster: Hm. That's a good line.
+
+25
+00:01:54.900 --> 00:02:05.320
+Margaret Foster: Okay, so — expenses. And I want to be careful here, because I think when Michelle and I say "expenses" we mean a thing that happens inside one company, and I suspect that's not your world.
+
+26
+00:02:05.680 --> 00:02:07.400
+senior.bookkeeper: No. No, it's not.
+
+27
+00:02:07.900 --> 00:02:08.900
+Michelle Tremblay (she/her): Tell me what it is, then.
+
+28
+00:02:09.240 --> 00:02:20.680
+senior.bookkeeper: Okay. So — the thing you have to understand is I'm not in one company, I'm in forty. And they don't do it the same way. Not one of them does it the same way as another one.
+
+29
+00:02:21.100 --> 00:02:22.400
+Michelle Tremblay (she/her): Give me the range.
+
+30
+00:02:22.900 --> 00:02:34.320
+senior.bookkeeper: The best one — the HVAC client, the big one — they've got a proper system, their techs photograph everything, and it lands in my inbox coded and I basically check it. That's maybe an hour a month.
+
+31
+00:02:34.680 --> 00:02:35.900
+Michelle Tremblay (she/her): And the worst one?
+
+32
+00:02:35.900 --> 00:02:39.680
+senior.bookkeeper: A Ziploc bag. In February.
+
+33
+00:02:39.680 --> 00:02:41.400
+Michelle Tremblay (she/her): A literal Ziploc bag.
+
+34
+00:02:41.400 --> 00:02:52.320
+senior.bookkeeper: A literal freezer bag with a year of receipts in it. And he's a lovely man and he does beautiful work and he genuinely thinks he's done me a favour by keeping them.
+
+35
+00:02:52.680 --> 00:02:54.400
+firm.principal: He has, relative to the alternative.
+
+36
+00:02:54.400 --> 00:02:56.900
+senior.bookkeeper: He has! That's the depressing part. He has.
+
+37
+00:02:57.240 --> 00:02:58.680
+Michelle Tremblay (she/her): How long does that one take?
+
+38
+00:02:59.100 --> 00:03:09.320
+senior.bookkeeper: Two days. Every February. And it's two days of work that produces nothing except catching up to where we should already have been.
+
+39
+00:03:09.680 --> 00:03:11.900
+Michelle Tremblay (she/her): And across the whole book, what's the load?
+
+40
+00:03:12.240 --> 00:03:24.680
+senior.bookkeeper: I'd say three hours a client a month on expense coding, averaged. Some are twenty minutes, some are a day. So call it a hundred and twenty hours a month across the book.
+
+41
+00:03:25.100 --> 00:03:26.400
+Michelle Tremblay (she/her): That's most of a person.
+
+42
+00:03:26.400 --> 00:03:31.320
+senior.bookkeeper: That's most of a person, yes. And it's the least interesting person in the building.
+
+43
+00:03:31.680 --> 00:03:33.900
+Margaret Foster: Can I ask about that from the business side?
+
+44
+00:03:33.900 --> 00:03:35.400
+firm.principal: Go ahead.
+
+45
+00:03:35.400 --> 00:03:39.680
+Margaret Foster: You bill for those hours, right? So is it in your interest for them to go away?
+
+46
+00:03:40.240 --> 00:03:42.400
+firm.principal: …That's a very good question and I'll be honest with you.
+
+47
+00:03:42.900 --> 00:03:43.900
+Margaret Foster: Please.
+
+48
+00:03:43.900 --> 00:03:53.680
+firm.principal: Half of me doesn't want it faster. Because a hundred and twenty hours at seventy-five dollars is nine thousand dollars a month and that's real revenue in a six-person firm.
+
+49
+00:03:54.100 --> 00:03:55.400
+Margaret Foster: Right.
+
+50
+00:03:55.400 --> 00:04:06.320
+firm.principal: And I'd be lying if I said I hadn't thought, well, if Payworks makes this take an hour, that's a hole in my P&L. Every practice owner has had that thought. Most won't say it on a recorded call.
+
+51
+00:04:06.680 --> 00:04:08.400
+Margaret Foster: I appreciate you saying it.
+
+52
+00:04:08.900 --> 00:04:10.400
+senior.bookkeeper: Can I disagree with my boss?
+
+53
+00:04:10.400 --> 00:04:12.240
+firm.principal: [laughs] You're going to anyway.
+
+54
+00:04:12.680 --> 00:04:23.320
+senior.bookkeeper: The seventy-five dollar work is the work we can't hire for. I've had two job postings up since March. Nobody wants to key receipts, and the ones who do want it want sixty-five thousand and they leave in a year.
+
+55
+00:04:23.680 --> 00:04:24.900
+firm.principal: That's true.
+
+56
+00:04:24.900 --> 00:04:35.680
+senior.bookkeeper: Whereas the advisory work bills at a hundred and eighty and I turn it down every month because I'm coding receipts. So it's not a hole in the P&L, it's the wrong hours in it.
+
+57
+00:04:36.100 --> 00:04:38.400
+firm.principal: No, you're right, and I do know you're right.
+
+58
+00:04:38.400 --> 00:04:47.320
+firm.principal: I think the honest version is: it's a hole in the P&L in the first six months and a better business after that, and small firms die in the first six months. So that's the actual fear.
+
+59
+00:04:47.680 --> 00:04:49.900
+Margaret Foster: That's really valuable, thank you both.
+
+60
+00:04:50.240 --> 00:04:57.680
+Michelle Tremblay (she/her): Can I bring it back to the mechanics? The thing I most want to understand is approvals — because in a client's business, who approves?
+
+61
+00:04:58.100 --> 00:04:59.400
+senior.bookkeeper: The owner. Almost always the owner.
+
+62
+00:04:59.400 --> 00:05:00.680
+Michelle Tremblay (she/her): For everything?
+
+63
+00:05:00.680 --> 00:05:11.320
+senior.bookkeeper: For everything, in most of them. Which is fine when there's eight people. It stops working at about thirty and none of them notice it's stopped working.
+
+64
+00:05:11.680 --> 00:05:13.400
+Michelle Tremblay (she/her): What does "stopped working" look like?
+
+65
+00:05:13.900 --> 00:05:24.680
+senior.bookkeeper: It looks like nothing. That's the problem. It looks like everything's approved, because he approves everything, because he's in a van and he's got forty-one notifications and he just clears them.
+
+66
+00:05:25.100 --> 00:05:26.400
+Michelle Tremblay (she/her): So the approval is meaningless.
+
+67
+00:05:26.400 --> 00:05:37.320
+senior.bookkeeper: The approval is a formality that we then rely on at year end. And when the auditor asks who approved this, I say the owner did, and technically that's true.
+
+68
+00:05:37.680 --> 00:05:39.900
+Michelle Tremblay (she/her): Do any of them have dollar thresholds?
+
+69
+00:05:40.240 --> 00:05:42.680
+senior.bookkeeper: Nine of forty have a written policy at all.
+
+70
+00:05:42.680 --> 00:05:44.400
+Michelle Tremblay (she/her): Nine of forty. Okay.
+
+71
+00:05:44.400 --> 00:05:53.320
+senior.bookkeeper: And of those nine, it's basically two numbers. Some use a hundred dollars, some use five hundred. That's it. That's the entire policy landscape of my book.
+
+72
+00:05:53.680 --> 00:05:55.900
+Michelle Tremblay (she/her): Where do those numbers come from?
+
+73
+00:05:55.900 --> 00:06:03.680
+senior.bookkeeper: From me, mostly. [laughs] I gave them the number. So the diversity of the policy landscape is that I have two opinions.
+
+74
+00:06:04.100 --> 00:06:06.400
+Michelle Tremblay (she/her): [laughs] That's, uh. That's useful, actually.
+
+75
+00:06:06.900 --> 00:06:16.320
+Michelle Tremblay (she/her): So if we built configurable approval thresholds — per client, per dollar amount, routing to different people — is that good for you?
+
+76
+00:06:16.680 --> 00:06:18.400
+senior.bookkeeper: Honestly? Partly bad.
+
+77
+00:06:18.400 --> 00:06:19.900
+Michelle Tremblay (she/her): Tell me why.
+
+78
+00:06:19.900 --> 00:06:30.680
+senior.bookkeeper: Because you'd be giving me forty rulesets to maintain. Right now the policy lives in my head and in nine emails. That's bad, I'm not defending it. But it's forty things I know.
+
+79
+00:06:31.100 --> 00:06:32.400
+Michelle Tremblay (she/her): And if it's in the system?
+
+80
+00:06:32.400 --> 00:06:44.320
+senior.bookkeeper: If it's in the system it's forty things the client can change without telling me. And I'll find out in November when something didn't route, or worse, at year end when the auditor asks and the rule isn't what I said it was.
+
+81
+00:06:44.680 --> 00:06:46.400
+Michelle Tremblay (she/her): Hm. That's a good objection.
+
+82
+00:06:46.400 --> 00:06:56.680
+senior.bookkeeper: It's the same as the chart of accounts. You gave clients the ability to add accounts and now I've got a client with three accounts called Materials. Three. All slightly different.
+
+83
+00:06:57.100 --> 00:06:58.400
+firm.principal: [laughs] Don't get her started.
+
+84
+00:06:58.400 --> 00:07:00.240
+senior.bookkeeper: I will get started, that's my life.
+
+85
+00:07:00.680 --> 00:07:02.400
+Michelle Tremblay (she/her): So what would make thresholds good for you?
+
+86
+00:07:02.900 --> 00:07:13.320
+senior.bookkeeper: A firm template. So I set it once — under a hundred goes, over a hundred goes to the owner, over a thousand flags to me — and I push that to every client I want it on.
+
+87
+00:07:13.680 --> 00:07:15.400
+Michelle Tremblay (she/her): And then override per client.
+
+88
+00:07:15.400 --> 00:07:24.680
+senior.bookkeeper: Override where I need to, yes. But the default is mine, not theirs. And if a client changes it, I want to know. Not a report I have to go find. Tell me.
+
+89
+00:07:25.100 --> 00:07:26.400
+Michelle Tremblay (she/her): Notified.
+
+90
+00:07:26.400 --> 00:07:36.320
+senior.bookkeeper: Notified, and ideally with a "was, now" so I can see what it used to be. Because half the time the client will swear they didn't change it and they did, and I'd like to not have that conversation.
+
+91
+00:07:36.680 --> 00:07:38.900
+Margaret Foster: That's a genuinely different requirement than we've heard.
+
+92
+00:07:38.900 --> 00:07:48.680
+senior.bookkeeper: It's because you're building for the company and I'm not the company. I'm the person who's responsible for forty companies and accountable for none of them.
+
+93
+00:07:49.100 --> 00:07:50.400
+Michelle Tremblay (she/her): Say that again?
+
+94
+00:07:50.400 --> 00:07:59.320
+senior.bookkeeper: I'm responsible and not accountable. If a client's expenses are a mess, it's my problem to fix and it's their business. I can't make them do anything.
+
+95
+00:07:59.680 --> 00:08:01.900
+Michelle Tremblay (she/her): So you need influence rather than control.
+
+96
+00:08:01.900 --> 00:08:10.680
+senior.bookkeeper: I need defaults. Defaults are influence. Nobody changes a default. That's the only power I've ever had in this job.
+
+97
+00:08:11.100 --> 00:08:13.400
+Margaret Foster: [laughs] I'm writing that down word for word.
+
+98
+00:08:13.900 --> 00:08:19.320
+firm.principal: Sorry — I've got about six minutes before I have to go. Can I say the thing I actually joined for?
+
+99
+00:08:19.680 --> 00:08:20.900
+Margaret Foster: Please, yes.
+
+100
+00:08:20.900 --> 00:08:29.680
+firm.principal: The logins. I know it's not what you're working on, and I know you've heard it, but it's the thing that would change my week the most.
+
+101
+00:08:30.100 --> 00:08:31.400
+Michelle Tremblay (she/her): Tell me anyway.
+
+102
+00:08:31.400 --> 00:08:42.320
+firm.principal: We have forty client accounts and I sign into them one at a time. And it's — what is it, nine clicks? And a two-factor code, and the code goes to whoever set the account up, which sometimes is the client.
+
+103
+00:08:42.680 --> 00:08:44.400
+Michelle Tremblay (she/her): The two-factor goes to the client?
+
+104
+00:08:44.400 --> 00:08:53.680
+firm.principal: For some of the older ones, yes. So on Tuesday I texted a plumber to ask him to read me a number so I could run his payroll. That's the state of the art.
+
+105
+00:08:54.100 --> 00:08:55.400
+Michelle Tremblay (she/her): Oh, that's not good.
+
+106
+00:08:55.400 --> 00:09:04.320
+firm.principal: It's not good and it's also, um, it's a security thing, right? Like I'm training a client to read authentication codes out loud to whoever asks.
+
+107
+00:09:04.680 --> 00:09:06.400
+Margaret Foster: That's a really fair point.
+
+108
+00:09:06.400 --> 00:09:16.680
+firm.principal: And what I want is one login. One. I sign in as the firm, I see my forty clients, I go where I need to. And when I hire someone, I give them nine clients and not the other thirty-one.
+
+109
+00:09:17.100 --> 00:09:18.400
+Michelle Tremblay (she/her): Say more about that last bit?
+
+110
+00:09:18.400 --> 00:09:29.320
+firm.principal: Access. Right now it's all or nothing per account. My junior can either get into a client's payroll completely or not at all. There's no "she can code expenses but she can't transmit a payroll."
+
+111
+00:09:29.680 --> 00:09:31.400
+senior.bookkeeper: That's the one that keeps me up, honestly.
+
+112
+00:09:31.400 --> 00:09:33.900
+Michelle Tremblay (she/her): Why that one specifically?
+
+113
+00:09:33.900 --> 00:09:44.680
+senior.bookkeeper: Because a junior with full access to a client's payroll is one wrong click from a real problem, and it wouldn't be malicious, it'd be a Tuesday afternoon and a mis-click.
+
+114
+00:09:45.100 --> 00:09:46.400
+Michelle Tremblay (she/her): And you can't limit them.
+
+115
+00:09:46.400 --> 00:09:56.320
+senior.bookkeeper: I can't limit them, so I do it socially. I tell her not to. Which works because she's good. It is not a control, it's a relationship, and that's not a system.
+
+116
+00:09:56.680 --> 00:09:58.400
+Margaret Foster: You'd want roles.
+
+117
+00:09:58.400 --> 00:10:07.680
+senior.bookkeeper: Roles at the firm level that apply across clients. Because otherwise I'm setting up permissions forty times per employee, and we hire two or three people a year.
+
+118
+00:10:08.100 --> 00:10:09.400
+firm.principal: And we add clients, too.
+
+119
+00:10:09.400 --> 00:10:12.320
+Michelle Tremblay (she/her): How many new clients a year?
+
+120
+00:10:12.680 --> 00:10:19.400
+firm.principal: Four, five. Six was a big year. And each one is, what, half a day of setup on your side?
+
+121
+00:10:19.400 --> 00:10:20.680
+senior.bookkeeper: More like a day.
+
+122
+00:10:20.680 --> 00:10:22.400
+firm.principal: A day. Every time.
+
+123
+00:10:22.900 --> 00:10:26.680
+Michelle Tremblay (she/her): Okay. Can I ask the one that's actually mine — receipt capture.
+
+124
+00:10:26.680 --> 00:10:27.900
+senior.bookkeeper: Yes. Please.
+
+125
+00:10:27.900 --> 00:10:37.320
+Michelle Tremblay (she/her): If the client's staff could photograph a receipt at the moment of purchase, on a phone, and it landed coded — does that help you or does it just move your work?
+
+126
+00:10:37.680 --> 00:10:39.400
+senior.bookkeeper: It helps enormously, with a condition.
+
+127
+00:10:39.400 --> 00:10:40.400
+Michelle Tremblay (she/her): Go on.
+
+128
+00:10:40.400 --> 00:10:50.680
+senior.bookkeeper: It has to reach me in a form I can question. So if the app reads the receipt and guesses the category, fine, great, but I need to see that it guessed and I need to be able to see the picture.
+
+129
+00:10:51.100 --> 00:10:52.400
+Michelle Tremblay (she/her): Because you're the one who signs off.
+
+130
+00:10:52.400 --> 00:11:03.320
+senior.bookkeeper: Because at year end I'm the one explaining it. And if the answer is "the software decided," that's not an answer I can give anyone. I need the receipt attached to the entry forever, not for ninety days.
+
+131
+00:11:03.680 --> 00:11:05.400
+Michelle Tremblay (she/her): How long is forever, for you?
+
+132
+00:11:05.400 --> 00:11:12.680
+senior.bookkeeper: Seven years. CRA. And I would want to be able to get all seven years out if a client leaves us, which — clients do leave.
+
+133
+00:11:13.100 --> 00:11:14.400
+Michelle Tremblay (she/her): That's a good requirement, thank you.
+
+134
+00:11:14.900 --> 00:11:22.320
+senior.bookkeeper: And the other condition is the personal card thing, which I think is the actual hardest part of small business expenses and nobody builds for it.
+
+135
+00:11:22.680 --> 00:11:23.900
+Michelle Tremblay (she/her): Explain it to me.
+
+136
+00:11:23.900 --> 00:11:35.680
+senior.bookkeeper: At a company with a hundred and forty people, there's a company card and a personal card and everyone knows which is which. At a company with eleven people, the owner has one Visa and it buys the truck parts and the groceries.
+
+137
+00:11:36.100 --> 00:11:37.400
+Michelle Tremblay (she/her): Ah. Right.
+
+138
+00:11:37.400 --> 00:11:47.320
+senior.bookkeeper: So the question isn't "capture the receipt," it's "is this one ours." And that's a judgment call and it's mine and it always will be. I'm not asking you to solve it.
+
+139
+00:11:47.680 --> 00:11:49.400
+Michelle Tremblay (she/her): But you want the ones that are easy to be easy.
+
+140
+00:11:49.400 --> 00:11:57.680
+senior.bookkeeper: I want the eighty percent that's obviously business to arrive without me touching it, so I've got time for the twenty percent that's a judgment call. That's the whole ask.
+
+141
+00:11:58.100 --> 00:12:00.400
+Margaret Foster: That's a very clear way of putting it.
+
+142
+00:12:00.900 --> 00:12:04.320
+Michelle Tremblay (she/her): Last one — mobile. Where does that sit for you?
+
+143
+00:12:04.680 --> 00:12:06.400
+firm.principal: Massive. For the clients.
+
+144
+00:12:06.400 --> 00:12:07.400
+senior.bookkeeper: Irrelevant. For us.
+
+145
+00:12:07.400 --> 00:12:09.680
+Michelle Tremblay (she/her): [laughs] Okay, both of those, please.
+
+146
+00:12:10.100 --> 00:12:21.320
+firm.principal: My clients are in vans. That's the honest picture. The approver is a guy who owns a plumbing company and drives to jobs, and if the approval isn't on his phone it doesn't happen, it just doesn't happen.
+
+147
+00:12:21.680 --> 00:12:23.400
+Michelle Tremblay (she/her): And that's the person who currently clears forty-one notifications.
+
+148
+00:12:23.400 --> 00:12:32.680
+firm.principal: Yes, and I'd rather he cleared them badly on time than well in March. That's the trade, and I know that's an unpopular thing to say to a product person.
+
+149
+00:12:33.100 --> 00:12:34.400
+Michelle Tremblay (she/her): No, it's honest.
+
+150
+00:12:34.400 --> 00:12:44.320
+firm.principal: Because the alternative isn't careful approval, it's no approval. There is no world where he sits down at a desk. There is no desk. He does not have a desk.
+
+151
+00:12:44.680 --> 00:12:46.400
+Michelle Tremblay (she/her): And for the firm side?
+
+152
+00:12:46.400 --> 00:12:56.680
+senior.bookkeeper: Nothing. I have two monitors and I need both. Every single thing I do is comparing one screen to another screen. There is no phone version of my job and I would never use one.
+
+153
+00:12:57.100 --> 00:12:58.400
+Michelle Tremblay (she/her): Not even approvals?
+
+154
+00:12:58.400 --> 00:13:08.320
+senior.bookkeeper: I don't approve. I review. Those are different words. If I'm reviewing forty clients' expense coding I'm doing it at eight in the morning with coffee and two monitors, and I like it that way.
+
+155
+00:13:08.680 --> 00:13:10.400
+Margaret Foster: So mobile for the client, desktop for the firm.
+
+156
+00:13:10.400 --> 00:13:18.680
+senior.bookkeeper: Mobile for the client, desktop for the firm, and please don't make me the one who explains the app to the client. Because that's what happens.
+
+157
+00:13:19.100 --> 00:13:20.400
+Michelle Tremblay (she/her): Does it?
+
+158
+00:13:20.400 --> 00:13:30.320
+senior.bookkeeper: Every time. You ship something, my client phones me, not you. So whatever you build, I'm the support desk for it, and I don't get paid by you.
+
+159
+00:13:30.680 --> 00:13:32.400
+firm.principal: That's a real thing, that.
+
+160
+00:13:32.400 --> 00:13:42.680
+firm.principal: We're the front line for a product we don't own. And I'm not complaining exactly, it's part of why clients stay with us. But when you're planning a rollout, we're the people who absorb it.
+
+161
+00:13:43.100 --> 00:13:45.400
+Margaret Foster: What would make that easier?
+
+162
+00:13:45.400 --> 00:13:56.680
+firm.principal: Tell us first. Genuinely, that's most of it. If I know a change is coming two weeks out I can warn the ten clients it affects. If I find out because a client phones me confused, I've lost the morning and some credibility.
+
+163
+00:13:57.100 --> 00:13:58.400
+Margaret Foster: That's very fair.
+
+164
+00:13:58.400 --> 00:14:04.320
+firm.principal: And ideally in a form I can forward. Not a login-required page. Something I can paste in an email.
+
+165
+00:14:04.680 --> 00:14:07.400
+Michelle Tremblay (she/her): Noted, and that's a fair criticism of how we do it today.
+
+166
+00:14:07.900 --> 00:14:11.680
+firm.principal: I'm going to have to jump. Thank you, this was — genuinely, this was nice to be asked.
+
+167
+00:14:12.100 --> 00:14:13.400
+Margaret Foster: Thank you so much.
+
+168
+00:14:13.400 --> 00:14:22.320
+firm.principal: And can I say the thing? You sell to my client, but I'm the one who lives in it. And in fifteen years nobody's called me about it before, so. Thank you.
+
+169
+00:14:22.680 --> 00:14:24.400
+Margaret Foster: That's — yeah. Thank you. That lands.
+
+170
+00:14:24.400 --> 00:14:25.900
+firm.principal: Bye, everyone.
+
+171
+00:14:25.900 --> 00:14:26.900
+senior.bookkeeper: Bye.
+
+172
+00:14:28.100 --> 00:14:32.400
+Margaret Foster: Um. We've got about ten minutes. Is there anything you want to say without your boss on?
+
+173
+00:14:32.400 --> 00:14:35.680
+senior.bookkeeper: [laughs] That's a dangerous question.
+
+174
+00:14:35.680 --> 00:14:37.400
+Margaret Foster: You don't have to.
+
+175
+00:14:37.400 --> 00:14:46.320
+senior.bookkeeper: No, it's — it's just the February thing. We lose two weeks every February. Every year. And every year we say we'll fix it in the summer and we never do.
+
+176
+00:14:46.680 --> 00:14:48.400
+Michelle Tremblay (she/her): Two weeks of the whole firm?
+
+177
+00:14:48.400 --> 00:14:58.680
+senior.bookkeeper: Two weeks where the whole firm is doing catch-up work on clients who didn't do anything all year. And it's the same eight or nine clients, every single year, and we know exactly who they are in September.
+
+178
+00:14:59.100 --> 00:15:00.400
+Michelle Tremblay (she/her): You know in September?
+
+179
+00:15:00.400 --> 00:15:10.320
+senior.bookkeeper: Of course I know. I can tell you today which clients are going to hand me a bag in February. I just can't do anything about it, because I've got no way to see it building.
+
+180
+00:15:10.680 --> 00:15:12.400
+Michelle Tremblay (she/her): What would seeing it look like?
+
+181
+00:15:12.400 --> 00:15:23.680
+senior.bookkeeper: One screen. Forty rows. Here's how many receipts are unprocessed, here's how many approvals are sitting, here's who hasn't submitted since June. Sorted worst first.
+
+182
+00:15:24.100 --> 00:15:25.400
+Michelle Tremblay (she/her): Across all clients at once.
+
+183
+00:15:25.400 --> 00:15:35.320
+senior.bookkeeper: Across all of them at once. That's the thing I want more than anything else you've asked me about today. Not because it's clever — because right now to get that I'd log in forty times.
+
+184
+00:15:35.680 --> 00:15:37.400
+Michelle Tremblay (she/her): And nobody does that.
+
+185
+00:15:37.400 --> 00:15:44.680
+senior.bookkeeper: Nobody does that. So instead I find out in February. The information exists, it's just in forty places and I'm one person.
+
+186
+00:15:45.100 --> 00:15:48.400
+Margaret Foster: If you had that screen, what would you actually do differently?
+
+187
+00:15:48.400 --> 00:15:58.320
+senior.bookkeeper: I'd phone them in October. That's it. That's the whole intervention. "Hi, you've got four months of receipts sitting, can we do an hour on Thursday." And they'd say yes, because they're not bad people, they're busy.
+
+188
+00:15:58.680 --> 00:16:00.400
+Michelle Tremblay (she/her): And that's a billable hour.
+
+189
+00:16:00.400 --> 00:16:08.680
+senior.bookkeeper: That's a billable hour in October instead of two unbillable days in February. So it's better for them and better for us, and I can't do it, because I can't see it.
+
+190
+00:16:09.100 --> 00:16:11.400
+Margaret Foster: That's a really good note to end on.
+
+191
+00:16:11.900 --> 00:16:17.320
+Michelle Tremblay (she/her): Can I come back to you when we've got something to look at? Probably four to six weeks.
+
+192
+00:16:17.680 --> 00:16:22.400
+senior.bookkeeper: Yes. And can I be rude about it? Because I'm told I'm useful when I'm rude.
+
+193
+00:16:22.400 --> 00:16:25.680
+Michelle Tremblay (she/her): [laughs] Please be as rude as you like, that's the whole value.
+
+194
+00:16:25.680 --> 00:16:32.400
+senior.bookkeeper: Good. And bring me the forty-row screen, even if it's a drawing on a napkin. That's the one I want to argue about.
+
+195
+00:16:32.400 --> 00:16:34.680
+Margaret Foster: Noted, very specifically noted.
+
+196
+00:16:34.680 --> 00:16:37.400
+Michelle Tremblay (she/her): Thank you, this was excellent.
+
+197
+00:16:37.400 --> 00:16:39.680
+senior.bookkeeper: Thanks. Good luck with it.
+
+198
+00:16:39.680 --> 00:16:41.100
+Amanda Rousseau: Thanks everyone, bye!
