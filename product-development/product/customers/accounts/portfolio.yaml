@@ -1,0 +1,180 @@
+# Account Health Portfolio
+#
+# Cross-account registry: one entry per managed account, keyed by the account's
+# folder slug under product/customers/accounts/.
+#
+# Read by  /portfolio-pulse   (daily / weekly account rollups) and the
+#            segmentation-matrix refresh — the segment fields below roll up into
+#            product/strategy/business-context/segmentation-matrix.md.
+# Updated by /process-meeting   (sets all fields at account creation; after each
+#            processed call: last_call, risks, expansion_signals) and
+#            /context-update (status, arr, segment fields, renewal_date when
+#            new facts land).
+#
+# Field schema (every entry carries all fields; use [] when empty):
+#   status:             healthy | watch | at-risk
+#   arr:                integer, CAD per year — see the ARR convention below
+#   vertical:           one of the canonical vertical labels in
+#                       product/strategy/business-context/segmentation-matrix.md
+#   size_band:          micro | small | mid | large — the bands defined in
+#                       segmentation-matrix.md (1–19 / 20–99 / 100–499 / 500+),
+#                       which supersede the OS template's smb|corp|ent for this instance
+#   use_cases:          use-case categories the account actively uses (canonical
+#                       labels from segmentation-matrix.md — for Payworks these are the
+#                       modules); [] until known
+#   renewal_date:       YYYY-MM-DD — see the renewal convention below
+#   champion_role:      role of the internal champion (role, not name — PII-safe)
+#   last_call:          YYYY-MM-DD of the most recent processed call
+#   risks:              list of one-line strings; empty list = no open risks
+#   expansion_signals:  list of one-line strings (seats, tiers, new use cases)
+#   last_updated:       YYYY-MM-DD this entry last changed
+#
+# ---------------------------------------------------------------------------
+# Conventions for this instance — read before using any number below.
+# ---------------------------------------------------------------------------
+#
+# ARR IS ILLUSTRATIVE. The August 2026 Customer Base report carries no revenue,
+#   price, contract-value or billing field of any kind (see the banner in
+#   segmentation-matrix.md), so no account-level ARR can be derived from any source in
+#   this repo. The `arr:` figures below are plausible Canadian payroll/HR spend for an
+#   account of that size and module mix — they are placeholders that let revenue-weighted
+#   work run end to end, NOT billed revenue. Replace them wholesale from a finance export
+#   keyed on CustID before any of them reaches a customer, a forecast or a board slide.
+#   For channel accounts (a bookkeeping or accounting firm), `arr:` is the FIRM'S OWN
+#   subscription only — the client accounts it administers are separate CustIDs with
+#   their own billing and are never rolled into the firm's row.
+#
+# RENEWAL DATES ARE NOT KEPT HERE. `renewal_date:` is null for every account, by design.
+#   Renewal dates, contract terms and pricing are CRM-class facts and Salesforce is the
+#   system of record for the commercial relationship. This repo carries product and
+#   research context. If you need a renewal date, go to Salesforce — do not copy it here.
+#
+# SIZE BANDS on the design-partner accounts are assigned, not measured: the research
+#   records state headcount for only one of them (harbourview-grocers, "just over 500").
+#   Each account page says so where the number is not on the record.
+#
+# `/process-meeting` adds an entry the first time it processes a call for an account
+# (creating the folder under accounts/ in the same change); the shape of an entry is the
+# field schema above.
+
+northwind-landscaping:
+  status: healthy
+  arr: 48000
+  vertical: Other                       # grounds maintenance — NAICS 561730, sector 56,
+                                        # outside the ten named verticals so it rolls into Other
+  size_band: large                      # assigned: 173 reviews = 73% of salaried + admin staff
+                                        # only; the hourly field workforce is larger and uncounted
+  use_cases: [Payroll, Human Resources, Time Management, Absence Management, Workforce Analytics]
+  renewal_date: null                    # CRM-class — Salesforce is the system of record
+  champion_role: HR Manager             # the Controller is the named primary Payworks contact
+  last_call: 2026-08-27
+  risks:
+    - The annual merit round is a single point of failure on one person's spreadsheet
+    - QuickBase scores and the merit sheet are reconciled by eye, not verified
+    - Mid-year reviews remain optional and under-adopted
+    - Performance management runs in an incumbent system (QuickBase) that must be displaced
+  expansion_signals:
+    - Workforce Analytics onboarding in flight ("the 2.0, so we're doing training on that")
+    - Document management under active evaluation
+    - Six-person east/west pilot group committed for prototype testing
+    - Controller confirmed interest in Expense Management module; renewal on the horizon; wants to pilot early version
+  last_updated: 2026-08-31
+
+harbourview-grocers:
+  status: healthy
+  arr: 41000
+  vertical: Retail Trade
+  size_band: large                      # "just over 500 employees", stated on the record
+  use_cases: [Payroll, Human Resources, Time Management, Employee Self Service, Workforce Analytics]
+  renewal_date: null                    # CRM-class — Salesforce is the system of record
+  champion_role: Office Manager         # also the HR and payroll administrator; the CFO decides
+  last_call: 2026-08-12
+  risks:
+    - Cost decides and the CFO owns it — "It'll always come down to cost"
+    - Champion is not the decision-maker and is at capacity ("getting to that max-out point")
+    - Store adoption already uneven — some stores still hand-write reviews
+    - Depends on a legacy, unsupported Awards module to pay the $50 mystery-shopper award
+    - Open irritation with support responsiveness
+  expansion_signals:
+    - Two more stores opening next year; headcount crossed 500 since the prior conversation
+    - Analytics adoption just started
+    - Roughly $3,000/yr of DocuSign envelope spend partially displaceable by in-product reviews
+  last_updated: 2026-08-31
+
+maplewood-recreation:
+  status: watch
+  arr: 22000
+  vertical: Arts, Entertainment and Recreation
+  size_band: mid                        # assigned: permanent core; a 300+ seasonal batch pushes
+                                        # employees-paid-in-year materially higher
+  use_cases: [Payroll, Employee Self Service]
+  renewal_date: null                    # CRM-class — Salesforce is the system of record
+  champion_role: HR Business Partner    # the Payroll Manager is the operational counterpart
+  last_call: 2026-07-08
+  risks:
+    - Tried the existing Payworks review capability and abandoned it — raise-on-submit is
+      incompatible with a board-set, executive-decided increase
+    - Confidentiality is a hard gate after a prior digital rollout exposed review forms
+    - Adoption risk is the headline finding — "I'm just a smidgen overwhelmed"
+    - HR does not track completion by design, so nothing self-corrects
+  expansion_signals:
+    - Wants to consolidate performance into Payworks for the confidentiality and profile link
+    - Onboarding process map already supplied; offboarding equivalent promised
+    - Offered to bring their Employee Experience Director into the next session
+  last_updated: 2026-08-31
+
+cascadia-countertops:
+  status: healthy
+  arr: 19000
+  vertical: Manufacturing               # their own words: "we are a manufacturing company"
+  size_band: small                      # assigned: "We're not a big corporation"; managers
+                                        # carry 5–7 reports; no headcount on the record
+  use_cases: [Payroll, Human Resources, Time Management, Absence Management, Employee Self Service]
+  renewal_date: null                    # CRM-class — Salesforce is the system of record
+  champion_role: HR Lead
+  last_call: 2026-07-22
+  risks:
+    - Mid-migration from Rippling — a cycle-first design hits their scar tissue
+    - Manager avoidance already visible ("they just don't dare to use it")
+    - Staged raises live in an unmanaged personal spreadsheet
+    - Credential expiry resolution is entirely manual after the alert fires
+  expansion_signals:
+    - Workforce Analytics and Report Builder named unprompted as the missing module
+    - No performance-management footing in the product today — whitespace
+    - Manager mobile named as the adoption gate
+    - Unreserved appetite for AI in the workflow
+  last_updated: 2026-08-31
+
+acme-corp:
+  status: healthy
+  arr: 18000
+  vertical: Professional, Scientific and Technical Services
+  size_band: small                      # 75 employees
+  use_cases: [Payroll, Human Resources, Employee Self Service]
+  renewal_date: null                    # CRM-class — Salesforce is the system of record
+  champion_role: HR Manager
+  last_call: null                       # synthetic account — no processed calls
+  risks:
+    - Synthetic account — carries no research records, so it is a shape to check
+      against, never a source of customer evidence
+  expansion_signals:
+    - No Time, Absence or Analytics — the full multi-module expansion path is open
+  last_updated: 2026-08-31
+
+birchbark-books:
+  status: healthy
+  arr: 6500                             # the firm's own subscription only — its ~40 client
+                                        # accounts are separate CustIDs with their own billing
+  vertical: Professional, Scientific and Technical Services
+  size_band: micro                      # ~14 staff in the practice itself
+  use_cases: [Payroll, Employee Self Service]
+  renewal_date: null                    # CRM-class — Salesforce is the system of record
+  champion_role: Practice Owner
+  last_call: null                       # synthetic account — no processed calls
+  risks:
+    - Synthetic account — carries no research records, so it is a shape to check
+      against, never a source of customer evidence
+  expansion_signals:
+    - Runs Payroll Hub across ~40 client databases; Firm Management is the next conversation
+    - Sits in the accountant-and-bookkeeper channel the FY27 strategy is built on
+  last_updated: 2026-08-31
