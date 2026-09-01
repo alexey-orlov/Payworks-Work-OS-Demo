@@ -1,0 +1,486 @@
+﻿# Product map — the AREAS → FEATURES catalog. The durable half of the product graph.
+#
+# Structure: areas: → {area-slug} → features: → {feature-slug} → durable facts.
+# An area is a product in a multi-product business, or a large functional section of
+# one product. A feature belongs to exactly ONE area (move the block to re-parent —
+# refs never embed the area, so nothing breaks). Feature slugs are globally unique,
+# and unique against initiative slugs too (link contract: governance/link-schema.yaml).
+#
+# This file holds NO artifact paths and NO work state — artifacts and activity live on
+# initiative pages (product/initiatives/{slug}.md, frontmatter `features:`/`areas:`
+# declares the join; the OS Console rolls a feature's artifacts up through its
+# initiatives). Durable facts only:
+#   name:         display name
+#   status:       planned | live | retired   ("in progress" is DERIVED — an active
+#                 initiative targets it; /prioritize-requests reads live-ness here)
+#   shipped:      YYYY-MM-DD — first GA date; written by /feature-launch-gate on PASS,
+#                 the sole status writer (it flips planned → live in the same change) —
+#                 except /customize-os's one-time setup seeding batch, which may seed
+#                 status: live + shipped: from what the org's own site/docs show shipped
+#   description:  one line, what it does for whom
+#   figma:        optional stable design pointer (file ids, not display names)
+#
+# New entries: proposed `status: planned` in the same gated prompt as the initiative
+# that introduces them (usually /product-brief-draft's registration step). Killed bets: the kill
+# flow proposes removing a planned-only entry. Gated — every change needs your yes.
+#
+# --- Seeding provenance (this instance) ---------------------------------------------
+# Areas ARE the modules — Payworks says "six integrated modules, one shared database",
+# and the FY27 strategy names Expense, Perform, Onboarding and Comp as the payroll-native
+# modules the portfolio expands into. Seeded once during /customize-os from:
+#   · Payworks_Architecture_JTBD.pptx  — the six modules and their sub-capabilities
+#   · Product_Roadmap & Company.pptx   — the 24-month roadmap (the `planned` entries)
+#   · Payworks_Product_Strategy.pptx   — portfolio roles behind the descriptions
+#   · payworks.ca solution pages       — public confirmation of what is shipped, and the
+#                                        company's own wording (URLs on each area below)
+# `shipped:` appears only where a source states a real date. The six shipped modules
+# have been in market for years and their GA dates are not in any source, so their
+# features carry `status: live` with no date — never a guessed one.
+# ESS surfaces other modules' capabilities; each feature is catalogued under the module
+# that OWNS it (config + processing), so nothing is listed twice.
+
+areas:
+
+  payroll:
+    name: Payroll
+    description: Canadian payroll processed, remitted and reported every pay period — for admins, bookkeepers and accountants. (payworks.ca/solutions/payroll)
+    features:
+
+      pay-groups:
+        name: Pay Groups
+        status: live
+        description: Pay group setup with run schedule and approval workflow for each company.
+
+      pay-elements:
+        name: Pay Elements
+        status: live
+        description: Earnings, deductions, benefits and accrual elements behind every pay calculation.
+
+      payroll-run:
+        name: Payroll Run
+        status: live
+        description: Five-step payroll run with pre-run error resolution before submission.
+
+      payroll-limits-and-controls:
+        name: Payroll Limits & Controls
+        status: live
+        description: Company-level limits and controls applied to amounts entered in a payroll run.
+
+      cra-mrq-remittances:
+        name: CRA & MRQ Remittances
+        status: live
+        description: Tax remittances and WCB premiums filed on the employer's behalf automatically.
+
+      roe-and-year-end:
+        name: ROE & Year-End Forms
+        status: live
+        description: ROEs submitted directly to Service Canada; T4 and RL-1 year-end forms produced and filed.
+
+      pay-statements:
+        name: Pay Statements
+        status: live
+        description: Pay statements produced and distributed by print or email each run.
+
+      direct-deposit:
+        name: Direct Deposit
+        status: live
+        description: Employees paid straight to their bank accounts without bank files or paper cheques.
+
+      payroll-reports:
+        name: Payroll Reports
+        status: live
+        description: Quick Register, standard, year-end and YTD adjustment reports for reconciliation.
+
+      gl-integration:
+        name: General Ledger Integration
+        status: live
+        description: Journal entries and GL account mapping exported to the accounting system.
+
+      payroll-funding:
+        name: Payroll Funding & Proof of Funds
+        status: live
+        description: Funding and proof-of-funds handling for each payroll run.
+
+      benefits-carrier-feeds:
+        name: Benefits Carrier Feeds
+        status: live
+        description: Benefit deduction and enrolment data sent from payroll to benefits carriers.
+
+      # A/B 1.0 (Multi Accounts) on the roadmap — the accountant & bookkeeper channel
+      # surfaces. Parked under Payroll because both manage payroll across client
+      # databases; re-parent the blocks if the team gives A/B its own module.
+      payroll-hub:
+        name: Payroll Hub
+        status: live
+        # No shipped: date — the source brief states an intended VP1 launch of
+        # 2026-07-02 but nothing confirms it shipped. A date is a durable fact;
+        # /feature-launch-gate writes it on a verified PASS.
+        description: One dashboard showing every client's upcoming payroll obligations, for accountants and bookkeepers with 2+ client databases.
+
+      firm-management:
+        name: Firm Management
+        status: planned
+        # VP1 was a five-client soft launch; VP2 targets GA. Held at planned
+        # until a launch gate says otherwise.
+        description: Firm admin portal where an accounting or bookkeeping firm connects to client accounts and manages its team's access.
+
+      payroll-otg:
+        name: Payroll OTG
+        status: planned
+        description: Roadmap item on the 24-month roadmap; scope not detailed in the seeding sources.
+
+      payroll-agent:
+        name: Payroll Agent
+        status: planned
+        description: Roadmap AI agent for payroll, part of the platform-wide intelligence layer.
+
+      earned-wage-access:
+        name: Earned Wage Access (EWA)
+        status: planned
+        description: Roadmap item — earned wage access for employees.
+
+      effective-dating-rates:
+        name: Effective Dating (Rates)
+        status: planned
+        description: Roadmap foundation — effective-dated rate changes, limited to payroll functionality.
+
+      union-rates:
+        name: Union Rates
+        status: planned
+        description: Roadmap item — union pay rates, noted on the roadmap as helping CCQ.
+
+  human-resources:
+    name: Human Resources
+    description: The employee lifecycle — records, documents, benefits and talent, hire to retire — for HR admins and people leaders. (payworks.ca/solutions/human-resources)
+    features:
+
+      employee-records:
+        name: Employee Records
+        status: live
+        description: One employee file — employment, personal, pay, compensation and benefits — shared across every module.
+
+      online-filing-cabinet:
+        name: Online Filing Cabinet
+        status: live
+        description: Cloud storage for employee documents and company property records.
+
+      document-e-signature:
+        name: Documents & e-Signature
+        status: live
+        description: Company policy documents shared with Read & Acknowledge and e-signature.
+
+      onboarding-checklists:
+        name: Onboarding Checklists
+        status: live
+        description: Configurable onboarding checklists and a welcome email that share company documents with new hires.
+
+      performance-and-talent-tracking:
+        name: Performance & Talent Tracking
+        status: live
+        description: Employee skills, education, certifications and licences, plus review and disciplinary documentation.
+
+      benefit-plans:
+        name: Benefit Plan Administration
+        status: live
+        description: Benefit plan setup, rate charts, mass enrollment and retirement plans.
+
+      org-structure:
+        name: Organization Structure
+        status: live
+        description: Companies, divisions and locations with positions, job profiles and group codes.
+
+      org-chart:
+        name: Organizational Chart
+        status: live
+        description: Visual employee-to-employee reporting chart of the organization.
+
+      union-labour-relations:
+        name: Union & Labour Relations
+        status: live
+        description: Union and labour-relations configuration on the employee and organization record.
+
+      hr-notifications:
+        name: HR Notifications
+        status: live
+        description: Pre-defined and scheduled notices raised when employee information changes.
+
+      offboarding:
+        name: Offboarding
+        status: live
+        description: Offboarding and layoff history kept on the employee record.
+
+      applicant-tracking:
+        name: Applicant Tracking
+        status: live
+        description: Recruitment managed in one place — job posting, hiring workflows, email templates and interview scheduling, feeding the new-hire process.
+
+      recruiting:
+        name: Recruiting (HR 3.0)
+        status: planned
+        description: Roadmap HR 3.0 item; scope beyond today's Applicant Tracking not detailed in the seeding sources.
+
+      compensation-management:
+        name: Compensation Management (HR 4.0)
+        status: planned
+        description: Roadmap HR 4.0 item — compensation management, named a wallet-share expansion module in the FY27 strategy.
+
+      learning-management:
+        name: Learning Management (HR 5.0)
+        status: planned
+        description: Roadmap HR 5.0 item — a learning management system.
+
+      hr-foundations:
+        name: HR Foundations
+        status: planned
+        description: Roadmap shared foundation — position/occupation, effective dating, and skills & certifications.
+
+  time-management:
+    name: Time Management
+    description: Hours captured, shifts scheduled and provincial rules enforced, flowing to payroll without rekeying. (payworks.ca/solutions/time-management)
+    features:
+
+      online-timesheets:
+        name: Online Timesheets
+        status: live
+        description: Timesheet entry and submission that flows straight through to payroll.
+
+      web-time-clock:
+        name: Web Time Clock
+        status: live
+        description: GPS-enabled web and mobile clock in/out for employees working away from a fixed site.
+
+      hardware-time-clocks:
+        name: Hardware & Biometric Clocks
+        status: live
+        description: Physical punch clocks including thermal and facial-recognition units.
+
+      hours-and-schedule-import:
+        name: Hours & Schedule Import
+        status: live
+        description: Employee hours and schedules imported from POS systems and punch-data files.
+
+      scheduler:
+        name: Scheduler
+        status: live
+        description: Week-view scheduler built from shift templates and template positions.
+
+      generate-schedule:
+        name: Automatic Schedule Generation
+        status: live
+        description: Schedules generated automatically from templates and employee availability.
+
+      availability-calendar:
+        name: Availability Calendar
+        status: live
+        description: Employee availability, including recurring availability, visible while building schedules.
+
+      shift-and-premium-rules:
+        name: Shift & Premium Rules
+        status: live
+        description: Configurable shift and premium rules applied to captured hours.
+
+      overtime-and-provincial-rules:
+        name: Overtime & Provincial Rules
+        status: live
+        description: Pre-set provincial rules with automatic overtime calculation.
+
+      statutory-holiday-rules:
+        name: Statutory Holiday Rules & Calculator
+        status: live
+        description: Province-aware statutory holiday rules and stat pay calculation.
+
+      scheduled-break-rules:
+        name: Scheduled Break Rules
+        status: live
+        description: Break rules applied to scheduled shifts and captured time.
+
+      smart-timesheet:
+        name: Smart Timesheet
+        status: planned
+        description: Roadmap item on the 24-month roadmap.
+
+      dynamic-scheduling-and-forecasting:
+        name: Dynamic Scheduling & Forecasting
+        status: planned
+        description: Roadmap item — dynamic scheduling and forecasting.
+
+      time-foundations:
+        name: Time Foundations
+        status: planned
+        description: Roadmap shared foundation — effective dating, one stat calculation, retro-pay, locations and teams.
+
+  absence-management:
+    name: Absence Management
+    description: Time off from request to payroll with no rekeying — for employees, their managers and the admins who set the policies. (payworks.ca/solutions/absence-management)
+    features:
+
+      time-off-types:
+        name: Time Off Types
+        status: live
+        description: Unlimited time off types with company default presets.
+
+      time-off-requests:
+        name: Time Off Requests
+        status: live
+        description: Employees request leave against a live balance; managers are notified and approve, edit or reject.
+
+      time-off-assignment-templates:
+        name: Time Off Assignment Templates
+        status: live
+        description: Reusable templates assigning time off policies to groups of employees.
+
+      provincial-holiday-calendars:
+        name: Provincial Holiday Calendars
+        status: live
+        description: Statutory holiday calendars per province applied to leave policies.
+
+      vacation-accruals:
+        name: Vacation Accruals
+        status: live
+        description: Vacation accrual calculated automatically, with balances employees can view themselves.
+
+      team-calendar:
+        name: Shared Team Calendar
+        status: live
+        description: Real-time view of colleagues' shifts and time away for the whole team.
+
+      absence-notifications:
+        name: Absence Notifications
+        status: live
+        description: Request and approval alerts, plus automated alerts when usage nears key thresholds.
+
+      absence-reporting:
+        name: Absence Reporting
+        status: live
+        description: Absence patterns by department, time period or reason, filterable by individual or department.
+
+      balance-management:
+        name: Balance Management
+        status: planned
+        description: Roadmap shared foundation — balance management.
+
+  employee-self-service:
+    name: Employee Self Service
+    description: The self-service surface employees and their managers use for pay, documents, time and leave, on web and mobile. (payworks.ca/solutions/self-service)
+    features:
+
+      pay-statement-access:
+        name: Pay & Tax Document Access
+        status: live
+        description: Employees view their pay statements and year-end tax forms, with automatic email notification available.
+
+      document-distribution:
+        name: Secure Document Distribution
+        status: live
+        description: Commission and bonus statements, holiday cards and mileage reports distributed securely to employees.
+
+      profile-self-updates:
+        name: Profile & Banking Self-Updates
+        status: live
+        description: Employees update emergency contacts, preferred name and banking information themselves.
+
+      remote-onboarding-tasks:
+        name: Remote Onboarding Tasks
+        status: live
+        description: New hires onboard remotely, completing their tasks and documents before day one.
+
+      mobile-self-service:
+        name: Mobile Self Service
+        status: live
+        description: Time off balances, submitted hours and pending approvals handled from a mobile device.
+
+      shift-viewing-and-pickup:
+        name: Shift Viewing & Shift Pickup
+        status: live
+        description: Employees view their assigned shifts and pick up available ones.
+
+      manager-otg-approval:
+        name: Manager OTG (Approval)
+        status: planned
+        description: Roadmap item — manager approvals; "OTG" is not expanded in the seeding sources.
+
+      manager-live-view:
+        name: Manager Live View
+        status: planned
+        description: Roadmap item on the 24-month roadmap; scope not detailed in the seeding sources.
+
+      self-serve-agent:
+        name: Self-Serve Agent
+        status: planned
+        description: Roadmap shared foundation — an AI self-serve agent for employees.
+
+      communication:
+        name: Communication
+        status: planned
+        description: Roadmap shared foundation — admin-to-admin and manager-to-employee communication.
+
+  workforce-analytics:
+    name: Workforce Analytics
+    description: Payroll, HR, absence and time data turned into answers — built into the Time, Absence and HR solutions, no add-on required. (payworks.ca/solutions/workforce-analytics)
+    features:
+
+      analytics-collections:
+        name: Analytics Collections
+        status: live
+        description: Pre-built Compensation, Core HR, Absence and Time & Attendance collections over the one shared database.
+
+      custom-visualizations:
+        name: Custom Visualizations
+        status: live
+        description: Build, edit and save custom views of workforce data, comparing departments, periods or populations.
+
+      guided-qa-search:
+        name: Built-In Search & Guided Q&A
+        status: live
+        description: Plain-language prompts that surface answers from workforce data instantly.
+
+      analytics-filters:
+        name: Analytics Filters
+        status: live
+        description: Saved filters that narrow a view to a data segment and apply across analyses.
+
+      analytics-sharing-export:
+        name: Dashboard Sharing & Export
+        status: live
+        description: Presentation-ready visuals exported as PowerPoint slides, images or Excel downloads.
+
+      report-designer:
+        name: Report Designer (Pro)
+        status: live
+        description: Custom report and collection building for Pro customers, filtered by measure, category and date range.
+
+      labour-costing:
+        name: Labour Costing
+        status: planned
+        description: Roadmap item — labour costing.
+
+      next-gen-reporting:
+        name: Next Gen Reporting
+        status: planned
+        description: Roadmap item — next generation reporting.
+
+      visier-expansion:
+        name: Visier+ Expansion
+        status: planned
+        description: Roadmap lane extending the Visier-based analytics — Pro, agent, Time Management coverage and multi-tenant support.
+
+  # --- Emerging modules -----------------------------------------------------------
+  # Named on the 24-month roadmap and called payroll-native "wallet-share expansion"
+  # modules in the FY27 strategy. Nothing public on payworks.ca markets them yet, and no
+  # source breaks them into capabilities — so they carry no features until an initiative
+  # scopes them, and each entry lands here `planned` in the same gated change.
+
+  expense-management:
+    name: Expense Management
+    description: Roadmap module (A/B 2.0) — expense management for Payworks clients and the accountant & bookkeeper channel; not yet in market.
+    features: {}
+
+  performance-management:
+    name: Performance Management
+    description: Roadmap module (HR 1.0) — performance management beyond the review documentation Human Resources tracks today; not yet in market.
+    features: {}
+
+  onboarding:
+    name: Onboarding
+    description: Roadmap module (HR 2.0) — onboarding as its own module, beyond the onboarding checklists in Human Resources today; not yet in market.
+    features: {}
