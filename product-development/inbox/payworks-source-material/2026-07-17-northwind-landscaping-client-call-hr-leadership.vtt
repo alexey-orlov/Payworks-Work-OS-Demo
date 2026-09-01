@@ -1,0 +1,1835 @@
+NOTE Anonymized design-partner research record - people replaced by role titles or a fictional staff cast; company names, sites, and account codes fictionalized per the project anonymization registry. Payworks product names retained.
+
+
+4
+00:00:19.080 --> 00:00:38.489
+Margaret Foster: So, today, I'd like to break it up in two sections, if that's okay. So, the first one would be to hear a little bit more from you as to what you're hoping to get from a performance management module, you know, what are you trying to get out of that solution, and then we have a discussion starter, I call it, which is some kind of a prototype.
+
+5
+00:00:38.490 --> 00:00:49.679
+Margaret Foster: That I'd like to get your feedback on, because usually when we see something, it kind of helps trigger some of the comments. And then when we're gonna do that, what I'm gonna basically do is share my screen.
+
+6
+00:00:49.740 --> 00:01:06.390
+Margaret Foster: And one of you, you can decide which one of you, will get access to the mouse, and will be able to navigate around that prototype. As you're looking at it, what we're gonna ask you is, give us some feedback based on what's going through your head. So, we haven't built it.
+
+7
+00:01:06.390 --> 00:01:17.189
+Margaret Foster: it's really to make sure that what we're gonna build is gonna work. So, you cannot offend our filling. We just want to know what would work well, what would not work well, what's missing, what's great.
+
+8
+00:01:17.190 --> 00:01:30.810
+Margaret Foster: Anything that you think you would use or not use, because again, we value tremendously your feedback, and the last thing we want to do is build something that doesn't hit the mark. So that's kind of the objective of today. So first, before we get…
+
+9
+00:01:30.930 --> 00:01:37.780
+Margaret Foster: So that's part two, but before we get into part one, I don't know who… who of you two, wants to speak to it, but…
+
+10
+00:01:37.920 --> 00:01:46.480
+Margaret Foster: what's kind of leading you to wanting a solution to manage performances within the organization? What are you trying to accomplish?
+
+11
+00:01:47.430 --> 00:02:03.639
+the Head of HR: Yeah, so I'll jump in, and the HR Manager is certainly gonna help us out. She's definitely be controlling the mouse, just to let you know. I'll definitely give that authority to her once we get there. So, I mean, our journey for Northwind Landscaping started as a very small company.
+
+12
+00:02:03.690 --> 00:02:20.159
+the Head of HR: And so when you have small companies and small populations, you start with manual processes, which is totally fine. And we… the HR Manager was actually the pioneer of creating some of the early… early day, very manual process for performance management. There was nothing there, and then it was created.
+
+13
+00:02:20.160 --> 00:02:37.190
+the Head of HR: Fast forward to about, I'm gonna say, 2, 3 years ago, we said, okay, we need to get a little bit more automated than from an Excel spreadsheet that was, you know, highly manual for people. It was hard to track, it was hard to, like, manage as we continued to grow. So then,
+
+14
+00:02:37.190 --> 00:02:56.819
+the Head of HR: we worked together with our IT department, and we created a platform in what's called QuickBase, which is a software program that we use, and it's not an LMS, it's not anything like that, it's basically a data… it's not a data warehouse, it's just essentially a program that builds metrics.
+
+15
+00:02:56.820 --> 00:03:02.039
+the Head of HR: And so Carriers, not Carriers, excuse me, QuickBase.
+
+16
+00:03:02.160 --> 00:03:05.570
+the Head of HR: Offered the ability to be more automated, which was great.
+
+17
+00:03:05.730 --> 00:03:09.989
+the Head of HR: But what it didn't offer was any,
+
+18
+00:03:10.140 --> 00:03:34.300
+the Head of HR: interaction with our pay system with PayWorks, as an example. So, you were in performance management right now, as an example. I have to do every single spreadsheet, every single thing manually, export it from PayWorks. Hopefully, all of the information is right. I have to scrub it manually. It's not linked to Cubase at all, QuickBase at all. So then I have to validate back and forth back
+
+19
+00:03:34.300 --> 00:03:35.120
+the Head of HR: back and forth.
+
+20
+00:03:35.160 --> 00:04:00.159
+the Head of HR: the HR Manager definitely cre… the HR Manager created the tool, so I want to be very clear. So, she was definitely the… the brains behind that with our IT department and business development department. She just kind of took, okay, the Head of HR, what do you need? Like, what do we want? What are you hearing? What do you want to see? You know, developmental action plans, goal setting, and lookit, it's… it's a great next step, like, it really is, and we've… and we've done a great job
+
+21
+00:04:00.160 --> 00:04:08.480
+the Head of HR: using it over the last 3 years, but the HR Manager and I both have said it would be a lot better if we just had one system that, at the very least.
+
+22
+00:04:08.480 --> 00:04:10.229
+the Head of HR: Linked to our pay system.
+
+23
+00:04:10.230 --> 00:04:17.299
+the Head of HR: It doesn't need to be within our pay system, meaning not within PayWorks, but if it could at least link so that
+
+24
+00:04:17.600 --> 00:04:28.949
+the Head of HR: I mean, I've spent days, days, days, and days doing manual work to make sure that the data is accurate, that the marking, the scoring, you know, we have a score out of 5.
+
+25
+00:04:28.950 --> 00:04:32.589
+the Head of HR: Well, 0 to 5, but technically 1 to 5.
+
+26
+00:04:32.590 --> 00:04:51.970
+the Head of HR: Where you go role model being 5 the highest, and then you… you… you score them, and then we have to manually grab the scores from last year. Then we have to manually attach a percentage of increase to it. Like, it's just… it's on… it's a lot of work past there. So, when we were talking, Margaret, on something entirely different the last time, and you brought up…
+
+27
+00:04:51.970 --> 00:05:10.430
+the Head of HR: this, I got immediately excited, and I knew that the HR Manager would be excited. We are the two people in the HR department that definitely love this stuff, and we see that the huge amount of value, not just for us and my time, but… and her time and the HR department's time, but the actual users.
+
+28
+00:05:10.430 --> 00:05:13.430
+the Head of HR: So, think… simple things like spell check.
+
+29
+00:05:13.640 --> 00:05:15.470
+the Head of HR: autosave.
+
+30
+00:05:15.510 --> 00:05:35.050
+the Head of HR: you know, can we not just… and I've asked, this last rendition, I have a more progressive leader that has… has come from an ADP or an SAP background, same as me, where we're like, why can't this just be in our pay system, and you just grab everything? So you go in, and you know, I'm doing a review with Margaret, and I…
+
+31
+00:05:35.050 --> 00:05:47.540
+the Head of HR: assess that it's 3.5, and it automatically dumps into a report, and it pulls from last year, gives you the analysis, and it'll attach to, you know, as soon as you put in the percentage increase, it's gonna
+
+32
+00:05:47.540 --> 00:06:07.389
+the Head of HR: linked together, and I don't have to do all of this external stuff happening, and neither do they, because they also have to do that. So, that's, like, very, very high level. You know, there's the linkage, there is the manual amount of work that needs to be done, and then just some basic user stuff.
+
+33
+00:06:07.440 --> 00:06:08.810
+the Head of HR: Cubase
+
+34
+00:06:09.120 --> 00:06:22.390
+the Head of HR: is okay, it has limits, it loses information, it's hard to make changes, like, you have to go through several processes to make changes, so, you know, it would be really great to have it all in a one-stop shop.
+
+35
+00:06:22.790 --> 00:06:26.340
+the Head of HR: the HR Manager, how does that sound? Please jump in, did I miss anything?
+
+36
+00:06:26.720 --> 00:06:34.350
+hr.manager: No, I think that's absolutely it. There's two sides. The whole report at the end that we have to go through, like the Head of HR said.
+
+37
+00:06:34.350 --> 00:06:47.239
+hr.manager: And then, sort of, if there's any compensation bonus increases that have to go through from the ratings, and looking at what was the increase last year, when were they hired, and all this kind of stuff, it's…
+
+38
+00:06:47.240 --> 00:06:50.030
+hr.manager: It's just a nightmare, as you can imagine.
+
+39
+00:06:50.030 --> 00:07:01.650
+hr.manager: And then from the other side, the use… the ease for the user. So, as a manager, you know, something that's easy for them to capture
+
+40
+00:07:01.670 --> 00:07:18.019
+hr.manager: the performance, what's the rating, and then keeping that history so we can go back and take a look. So, I don't know how it's set up in PayWorks, but I kind of envision that there will be sort of that way to keep the history of each of the reviews, so you'll have the last, say.
+
+41
+00:07:18.020 --> 00:07:27.039
+hr.manager: If someone started 5 years ago, I can look in and see what the 5 reviews are, where they've progressed, what they've got. I mean, I've…
+
+42
+00:07:27.040 --> 00:07:38.400
+hr.manager: you know, seen a lot of different performance evaluation cycles, so I'm thinking it's gonna be something like that, but then to be able to have those reports at the end.
+
+43
+00:07:39.510 --> 00:07:59.029
+Margaret Foster: Right, so from the user experience, the intake, basically, to that conversion into what it means from a payroll kind of compensation. Is that… is that kind of the vibe? Okay, so I do have tons of questions, and the Head of HR, as you said, like, you know, this is kind of the high level, and it's going to be the same for today. When we're going to share the screen.
+
+44
+00:07:59.030 --> 00:08:07.709
+Margaret Foster: It's kind of that high-level, okay, what would… yeah, I like that, I don't like that, or this is useful, this is not useful, kind of idea. But to me, it's like…
+
+45
+00:08:07.710 --> 00:08:09.170
+Margaret Foster: I see this as a journey.
+
+46
+00:08:09.170 --> 00:08:28.860
+Margaret Foster: Which means that we're gonna answer some questions today, we're gonna get some information today, and as we continue onto that journey, if you're interested, it's like, okay, what kind of matrix exactly? Is that matrix relevant? Is that one not relevant? What kind of we're trying to achieve? So, we're not gonna answer everything today, but if we can scratch the surface today, and you tell us, yeah, you are…
+
+47
+00:08:28.860 --> 00:08:44.899
+Margaret Foster: totally off-board here, this would never work for us, or this would work, but not that. That's kind of what we're hoping to get today. And what, they're asking, it's a prototype, so it doesn't do anything, it's not final, it doesn't look anything like PayWorks, because
+
+48
+00:08:45.140 --> 00:08:51.279
+Margaret Foster: I just… we just want to understand what's valuable and what's not valuable at this point. So…
+
+49
+00:08:51.280 --> 00:09:07.869
+Margaret Foster: Most of it is clickable, but there is some area where you cannot click, and that's okay, because it's just a prototype, so just be aware of that. The other thing I wanted to let you know is we have our… we have right now covered, and that might be or might not be enough, but kind of 3 users. We have the employee.
+
+50
+00:09:07.960 --> 00:09:26.079
+Margaret Foster: the manager and the HR administrator. And for all of them, we try to mark up a little bit the experience as we are considering it. So that's kind of what, seems aligned to what you were sharing in the first place right now, and we would like to have your experience there. So…
+
+51
+00:09:26.530 --> 00:09:32.180
+Margaret Foster: I need you two to tell me who should get the mouse to navigate through this prototype.
+
+52
+00:09:32.490 --> 00:09:35.820
+Margaret Foster: Who wants to play with it and be able to click on it?
+
+53
+00:09:36.570 --> 00:09:37.870
+the Head of HR: Oh, the HR Manager, for sure.
+
+54
+00:09:38.120 --> 00:09:38.710
+hr.manager: The clicker.
+
+55
+00:09:39.310 --> 00:09:46.540
+Margaret Foster: You will be the kicker. So, let me do that. I need to remember how I do it now. I did it last time.
+
+56
+00:09:46.990 --> 00:09:54.209
+the Head of HR: And sorry, I didn't meet the two other lovely ladies that are on the call. Can you just introduce yourselves really quickly while Margaret is getting…
+
+57
+00:09:54.480 --> 00:09:56.799
+the Head of HR: Situated with mouse capabilities.
+
+58
+00:09:57.170 --> 00:10:04.320
+Michelle Tremblay (she/her): Sure. My name's Michelle. I am a team lead in the product space. the HR Manager and I have spent time together before, I think it was.
+
+59
+00:10:04.320 --> 00:10:04.810
+Margaret Foster: Oh, okay.
+
+60
+00:10:04.810 --> 00:10:05.970
+Michelle Tremblay (she/her): necklace.
+
+61
+00:10:05.970 --> 00:10:06.960
+the Head of HR: Oh, okay.
+
+62
+00:10:07.430 --> 00:10:13.989
+Michelle Tremblay (she/her): I think that's where it was. That's it, yeah. Yeah. So I've been working in the HR space
+
+63
+00:10:14.220 --> 00:10:15.130
+Michelle Tremblay (she/her): for…
+
+64
+00:10:15.870 --> 00:10:25.310
+Michelle Tremblay (she/her): most of my time with PayWorks, which is a long time. So, yeah, all of your feedback around this area is very helpful. So, thank you so much.
+
+65
+00:10:25.310 --> 00:10:25.880
+the Head of HR: Good.
+
+66
+00:10:28.130 --> 00:10:36.139
+Vanessa Lee: Yeah, hi, I'm Vanessa. I'm the product designer here at Payworks. I joined about 5 months ago, so…
+
+67
+00:10:36.140 --> 00:10:36.750
+the Head of HR: Oh, okay.
+
+68
+00:10:36.750 --> 00:10:52.559
+Vanessa Lee: It's still very much a learning journey for me, so, yeah, I'm just learning every step of the way, and hearing from experts like you to help me build out this performance, management module. And we also have Curtis here that just joined the call.
+
+69
+00:10:52.560 --> 00:10:57.010
+Vanessa Lee: He's also another product designer that's helping me with this project, so…
+
+70
+00:10:57.030 --> 00:10:59.739
+Vanessa Lee: I'll pass it on to him if he wants to say hi.
+
+71
+00:10:59.740 --> 00:11:02.500
+the Head of HR: I didn't see… I'm sorry, Curtis, I didn't see you on my screen.
+
+72
+00:11:02.500 --> 00:11:15.130
+Curtis Boyd (He/Him): Oh, you just joined. I just joined, that's okay. Nice to meet you, too. Yeah, my name's Curtis, I'm the team lead, product designer, and I'm just, I'm just here to listen to you
+
+73
+00:11:15.520 --> 00:11:19.349
+Curtis Boyd (He/Him): I talk about performance management and hear the type of feedback that you have for us.
+
+74
+00:11:20.180 --> 00:11:22.580
+the Head of HR: Amazing, okay, great, thank you, and I'm…
+
+75
+00:11:22.580 --> 00:11:26.889
+Margaret Foster: Sorry, the Head of HR, I realize I've done the intro when you were reconnecting, which didn't make sense.
+
+76
+00:11:26.890 --> 00:11:29.840
+the Head of HR: Okay, thank you. Thanks very much.
+
+77
+00:11:30.570 --> 00:11:34.540
+Margaret Foster: Okay, the HR Manager, so, this is where you land. Tell us what you think.
+
+78
+00:11:36.130 --> 00:11:40.329
+hr.manager: Okay, so I'm just gonna take a look. So we've got review completion.
+
+79
+00:11:42.120 --> 00:11:45.330
+hr.manager: All departments, Q2 2026.
+
+80
+00:11:47.550 --> 00:11:48.910
+the Head of HR: What does goal coverage have?
+
+81
+00:11:48.910 --> 00:11:49.930
+hr.manager: Average, yeah.
+
+82
+00:11:51.230 --> 00:11:52.530
+Margaret Foster: What do you think it might mean?
+
+83
+00:11:56.520 --> 00:11:58.190
+the Head of HR: We… I have no idea.
+
+84
+00:12:00.880 --> 00:12:02.670
+Margaret Foster: That's great. Great feedback.
+
+85
+00:12:03.850 --> 00:12:12.900
+hr.manager: Check-in compliance, yeah, I'm not sure what that means either, other than because I've got the review completed. Maybe 71 have started, but not yet completed.
+
+86
+00:12:14.220 --> 00:12:18.160
+the Head of HR: Maybe, but 71 plus 42 doesn't equal 100, so I'm not sure.
+
+87
+00:12:18.590 --> 00:12:19.350
+hr.manager: Yeah.
+
+88
+00:12:19.810 --> 00:12:23.120
+hr.manager: Fantastic.
+
+89
+00:12:23.120 --> 00:12:33.089
+Margaret Foster: I landed you… so I landed you on the HR view. If you want to navigate between Employee Manager and HR, this is where you're going, on the side here. So you can start wherever you want to go.
+
+90
+00:12:33.490 --> 00:12:42.840
+hr.manager: Okay, so I'm in the HR view, so I'm gonna take a look. So yeah, so I can see 42 have completed the review, so it's done and closed.
+
+91
+00:12:43.560 --> 00:12:50.029
+hr.manager: I still don't know what goal coverage would be. Check-in compliance still tells me that 71 have started.
+
+92
+00:12:50.210 --> 00:12:52.359
+hr.manager: But have not yet completed.
+
+93
+00:12:52.480 --> 00:12:58.200
+hr.manager: Feedback activity, I'm not sure what that is, either.
+
+94
+00:12:58.730 --> 00:13:06.280
+hr.manager: So, let's go and see what a manager looks at. So, a manager sees that… Goal health.
+
+95
+00:13:07.950 --> 00:13:15.359
+hr.manager: So maybe 83% of his reports, or her reports,
+
+96
+00:13:15.640 --> 00:13:19.179
+hr.manager: Have achieved all the goals at 83%.
+
+97
+00:13:19.400 --> 00:13:22.989
+hr.manager: check-in coverage… yeah, I'm not sure again.
+
+98
+00:13:23.320 --> 00:13:25.240
+hr.manager: Feedback given…
+
+99
+00:13:26.810 --> 00:13:36.419
+hr.manager: And that's a 30 days… yeah, I'm not sure what that would be. And he's got 6 direct reports, and one of them has completed.
+
+100
+00:13:37.470 --> 00:13:40.519
+hr.manager: 3… I can't read the little words there, 3…
+
+101
+00:13:40.520 --> 00:13:41.180
+Margaret Foster: spending…
+
+102
+00:13:41.220 --> 00:13:42.020
+the Head of HR: You're stuck.
+
+103
+00:13:42.020 --> 00:13:42.570
+Margaret Foster: sick.
+
+104
+00:13:43.000 --> 00:13:43.960
+hr.manager: Oh, okay.
+
+105
+00:13:44.150 --> 00:13:48.770
+hr.manager: So the manager's got 3 in queue that he still has to review.
+
+106
+00:13:49.270 --> 00:13:54.609
+hr.manager: So, out of the one, They've completed 83% of their goals.
+
+107
+00:13:56.340 --> 00:13:57.120
+hr.manager: Okay.
+
+108
+00:13:57.860 --> 00:14:02.480
+hr.manager: And then this would be his 6 direct reports down at the bottom here.
+
+109
+00:14:02.750 --> 00:14:05.150
+the Head of HR: And whether they've started, if they're not.
+
+110
+00:14:05.150 --> 00:14:07.170
+hr.manager: I do like the on-track stuff.
+
+111
+00:14:07.620 --> 00:14:10.370
+hr.manager: Like, the… to show On Track?
+
+112
+00:14:10.790 --> 00:14:13.130
+hr.manager: And then… I can't really see the.
+
+113
+00:14:13.130 --> 00:14:20.139
+Margaret Foster: What are you… what are you trying to track? Like, what… what does that… what is… what kind of information are you,
+
+114
+00:14:21.060 --> 00:14:22.849
+Margaret Foster: Wanting to know about.
+
+115
+00:14:23.130 --> 00:14:34.799
+hr.manager: I would think that would be on track to achieve their goals, if this is a Q1… it looked like this was a Q1 report, so on track for the Q1, or if it's the annual review.
+
+116
+00:14:35.120 --> 00:14:37.380
+hr.manager: They've… achieved it.
+
+117
+00:14:37.620 --> 00:14:40.100
+hr.manager: And I guess the wording could be different, but…
+
+118
+00:14:40.520 --> 00:14:44.629
+hr.manager: because it was Q1, I think it was on track to achieve it.
+
+119
+00:14:44.820 --> 00:14:46.880
+hr.manager: If they go at the same pace.
+
+120
+00:14:46.880 --> 00:14:48.950
+Margaret Foster: How important is that for a manager?
+
+121
+00:14:49.790 --> 00:14:51.099
+Margaret Foster: that information.
+
+122
+00:14:52.510 --> 00:14:58.690
+hr.manager: being on track, or the red highlighting that it's not on track, I would think that's pretty important. What do you think, the Head of HR?
+
+123
+00:14:58.990 --> 00:15:00.810
+the Head of HR: Yeah, I mean… I've never…
+
+124
+00:15:00.990 --> 00:15:02.170
+hr.manager: Mid-years.
+
+125
+00:15:02.570 --> 00:15:10.770
+the Head of HR: Yeah, so I think part of the struggle that we're gonna have is… I understand what you're… what you're doing, Margaret, to say, like, what does this mean to you? How does this…
+
+126
+00:15:11.360 --> 00:15:27.090
+the Head of HR: like, does this say you're probably… I'm assuming you're trying to gauge what we're seeing is what the intention is. It's hard because we're not sure what some of these metrics are. So, like, I look at this, and I see goals. I'm sorry, I'm just gonna make this a little bit bigger.
+
+127
+00:15:27.150 --> 00:15:31.470
+the Head of HR: If we're talking… if this screen is supposed to represent what the.
+
+128
+00:15:31.470 --> 00:15:32.230
+hr.manager: Thought I could make a.
+
+129
+00:15:32.230 --> 00:15:32.840
+the Head of HR: dinner?
+
+130
+00:15:33.430 --> 00:15:34.040
+the Head of HR: It just…
+
+131
+00:15:34.430 --> 00:15:40.949
+the Head of HR: Not the performance review, just the goals, and if the goals are on track, and we've set parameters around
+
+132
+00:15:41.160 --> 00:16:05.779
+the Head of HR: what milestones those goals are supposed to be on track or off track, that would be important, for sure, because you wouldn't want them to try to cram at the end of the year to finish their goals. So yes, that would be very important for… from a manager's standpoint, to be able to see that Jordan is well on track, but Tom perhaps hasn't even looked at his goals yet, so that would be important. But I mean, there would be so many parameters in there that we would need to build.
+
+133
+00:16:06.040 --> 00:16:18.809
+the Head of HR: And it looks like… I like the check-in, check… it looks like there was a check-in. I'm assuming this is a check-in with the manager, so this is whoever the manager is in Jordan, they checked in 20 days ago.
+
+134
+00:16:19.130 --> 00:16:23.120
+Margaret Foster: Oh, I thought you were talking about… yeah, so what do you think that is? Yeah, the manager check-in?
+
+135
+00:16:23.340 --> 00:16:32.179
+the Head of HR: That's what it looks like. Okay. I don't know what… it says Feedback 3-something, 30D or something? I can't read the title.
+
+136
+00:16:32.180 --> 00:16:48.979
+Margaret Foster: So if you wanted to understand a little bit more, looking at your full screen here, if you wanted to understand a little bit more what the check-in and the feedbacks are, where would you go? Like, let's say we've given you this product, and you have to figure it out. Where would you go to understand a little bit more what the feedback is, what the check-in is?
+
+137
+00:16:49.800 --> 00:16:57.619
+the Head of HR: I would click on the bar where it says on track and hope that that links me to wherever the process is, or I'd go over to where it says review.
+
+138
+00:16:57.770 --> 00:16:59.699
+the Head of HR: Where it says Actions Review.
+
+139
+00:17:01.140 --> 00:17:01.900
+Margaret Foster: Okay.
+
+140
+00:17:03.820 --> 00:17:08.280
+the Head of HR: There we go. Oh. Okay, so these are the goals. Okay, so these are the gold, this is neat.
+
+141
+00:17:09.440 --> 00:17:10.700
+Margaret Foster: What's neat about this?
+
+142
+00:17:11.250 --> 00:17:20.689
+the Head of HR: It's neat, because it, like, this to me, the HR Manager, this to me says, this is what the goal is. So the goal is increased customer satisfaction score to 4.5+.
+
+143
+00:17:20.810 --> 00:17:32.109
+the Head of HR: It looks like this person is 60… Jordan is 65% there. I'm gonna jump in as the manager and either agree or disagree, or assuming with the Your rating.
+
+144
+00:17:32.340 --> 00:17:44.109
+the Head of HR: Then complete product certification training, so it looks like 40%. It's nice to see a visual, so as a… especially in adult learning environments, visuals like this are nice. It's a bar.
+
+145
+00:17:44.110 --> 00:18:00.180
+the Head of HR: So we do tend to work on a stoplight system, so green is good, yellow is caution, red is your behind. So I, you know, colors are important, I would say, so what does blue mean? Is blue good? I have no idea.
+
+146
+00:18:01.370 --> 00:18:02.290
+the Head of HR: So, yeah.
+
+147
+00:18:02.590 --> 00:18:05.819
+the Head of HR: That's… that's what I would say. I mean, this is… this is great.
+
+148
+00:18:06.160 --> 00:18:22.000
+the Head of HR: because what it does is that we have a mid-year check-in process that we're trying to kind of push, which started last year, but it's onerous because it's another sheet that they have to do. If this is just live, and they can go in.
+
+149
+00:18:22.700 --> 00:18:34.400
+the Head of HR: They would have to remember to go in, don't get me wrong, but they can go in and they can see real live kind of data and have something that they don't have to do that's extra. And it's already all linked to everything, which is nice.
+
+150
+00:18:34.650 --> 00:18:36.930
+Margaret Foster: O-Link, can you… what does that mean, Olinked?
+
+151
+00:18:38.160 --> 00:18:40.270
+the Head of HR: It's linked to their performance.
+
+152
+00:18:40.270 --> 00:18:41.070
+Margaret Foster: Oh, I see.
+
+153
+00:18:41.070 --> 00:18:45.520
+the Head of HR: I don't have to go into a different process to look at this. It's all together.
+
+154
+00:18:45.520 --> 00:18:46.190
+Margaret Foster: Okay.
+
+155
+00:18:46.340 --> 00:18:46.900
+Margaret Foster: So you don.
+
+156
+00:18:46.900 --> 00:18:49.060
+hr.manager: And it's under that employee.
+
+157
+00:18:49.270 --> 00:18:49.910
+the Head of HR: Yeah.
+
+158
+00:18:50.720 --> 00:18:59.149
+the Head of HR: I don't have to go to a separate workbook that has a separate page for my team, like, it's… this is all one-stop shop for Jordan. It's all here.
+
+159
+00:18:59.710 --> 00:19:19.470
+Margaret Foster: So, you're talking about, and maybe, the HR Manager, we can, as I ask those questions and the Head of HR is talking, feel free to explore, what we have here, but what is your ideal, workflow? So, you mentioned goals, you mentioned performance review, you mentioned media cycle, where would you start? Let's say if you have this, this.
+
+160
+00:19:19.690 --> 00:19:28.689
+Margaret Foster: tool that's been given to you, what would be your first step in your mind to get that established within your organization? What do you need?
+
+161
+00:19:31.760 --> 00:19:38.270
+the Head of HR: So, I'm not sure I understand the question. So, there is a performance review cycle that's January to December.
+
+162
+00:19:38.270 --> 00:19:40.380
+Margaret Foster: Okay, so it's an hour cycle, okay.
+
+163
+00:19:40.380 --> 00:19:47.809
+the Head of HR: Yeah, so that is our cycle, and our mid-years are obviously in June, halfway through the year. The goal, the goal, right? Yeah.
+
+164
+00:19:48.190 --> 00:19:55.930
+the Head of HR: So… what we would need to start the process. So we kick off our performance review cycle.
+
+165
+00:19:55.930 --> 00:20:11.149
+the Head of HR: to get people started in Q4, at the beginning of Q4 every year, sometimes a little earlier, to start training. Okay, remember, this is the tool you're using, this is how you use it for your year-end performance review, and all of that good stuff.
+
+166
+00:20:13.300 --> 00:20:31.759
+the Head of HR: But it all depends. That's kind of a big question, if, you know, when a new hire comes on, as an example, depending on where they… when they start, they could be learning about… well, they're going to learn about the entire performance review cycle, they're going to learn about the tool, and they're going to learn about mid-year reviews.
+
+167
+00:20:32.160 --> 00:20:32.540
+Margaret Foster: Okay.
+
+168
+00:20:32.540 --> 00:20:33.470
+the Head of HR: So that made me.
+
+169
+00:20:33.470 --> 00:20:36.669
+Margaret Foster: Media Review, how is it orchestrated?
+
+170
+00:20:37.900 --> 00:20:39.810
+the Head of HR: I'll let the HR Manager jump in on that one.
+
+171
+00:20:41.380 --> 00:20:46.770
+hr.manager: So, I'm sorry, I was playing. The question was the mid-year review, how is it treated? Is that what was your…
+
+172
+00:20:46.770 --> 00:20:59.600
+Margaret Foster: Orchestrated, yeah, how is it orchestrated today? Like, because I understand you kick it off in January, and then you have a media in June. What does that mean from an employee and experience perspective? Manager and employee, sorry.
+
+173
+00:21:00.230 --> 00:21:13.620
+hr.manager: So, it's all done through the QuickBase, so it's the manager who has to launch the mid-year review. So they go in and launch it. It's… we've tried to make it as simple, it's just a one-page, more of a check-in kind of thing.
+
+174
+00:21:13.620 --> 00:21:27.350
+hr.manager: how are you progressing at achieving your goals? So it's sort of a checklist kind of thing. Once the, manager fills it out, so really the employee doesn't have any input into that one.
+
+175
+00:21:27.350 --> 00:21:44.219
+hr.manager: In a sense where they're supposed to have a conversation. So, as the manager, I would initiate it, you get to see it as the employee, we have the conversation, how do you think you're making out? The manager does the checkpoints, you both agree, this looks great.
+
+176
+00:21:44.230 --> 00:21:59.990
+hr.manager: it gets closed off. As the employee, you have a chance to put comments in, because then you'll have access to only that field. There's a comment box, a text box, and then the manager closes, and it gets saved, sort of, in the,
+
+177
+00:22:00.360 --> 00:22:01.979
+hr.manager: in the QuickBase system.
+
+178
+00:22:01.980 --> 00:22:07.199
+Margaret Foster: Okay, and that is part… and that is part of the annual performance review cycle as well, right?
+
+179
+00:22:07.200 --> 00:22:29.520
+hr.manager: That is correct. We just launched mid-years last year. We didn't make it mandatory, it was more, hey, we've got mid-years, have the conversations. It was… it was really to enhance, have conversations halfway through the year. No one should be surprised at the end of the year when they might have fallen behind, or they didn't achieve something.
+
+180
+00:22:29.520 --> 00:22:31.720
+hr.manager: And it gives you a chance to reset.
+
+181
+00:22:32.440 --> 00:22:42.770
+Margaret Foster: Okay, I was wondering the why. So, I saw you were looking at the, at the goals, the team goals, so I'm gonna go back to when you were looking at this, like, what were your thoughts?
+
+182
+00:22:43.570 --> 00:22:50.169
+hr.manager: So, when I looked at this one, I can see there's, there's 10 goals across the, the 5…
+
+183
+00:22:50.320 --> 00:23:00.069
+hr.manager: employees. Ours is sort of set up, we've got our corporate goals, it cascades down to department or line of business goals.
+
+184
+00:23:00.070 --> 00:23:13.010
+hr.manager: Which usually end up being sort of the manager's goals, but they'll have goals that are based on the corporate goals. And then you could have individual goals, so it cascades down to the three levels.
+
+185
+00:23:13.030 --> 00:23:30.730
+hr.manager: like the Head of HR, her goals would be the department goals. For me, I would have a little piece of the department goal and maybe have some individual goals. And then from there, so they'd be identified as, here's my goals that each relate to the corporate goal.
+
+186
+00:23:31.080 --> 00:23:45.180
+hr.manager: And we kind of work that way through, because if we can all achieve our goals, of course, we're going to achieve the corporate goals. Let's use turnover, for example. Our corporate goal is, like, a 7% reduction, and every…
+
+187
+00:23:46.310 --> 00:23:56.410
+hr.manager: Line of business department within the corporation has that as a corporate goal, and they all have to have a goal that will help us achieve that.
+
+188
+00:23:56.580 --> 00:24:08.029
+hr.manager: So when I look at this, it looks like there's 10 goals spread out over the 5 employees, which I guess we could, in a department that has 6 people, you could definitely have that.
+
+189
+00:24:08.150 --> 00:24:13.320
+hr.manager: 7 of them are on track right now, 3 are at risk.
+
+190
+00:24:13.610 --> 00:24:18.399
+hr.manager: one employee doesn't have any goals set. I do like that concept.
+
+191
+00:24:18.430 --> 00:24:37.300
+hr.manager: Because the other part of our mid-year was, if you didn't set goals for your employee, now is the time to do it. Or if someone was hired, let's say we do it in June, they were hired in April, so they weren't around for the annual review, that's one of the biggest misses we do have.
+
+192
+00:24:37.300 --> 00:24:42.700
+hr.manager: We get to the end of the year, and it's like, well, they were hired in April, and oops, we never set goals.
+
+193
+00:24:43.210 --> 00:24:47.379
+hr.manager: So, I do like that reminder that comes up.
+
+194
+00:24:47.770 --> 00:24:58.720
+hr.manager: that this could be used as even a, yeah, a quarterly kind of do that check-in to take a look, or even at the mid-year, if it can catch people that… so, I like that.
+
+195
+00:25:01.180 --> 00:25:12.130
+hr.manager: I like the thing on the side here, but I don't know if I can expand this to say, here's a listing of all the goals, because I'd like to see what those 10 goals look like.
+
+196
+00:25:12.710 --> 00:25:13.070
+Margaret Foster: Okay.
+
+197
+00:25:13.070 --> 00:25:15.450
+hr.manager: I don't know if I can see that. And then…
+
+198
+00:25:15.450 --> 00:25:22.420
+the Head of HR: Can I… can I… I'm sorry, the HR Manager, can I just jump in? Because I do have to leave by 11.15 at the latest.
+
+199
+00:25:23.010 --> 00:25:25.960
+the Head of HR: Are you able… can you go over to the left?
+
+200
+00:25:26.360 --> 00:25:29.090
+the Head of HR: Can you go to Reviews?
+
+201
+00:25:29.280 --> 00:25:30.640
+the Head of HR: I just want to see that.
+
+202
+00:25:32.070 --> 00:25:34.089
+the Head of HR: Can you go into starter review?
+
+203
+00:25:34.720 --> 00:25:37.609
+the Head of HR: I know I'm jumping, Margaret, this is just.
+
+204
+00:25:37.610 --> 00:25:38.450
+Margaret Foster: Nope, this is good.
+
+205
+00:25:38.450 --> 00:25:45.110
+the Head of HR: This is… this is probably for… for… I think, the HR Manager, for you and I, like, what does the build of the actual review…
+
+206
+00:25:45.110 --> 00:25:47.560
+Margaret Foster: Okay, so go into the HR, sorry, go…
+
+207
+00:25:47.560 --> 00:25:49.260
+the Head of HR: Okay.
+
+208
+00:25:49.260 --> 00:25:52.219
+Margaret Foster: And then… here you have the menu.
+
+209
+00:25:52.410 --> 00:25:52.760
+the Head of HR: Yep.
+
+210
+00:25:52.760 --> 00:25:57.060
+Margaret Foster: So, maybe I will let you navigate now, training again.
+
+211
+00:25:58.180 --> 00:26:01.939
+hr.manager: So we have… but this is for HR to see everyone then, right?
+
+212
+00:26:01.940 --> 00:26:06.290
+Margaret Foster: Right, but if you're about to build a cycle, where would you go? I think that's what, the Head of HR, you're…
+
+213
+00:26:06.290 --> 00:26:08.689
+the Head of HR: No, I wanna, I wanna go in it.
+
+214
+00:26:08.690 --> 00:26:10.210
+hr.manager: Let's what the review looks like.
+
+215
+00:26:10.210 --> 00:26:13.679
+the Head of HR: If I were to start my own self-review, what's that gonna.
+
+216
+00:26:13.680 --> 00:26:15.159
+Margaret Foster: Or as an employee.
+
+217
+00:26:15.160 --> 00:26:15.850
+the Head of HR: Yes.
+
+218
+00:26:15.850 --> 00:26:16.820
+Margaret Foster: Okay, so then you…
+
+219
+00:26:16.820 --> 00:26:18.830
+hr.manager: Let's go to an employee.
+
+220
+00:26:18.830 --> 00:26:19.160
+the Head of HR: Yep.
+
+221
+00:26:19.160 --> 00:26:34.319
+hr.manager: And we're gonna… so, my action is required, so goals on track, I got 3. Days of next check-in is 8, so that can be set up, and I saw there was a calendar thing where you can send out invites directly through this program, right?
+
+222
+00:26:34.550 --> 00:26:35.740
+hr.manager: feedback.
+
+223
+00:26:35.740 --> 00:26:37.190
+the Head of HR: Which is great, by the way.
+
+224
+00:26:37.190 --> 00:26:40.060
+hr.manager: I loved… yes, that I thought, was really cool.
+
+225
+00:26:40.270 --> 00:26:46.819
+hr.manager: And, okay, so we're there. Actually, we're gonna complete a self-review 30 days, so let's say we start that.
+
+226
+00:26:47.230 --> 00:26:50.400
+hr.manager: So this is what my self-review would look like.
+
+227
+00:26:51.100 --> 00:26:53.680
+hr.manager: So this is the goal achievement.
+
+228
+00:26:56.640 --> 00:27:04.250
+hr.manager: So, these titles to set it, can you… is that based on each company, or are they…
+
+229
+00:27:04.770 --> 00:27:06.690
+hr.manager: Set into the program.
+
+230
+00:27:07.000 --> 00:27:11.060
+Margaret Foster: What would you like to see here? What would you like to be able to do here?
+
+231
+00:27:11.060 --> 00:27:12.240
+the Head of HR: We need to set our own.
+
+232
+00:27:12.240 --> 00:27:18.710
+hr.manager: Yeah, because our corporate goals will adjust. Like I said, this year it's 7%, last year it was 10%.
+
+233
+00:27:18.710 --> 00:27:19.270
+Margaret Foster: Yeah.
+
+234
+00:27:19.530 --> 00:27:21.690
+hr.manager: So, it's… And then…
+
+235
+00:27:21.690 --> 00:27:27.960
+Margaret Foster: to be able to set your own goals for the… do you have competency? Do you track… do you rate employees and competencies today?
+
+236
+00:27:28.480 --> 00:27:46.989
+hr.manager: We rate employees on behaviors, performance behaviors. Those are set. They don't change from one year to the next. We might adjust them a slight amount, but I think over the last couple years, they've been pretty set. We've done a lot of work on making sure
+
+237
+00:27:46.990 --> 00:27:53.349
+hr.manager: They meet, what we're looking for when it comes to demonstrating that performance behavior.
+
+238
+00:27:53.580 --> 00:28:02.800
+hr.manager: We've got some definitions we might want to hash out a little bit, but they're set, but it's the goal setting that does change every year.
+
+239
+00:28:02.970 --> 00:28:15.189
+Margaret Foster: Okay, so, yeah, the idea would be able to do that. So, sorry for your competence behavior, the performance behavior, sorry, are those the same across the entire organization for all employees?
+
+240
+00:28:15.550 --> 00:28:36.410
+hr.manager: So, we do it for salaried employees. So, our performance evaluation process is just for salaried and hourly admin employees at this time. We don't do it for our hourly, labor-type positions. The other… so, so even if you looked at this as the goal part.
+
+241
+00:28:36.410 --> 00:28:40.719
+hr.manager: Competency could be the performance, behaviors…
+
+242
+00:28:40.720 --> 00:28:41.180
+Margaret Foster: disappear.
+
+243
+00:28:41.180 --> 00:28:44.790
+hr.manager: But we also do development action plans, so…
+
+244
+00:28:44.790 --> 00:28:45.140
+Margaret Foster: Okay.
+
+245
+00:28:45.140 --> 00:29:04.760
+hr.manager: your individual development, we ask for DAPs or those development plans, and there's a section we have for that. It's not rated, but it is a part where you need to include what do you plan as your development for the coming year, and what did you achieve for the past year.
+
+246
+00:29:04.850 --> 00:29:15.309
+hr.manager: And for anyone who's in a people leader role, we also have sort of an extra performance,
+
+247
+00:29:15.850 --> 00:29:26.669
+hr.manager: demonstration behaviors that we include there for those. So, if you're identified as a people leader, there's an extra part you get evaluated on.
+
+248
+00:29:27.180 --> 00:29:35.329
+Margaret Foster: Okay, and that's part of the performance behavior you were talking about. So everybody has the same one across the organization, but leader people have one extra.
+
+249
+00:29:35.490 --> 00:29:36.530
+hr.manager: Exactly.
+
+250
+00:29:36.530 --> 00:29:45.110
+Margaret Foster: Okay, so we need to be able to allow for that configuration based on the type of… is it an individual contributor, or is it a leader, people leader?
+
+251
+00:29:45.110 --> 00:29:45.640
+hr.manager: That's right.
+
+252
+00:29:45.640 --> 00:29:52.690
+Margaret Foster: And you said something, like, they are not rated on the development performance, so what, what is the,
+
+253
+00:29:53.600 --> 00:29:58.979
+Margaret Foster: things that employees get rid of on. So, you talked about goals, you talked about performance behaviors…
+
+254
+00:29:58.980 --> 00:30:15.710
+hr.manager: So the 0 to 5, or 1 to 5 rating system that we have, is used for the goals, rating of the goals, on the achievement, and it's used for the rating of the performance behaviors.
+
+255
+00:30:17.310 --> 00:30:21.769
+Margaret Foster: Is that all? Is there any other things that you're waiting on, the employee on, or the…
+
+256
+00:30:21.770 --> 00:30:27.619
+hr.manager: No. The goals are weighted at 70% of the overall score.
+
+257
+00:30:27.620 --> 00:30:42.360
+hr.manager: And the performance behaviors are rated at 30% of the overall score, so at the end, you have an overall score based on those two ratings, and that's the number that we use for all of our reports to say.
+
+258
+00:30:42.360 --> 00:30:49.380
+hr.manager: What was the person's, evaluation rating to determine, compensation.
+
+259
+00:30:50.990 --> 00:30:51.540
+Michelle Tremblay (she/her): Brilliant.
+
+260
+00:30:51.540 --> 00:30:59.570
+the Head of HR: Would it be helpful, if we shared with this team what our current performance review looks like?
+
+261
+00:30:59.570 --> 00:31:12.270
+Margaret Foster: I was like, before we leave this call, for sure, if you can share all of your templates and spreadsheets, because what I'm curious is, like, do you have actually maths behind it? Like, so based on the scoring, and then, is that transparent to the manager?
+
+262
+00:31:12.270 --> 00:31:23.209
+Margaret Foster: What kind of manager override, if any, is there, or HR override, so that's, yes, leading to all of that, because we want to understand how much does the system needs to do for you.
+
+263
+00:31:23.210 --> 00:31:27.139
+Margaret Foster: Versus… What… what you need to be able to override.
+
+264
+00:31:27.140 --> 00:31:41.969
+hr.manager: I have all kinds of tools, I have a guidebook, I have… I mean, I can't really give you access to the QuickBase system, where everything's kept in, but I have guidebooks, I have PowerPoint presentations, because every time we launch our
+
+265
+00:31:41.970 --> 00:31:59.929
+hr.manager: performance management cycle, we do full webinars for all of our, salaried staff and admin people and leaders that are going to be part of that process. So, we usually launch that in November, have it done by, sort of, January 26, so that
+
+266
+00:31:59.970 --> 00:32:14.870
+hr.manager: we can get the spreadsheets together thereafter, and go back and see, hey, did you struggle with this? Did something happen? But that's where, sort of, the the Head of HR and I get involved, because we have to look at all these spreadsheets and manually enter
+
+267
+00:32:14.870 --> 00:32:24.069
+hr.manager: the data from QuickBase, or get the managers to, which, again, we have to go back and verify. But it would be lovely if…
+
+268
+00:32:24.230 --> 00:32:37.239
+hr.manager: They do it online, the report gets generated from the numbers that are there, and then it's just a quick sort of look at, hey, this number looks way out of whack, why? And they can go back and take a look.
+
+269
+00:32:37.830 --> 00:32:54.159
+Margaret Foster: Okay, no, that's awesome. That's exactly what you're looking for. So, you have two sections, we talked about three sections, development, performance, performance, behavior, and then goals. Is there anything where the employee can add some notes, or the manager, needs to justify those rating?
+
+270
+00:32:54.160 --> 00:33:04.219
+hr.manager: Absolutely. So the self-assessment gets done by the employee, they can put their comments in, they do all that. The manager does their assessment.
+
+271
+00:33:04.220 --> 00:33:22.629
+hr.manager: can happen simultaneously. They'll put their comments in, but a lot of times, none of the comments get added until the very end, because they're supposed to then have the meeting align with what the review is, and both can put the comments in there. Once comments have been added for both.
+
+272
+00:33:22.630 --> 00:33:27.069
+hr.manager: The manager is the one who closes and completes the review.
+
+273
+00:33:27.670 --> 00:33:33.140
+Margaret Foster: Does the manager… does the manager get access to the employee self-review prior to that meeting?
+
+274
+00:33:33.680 --> 00:33:52.819
+hr.manager: Yes. The idea is both are supposed to see prior to the meeting. A lot of times that might not happen, if one doesn't do it before the other, but the theory behind it is both should be able to see what the review is, have a chance for the… then have the discussion.
+
+275
+00:33:52.820 --> 00:34:02.179
+hr.manager: Put the comments in, and we have a whole process flow map that I will share with you also that explains how this… the theory is supposed to work.
+
+276
+00:34:02.260 --> 00:34:05.210
+hr.manager: Then, they'll have the discussion align on
+
+277
+00:34:05.660 --> 00:34:12.340
+hr.manager: How we did last year, what's our plan for the coming year, and then the manager will close it, poof, it's done.
+
+278
+00:34:13.139 --> 00:34:17.059
+hr.manager: Then we've got an overall rating and a plan for the upcoming year.
+
+279
+00:34:17.400 --> 00:34:32.600
+Margaret Foster: Okay, so switching gear a little bit here, so yes, those documents will be highly helpful. You mentioned that there is that self, like, that media check-in to make sure that there's alignment, basically, between the manager and the employee. Do they have all of the goals? How often would an employee and a manager meet?
+
+280
+00:34:33.609 --> 00:34:43.479
+hr.manager: Just those twice. So, like I said, the once a year to do the evaluation, and it was only last year that we included a mid-year.
+
+281
+00:34:44.059 --> 00:34:44.909
+hr.manager: Right. So it's…
+
+282
+00:34:44.909 --> 00:34:51.159
+Margaret Foster: Are those the formal… considered the formal one? Is there any informal meetings between the manager and the employees throughout the year?
+
+283
+00:34:51.850 --> 00:35:09.810
+hr.manager: nothing that's documented to look at the performance. I mean, on the Head of HR's team, there's conversations continuously. How are we making out? We've got a plan that we, all the managers work towards. Does it happen in other teams? Some yes, some no, but there's nothing,
+
+284
+00:35:12.140 --> 00:35:13.360
+hr.manager: the Head of HR?
+
+285
+00:35:13.690 --> 00:35:20.369
+the Head of HR: Okay. I have to go, I don't want to be where you guys are on a roll, so I don't want to… I don't want to cut anyone off.
+
+286
+00:35:20.370 --> 00:35:21.889
+hr.manager: Why talking on this, I can't stop.
+
+287
+00:35:21.890 --> 00:35:22.870
+the Head of HR: I know.
+
+288
+00:35:23.150 --> 00:35:24.570
+Margaret Foster: We won't need to talk.
+
+289
+00:35:24.570 --> 00:35:47.710
+the Head of HR: the HR Manager is the SME for this, so I will… I will 100%, and I will let you know, like, I want this conversation to continue. I'm out of the office after today. This is how important this is to me. I wanted to get this conversation going before I head out. But the HR Manager is definitely gonna be the builder for this, and gonna be the SME. She knows my thoughts on what we need to do, so, I do have to log off.
+
+290
+00:35:47.800 --> 00:36:04.669
+the Head of HR: But I'll leave you with the pro, and you'll be fine, but please keep this going while I'm off. Like, we're so… we want to be part of your pilot to make it right, and the HR Manager, I know, because I had to do this for the Owner, there is a way to download a report from Cubase to show them the actual whole form.
+
+291
+00:36:04.670 --> 00:36:06.190
+hr.manager: Yes, there is.
+
+292
+00:36:06.190 --> 00:36:07.730
+the Head of HR: as well, okay?
+
+293
+00:36:07.730 --> 00:36:16.919
+Margaret Foster: So, the Head of HR, thank you very much for your time, and we will make progress while you're away, and yeah, we know where I'm gonna head.
+
+294
+00:36:16.920 --> 00:36:18.600
+the Head of HR: Thank you. Thanks.
+
+295
+00:36:22.370 --> 00:36:32.969
+hr.manager: So do meetings happen with other managers? Yeah, it's a hit and miss. Like I said, some teams are very committed to sort of looking at them.
+
+296
+00:36:32.970 --> 00:36:44.229
+hr.manager: Others sort of get to that annual, when we say, hey, it's performance management time, let's do our reviews, here's, remember, how the form works and everything else that goes with it, and then some go.
+
+297
+00:36:44.230 --> 00:36:49.120
+hr.manager: What? Or, geez, we never set any goals. Okay.
+
+298
+00:36:49.640 --> 00:36:56.269
+Margaret Foster: And why is that, do you think? Why is it that they're coming to performance management time and come to that realization?
+
+299
+00:36:57.010 --> 00:37:05.449
+hr.manager: You know, that's a great question. I mean, some managers are just more committed to it, perhaps, than others. It has never…
+
+300
+00:37:06.290 --> 00:37:14.039
+hr.manager: over the last… I'd say over the last 2 years since we made it, sort of, in QuickBase,
+
+301
+00:37:14.070 --> 00:37:31.849
+hr.manager: the importance of it has become highlighted a lot more, so we've gotten way better this year, in getting the completion rates done, meeting sort of the timeline that we had set. We even thought, you know, January 26, 2026, everyone should remember that day.
+
+302
+00:37:31.850 --> 00:37:42.650
+hr.manager: We only had to extend it this year, maybe, you know, 2 or 3 weeks, versus in the past, like, the first year we did it online, it was…
+
+303
+00:37:42.740 --> 00:37:50.199
+hr.manager: I think it was, like, a good month before we could get everyone, and we still didn't get 100% completion rate.
+
+304
+00:37:50.970 --> 00:38:05.800
+hr.manager: So, we're getting there. And before that, it was just all paper-based, and then before that, we didn't even have anything. They weren't doing anything, so… we went from paper-based to hand-bombing everything into an Excel spreadsheet.
+
+305
+00:38:05.800 --> 00:38:14.810
+hr.manager: to our QuickBase system that we have now, that captures and keeps the trending of the performance of a person.
+
+306
+00:38:15.300 --> 00:38:17.839
+hr.manager: But it won't,
+
+307
+00:38:18.580 --> 00:38:26.780
+hr.manager: it still doesn't generate the report we need that we have to upload into PayWorks to change the rating of someone.
+
+308
+00:38:28.200 --> 00:38:36.209
+Margaret Foster: So, what do you think would, well, I guess the way to ask it, like, you're saying, like, even this year, you had, kind of, last-minute struggler,
+
+309
+00:38:37.540 --> 00:38:46.700
+Margaret Foster: What kind of, what are the roadblocks that… is it the manager, is it the employee, is it both, that are struggling to provide the information on time?
+
+310
+00:38:48.100 --> 00:39:06.870
+hr.manager: I'd say it's a little bit of both. Okay. I'd say it's a little bit of both. There's some employees that don't do the self-evaluation. I mean, let's face it, there's some employees at every company, every company I've worked at, that don't believe in the process, and think, we're not going to get raises anyway, and… and it's…
+
+311
+00:39:07.130 --> 00:39:21.189
+hr.manager: still some, you know, trying to change that mindset attitude. It's not all about the compensation, it's about your growth. So we've tried to put even more focus on the development action plans, so…
+
+312
+00:39:21.190 --> 00:39:25.199
+Margaret Foster: Okay. Is that why it's part of your performance review?
+
+313
+00:39:25.200 --> 00:39:26.500
+hr.manager: Absolutely, yeah.
+
+314
+00:39:26.500 --> 00:39:27.030
+Margaret Foster: Okay.
+
+315
+00:39:27.030 --> 00:39:43.559
+hr.manager: Well, it's a good thing to have in there, but yeah, it should be… people should be focused looking at it more as a development action plan, plus remembering what our corporate values are, our corporate goals are, and our performance behaviors that I talked about that are rated are…
+
+316
+00:39:43.570 --> 00:39:47.739
+hr.manager: Directly linked to our corporate values.
+
+317
+00:39:48.430 --> 00:39:50.080
+Margaret Foster: Okay, so you have to confirm…
+
+318
+00:39:50.080 --> 00:39:52.909
+hr.manager: I see that when I send you, sort of, all our documentation.
+
+319
+00:39:53.900 --> 00:40:05.009
+hr.manager: You'll see, and the Head of HR's right, I should be able to pull off, a PDF of what, in QuickBase, it actually looks at, and if not, I'll just do some screenshots to show
+
+320
+00:40:05.780 --> 00:40:07.999
+hr.manager: And flip those to you, too.
+
+321
+00:40:08.550 --> 00:40:18.319
+Margaret Foster: your manager today, how do they enter the information? Like, you mentioned that system. Is it on their desktop? Is it on mobile? Like, how do they… how do they enter that information today?
+
+322
+00:40:18.320 --> 00:40:27.519
+hr.manager: It's, mainly on their desktop, to get into QuickBase. Can't imagine doing it on a mobile,
+
+323
+00:40:28.710 --> 00:40:34.860
+hr.manager: Yeah, I mean, I can share with you what it looks like, if you want, in QuickBase, so you can see what it looks like.
+
+324
+00:40:35.030 --> 00:40:37.460
+hr.manager: If we have time, I don't know.
+
+325
+00:40:37.460 --> 00:40:41.789
+Margaret Foster: We can reschedule some time, too. So, you're located in Toronto, right?
+
+326
+00:40:42.770 --> 00:40:45.119
+hr.manager: Yes, I'm in Ontario time.
+
+327
+00:40:45.270 --> 00:40:54.030
+Margaret Foster: Okay, I'm sorry, your time, okay. No, I was just wondering, because I'm gonna be there next month, so maybe we can also, look at that.
+
+328
+00:40:55.720 --> 00:40:57.659
+hr.manager: I'm kind of working remotely right now.
+
+329
+00:40:57.660 --> 00:40:58.230
+Margaret Foster: Oh, I see.
+
+337
+00:41:18.110 --> 00:41:25.550
+Margaret Foster: What if, can I ask you to click on that check-in, in the menu here? I kind of would like to get your thoughts on that.
+
+338
+00:41:26.400 --> 00:41:28.610
+hr.manager: Check in on the menu, so…
+
+339
+00:41:28.610 --> 00:41:29.070
+Margaret Foster: Shangola.
+
+340
+00:41:29.540 --> 00:41:30.060
+Margaret Foster: Yeah.
+
+341
+00:41:32.270 --> 00:41:38.119
+hr.manager: Okay, so upcoming check-in, so I like this, prepare for the check-in, that's neat. What's this?
+
+342
+00:41:43.560 --> 00:41:49.030
+hr.manager: Okay, so as the… this is the employee who can put in
+
+343
+00:41:57.730 --> 00:42:01.950
+hr.manager: I like that. That's a good idea, yep. Why is that?
+
+344
+00:42:02.180 --> 00:42:06.760
+hr.manager: Well, because it gives the employee a chance to participate in the check-in.
+
+345
+00:42:11.330 --> 00:42:13.039
+Margaret Foster: What do you think the check-in is?
+
+346
+00:42:13.550 --> 00:42:19.050
+hr.manager: Check-in to me is, like, the mid-year, or it could be the quarterly review, or whatever like that.
+
+347
+00:42:19.090 --> 00:42:21.109
+Margaret Foster: Do you have quarterly reviews as well?
+
+348
+00:42:21.110 --> 00:42:32.709
+hr.manager: No, we only have the mid-year. We only just started with the mid-year last year. If I could get them to do that, we might eventually… I would love to get to quarterly, but if I could get them to do it every 6 months.
+
+349
+00:42:33.440 --> 00:42:34.240
+hr.manager: Bonus.
+
+350
+00:42:34.240 --> 00:42:36.960
+Margaret Foster: What do you think is the biggest roadblock? What do you think is the biggest…
+
+351
+00:42:36.960 --> 00:42:44.729
+hr.manager: It's just getting them used to the process. Again, teaching them the value added in the process.
+
+352
+00:42:44.830 --> 00:42:59.320
+hr.manager: You've got some managers that are… they're… they're so diligent, and they do it even regularly. They do their own check-ins. It might not be sort of in such a formal process, but it does happen.
+
+353
+00:42:59.720 --> 00:43:05.409
+Margaret Foster: So, how does a manager know today how well their employee is doing in their day-to-day job?
+
+354
+00:43:07.720 --> 00:43:20.460
+hr.manager: In the grounds maintenance industry, the sites got serviced, the green waste got picked up, the… we didn't have any customer complaints, we met our targets on time, the municipalities are happy.
+
+355
+00:43:21.840 --> 00:43:26.859
+hr.manager: Who knows? No grievances, labor relations is good.
+
+356
+00:43:27.480 --> 00:43:29.710
+hr.manager: We're doing fantastic.
+
+357
+00:43:29.710 --> 00:43:34.519
+Margaret Foster: How does a manager know about those metrics you just mentioned? How well they're doing?
+
+358
+00:43:35.520 --> 00:43:54.450
+hr.manager: Well, the manager's at the site, so they're in constant communication with the, municipalities, which are our customers. The residents on the street, you'll, you know, if you're getting customer complaints, you're not paying overtime, so the financials are, are very important, too.
+
+359
+00:43:55.160 --> 00:44:00.389
+Margaret Foster: So, let's say a complaint comes. What is the manager… how is the manager gonna handle this?
+
+360
+00:44:01.060 --> 00:44:10.020
+hr.manager: So we have a whole customer service team. We also have how a manager would do it if there was a complaint, say.
+
+361
+00:44:10.290 --> 00:44:13.120
+hr.manager: My green waste didn't get picked up.
+
+362
+00:44:13.280 --> 00:44:26.800
+hr.manager: He would have to have someone go out the next night, or if… I mean, we've had situations, I don't know, you know, where you guys live, but, I mean, if you don't get your green waste picked up, you're not a real happy camper.
+
+363
+00:44:28.030 --> 00:44:47.499
+Margaret Foster: Okay, so what would the manager try to, like, if it's a… so there is obviously that, yes, the green waste didn't get picked up. I assume that someone was responsible to pick up their green waste. So how… what does the manager action from an employee perspective? So I understand from municipality, but how does the manager kind of…
+
+364
+00:44:47.500 --> 00:44:50.529
+Margaret Foster: Reflect that back to the employee, if they do.
+
+365
+00:44:50.920 --> 00:45:05.499
+hr.manager: Well, it would get… so, again, our reviews are mainly done, if we're gonna talk sort of the high level here for our performance reviews, it would be for the salaried person, which would be the route supervisor, who is a people leader.
+
+366
+00:45:05.570 --> 00:45:17.679
+hr.manager: Because the hourly person, the guy in the truck, isn't being reviewed. So it's how is that road supervisor handling that, or within his area, or his team.
+
+367
+00:45:18.060 --> 00:45:29.859
+hr.manager: do they have a lot of missed service visits? Do they have a lot of those things? They might have a conversation with them, they might, you know, how are we making out? Some of our reviews…
+
+368
+00:45:30.940 --> 00:45:36.599
+hr.manager: There's, you know, talk about safety, on your team, did you have, because that's one of our corporate values.
+
+369
+00:45:37.240 --> 00:45:47.389
+hr.manager: Did you have accidents? Was there property damage a lot on your team compared to someone else's team? So, things are looked at like that.
+
+370
+00:45:48.060 --> 00:45:59.240
+Margaret Foster: So you're talking about team lead and manager, and you're talking about, if I understand correctly, the day-to-day of interaction with the employee would be done with the team lead. Is that correct?
+
+371
+00:46:00.130 --> 00:46:01.050
+hr.manager: wrote supervisor.
+
+372
+00:46:01.050 --> 00:46:12.540
+Margaret Foster: It's the road supervisor, sorry, the road supervisor. Who is doing the performance review? Is it the road supervisor for the employee? How does it work? What is the structure? I'm struggling to understand here?
+
+373
+00:46:13.050 --> 00:46:18.730
+hr.manager: Okay, so we don't do it for the drivers, so we don't do it for that level.
+
+374
+00:46:18.810 --> 00:46:36.179
+hr.manager: The performance review is for salaried level and a… so, salaried level and hourly admin. So, a route supervisor is the first level that's going to have a review done on them. Their manager will do the review on that route supervisor.
+
+375
+00:46:36.360 --> 00:46:54.360
+hr.manager: Okay. So, a manager at a location might have 4 route supervisors, so he will have to do those 4 route supervisors. The manager at a location, will probably have, say, an admin person. He will do the review on that admin person.
+
+376
+00:46:54.360 --> 00:47:04.030
+hr.manager: A fleet maintenance manager will probably have a maintenance admin person. They will have to do a review on that person.
+
+377
+00:47:04.310 --> 00:47:16.910
+hr.manager: The divisional manager, district manager, will have 4 of those operational managers under him, so he will have to do a review on those 4 managers.
+
+378
+00:47:16.910 --> 00:47:32.879
+Margaret Foster: Okay, and those are where the cascading goal come in, where you have a different level, and it… it kind of comes down to the road, supervisor that basically will have their own. Are the goals the same for each…
+
+379
+00:47:34.200 --> 00:47:42.589
+Margaret Foster: type of level, like, for example, the road supervisor, would all of those road supervisors have the same goals, or would they be different?
+
+380
+00:47:42.760 --> 00:47:54.379
+hr.manager: They could be different, and it would definitely be different from one location to the other location. The only thing that remains the same is the corporate goal.
+
+381
+00:47:54.740 --> 00:48:06.830
+hr.manager: But the, department goal or division goal, line of business goal, that could def… that would definitely change depending on the location or…
+
+382
+00:48:07.060 --> 00:48:11.309
+hr.manager: So we also have different lines of business. We have…
+
+383
+00:48:11.810 --> 00:48:26.139
+hr.manager: let's say our grounds maintenance side of things, we also have our, equipment yard operations, so it's like the fleet and equipment side of things. Snow removal is a seasonal operation.
+
+384
+00:48:26.140 --> 00:48:32.389
+hr.manager: They… we use all the same form, so that's why the corporate goals remain the same.
+
+385
+00:48:32.620 --> 00:48:42.909
+hr.manager: But they'll each have their own sort of division or department goals, and then each supervisor or that next level will have goals. Let's just use a jar, for example.
+
+386
+00:48:43.450 --> 00:48:48.020
+hr.manager: And the Head of HR sets the department goals.
+
+387
+00:48:48.020 --> 00:49:00.609
+hr.manager: based on the corporate goals, but every manager, our manager in British Columbia, our HR manager and our HR manager in Ontario, might have different individual goals.
+
+388
+00:49:00.610 --> 00:49:10.610
+hr.manager: And each of those managers has direct reports, the generalists, and they would have different goals, individual goals themselves.
+
+389
+00:49:10.870 --> 00:49:13.120
+hr.manager: See how that's kind of… Cascade.
+
+390
+00:49:13.120 --> 00:49:18.680
+Margaret Foster: Is it always the manager defining the goals for the person they're responsible for?
+
+391
+00:49:19.440 --> 00:49:26.680
+hr.manager: That could be… The manager above, but you would do that sort of in discussions.
+
+392
+00:49:26.680 --> 00:49:30.030
+Margaret Foster: Would an employee be, like, is…
+
+393
+00:49:30.460 --> 00:49:33.630
+Margaret Foster: Are the employee also setting their own individual goals?
+
+394
+00:49:34.100 --> 00:49:41.300
+hr.manager: They might make a suggestion, but the final agreement, of course, is the manager.
+
+395
+00:49:41.300 --> 00:49:42.340
+Margaret Foster: would sell. Okay.
+
+396
+00:49:42.340 --> 00:49:50.239
+hr.manager: So, there's nothing wrong with a route supervisor saying, hey, you know what, I'd really like to accomplish this this year to help us achieve
+
+397
+00:49:50.480 --> 00:49:58.249
+hr.manager: our… the corporate's turnover rate. What do you think of that? As the manager, you might say, yeah, but let's…
+
+398
+00:49:58.380 --> 00:50:07.379
+hr.manager: worded as a SMART goal. We do a lot of training also on wording your goal as a SMART goal, because that's…
+
+399
+00:50:09.050 --> 00:50:11.290
+hr.manager: A learned thing, also.
+
+400
+00:50:12.470 --> 00:50:13.169
+hr.manager: You know what I mean?
+
+401
+00:50:13.170 --> 00:50:15.970
+Margaret Foster: Why is that so… yeah, can you elaborate a little bit on that?
+
+402
+00:50:16.390 --> 00:50:19.540
+hr.manager: Only because they'll tend to…
+
+403
+00:50:19.730 --> 00:50:28.859
+hr.manager: Set a goal without having, sort of, a, realistic number, or having something that's measurable.
+
+404
+00:50:28.860 --> 00:50:45.609
+hr.manager: They might say, I'm gonna reduce turnover. Okay, but what are you gonna reduce it by, and what's your, you know, how are you gonna do it kind of thing. So we've been doing, as the HR team, and when we do our training, we have a number of slides talking about setting a SMART goal and what's included in that.
+
+405
+00:50:46.530 --> 00:50:50.899
+Margaret Foster: When was the last time did you have your manager to have to reset their goals because they were not…
+
+406
+00:50:51.180 --> 00:50:52.260
+Margaret Foster: Measurable.
+
+407
+00:50:52.950 --> 00:50:55.290
+hr.manager: Well, you…
+
+408
+00:50:55.290 --> 00:50:56.679
+Margaret Foster: Usually after once…
+
+409
+00:50:56.680 --> 00:51:03.710
+hr.manager: Yeah, how often does it happen? Probably, at least over half.
+
+410
+00:51:04.100 --> 00:51:04.480
+Margaret Foster: Okay.
+
+411
+00:51:04.480 --> 00:51:05.490
+hr.manager: And even sometimes…
+
+412
+00:51:05.490 --> 00:51:06.250
+Margaret Foster: significance.
+
+413
+00:51:06.250 --> 00:51:11.710
+hr.manager: Yeah, it is significant, and a lot of times, I mean, we don't get back, we don't really get to…
+
+414
+00:51:11.920 --> 00:51:13.790
+hr.manager: Help them.
+
+415
+00:51:13.920 --> 00:51:25.000
+hr.manager: do the SMART goals, we actually have created sort of a bank of, here's some ways you can word your SMART goals, keeping in mind all the smart part of it.
+
+416
+00:51:25.930 --> 00:51:26.460
+Margaret Foster: Hit.
+
+417
+00:51:26.760 --> 00:51:27.600
+Margaret Foster: Okay.
+
+418
+00:51:27.740 --> 00:51:32.549
+Margaret Foster: Thank you. I think we are at time, unfortunately.
+
+419
+00:51:33.240 --> 00:51:43.290
+Margaret Foster: I ask you a lot of questions, and I'm sorry, I hope, like, Michelle and Vanessa, you are, and Curtis, you are, feeling free to ask questions. I tend to dominate, but, the HR Manager, this…
+
+420
+00:51:43.290 --> 00:51:54.279
+Margaret Foster: was a good surface call for us. So, last word on what you saw from the prototype, and you navigated just on the surface of it, but what were your immediate
+
+421
+00:51:54.280 --> 00:51:56.980
+Margaret Foster: What was your immediate thinking, looking at it?
+
+422
+00:51:57.870 --> 00:52:14.980
+hr.manager: I love it. The dashboard part for HR… so there was the one thing I saw that, while the Head of HR was kind of talking there, there was, like, the approval part at the bottom, and it was an HR approval. I didn't quite understand that, because where does the manager approve it, then?
+
+423
+00:52:15.620 --> 00:52:19.339
+Margaret Foster: What is a manager approving in your, in your context today?
+
+424
+00:52:19.470 --> 00:52:23.699
+hr.manager: So the manager would approve and close it off. Okay.
+
+425
+00:52:23.700 --> 00:52:26.779
+Margaret Foster: Is that the rating of the employee? Like, the review?
+
+426
+00:52:26.780 --> 00:52:32.610
+hr.manager: The overall thing, the manager closes it off. The…
+
+427
+00:52:33.530 --> 00:52:38.039
+hr.manager: But then, what I find in our system, there's no way for the next
+
+428
+00:52:38.220 --> 00:52:47.789
+hr.manager: Manager, the 1UP manager, to be able to see how their manager has done with rating all of their group of employees.
+
+429
+00:52:47.870 --> 00:53:01.000
+hr.manager: Okay. There's no sort of that next check where, as, say, the district manager, and I've got 4 operational managers who are supposed to do 4, 4, and 4 route supervisors, the district manager
+
+430
+00:53:01.230 --> 00:53:06.410
+hr.manager: Unless He sort of says, hey, tell me how you're doing, where's all the ratings?
+
+431
+00:53:06.540 --> 00:53:11.709
+hr.manager: they don't have that opportunity to go in and see, and I'd really like to see that.
+
+432
+00:53:12.080 --> 00:53:12.420
+Margaret Foster: Okay.
+
+433
+00:53:12.420 --> 00:53:15.509
+hr.manager: I can finally go in and say, good, this is done.
+
+434
+00:53:15.860 --> 00:53:26.589
+Margaret Foster: Is it, and we're gonna have to stop here, but is it, visibility, or is it more like an approval of that manager's manager that they also agree on the rating?
+
+435
+00:53:26.590 --> 00:53:30.419
+hr.manager: I think it's more of a visibility would be an ideal thing, yeah. Okay.
+
+436
+00:53:30.420 --> 00:53:34.110
+Margaret Foster: So it's not… it wouldn't be a roadblock to move forward to the next step for.
+
+437
+00:53:34.110 --> 00:53:41.810
+hr.manager: Oh my gosh, no, it shouldn't be. But HR really doesn't approve anything, we just sort of take the results of…
+
+438
+00:53:41.810 --> 00:53:42.400
+Margaret Foster: Yep.
+
+439
+00:53:42.400 --> 00:53:51.609
+hr.manager: a manager who's made the call, and then we like to sort of, like I said, then we put together the, we could question stuff after the fact, but…
+
+440
+00:53:51.900 --> 00:53:53.560
+hr.manager: We don't approve anything.
+
+441
+00:53:53.850 --> 00:53:56.899
+Margaret Foster: Who, is there any approval done on the merits increase, then?
+
+442
+00:53:57.950 --> 00:54:01.519
+hr.manager: On the increase, yes, that's done by the executive team.
+
+443
+00:54:01.780 --> 00:54:09.990
+Margaret Foster: Okay. Okay, so we're gonna have to park that, because then I would like to understand that next part of the process as well. We talked a lot about the intake.
+
+444
+00:54:09.990 --> 00:54:10.430
+hr.manager: Yes.
+
+445
+00:54:10.430 --> 00:54:29.259
+Margaret Foster: But then, I think the next step is, to your point, when you get all of that rating, if HR is not the approver, and it involves some merit increase, then we need to talk about how that would work in your world, and who has that signing off authority before it actually gets to payroll.
+
+446
+00:54:29.260 --> 00:54:29.770
+hr.manager: Yup.
+
+447
+00:54:29.930 --> 00:54:32.610
+hr.manager: Yeah, because right now it goes right up to ownership.
+
+448
+00:54:33.240 --> 00:54:37.269
+Margaret Foster: Alright, so we definitely… When can we see you again?
+
+449
+00:54:37.650 --> 00:54:56.479
+hr.manager: Exactly, so you know what? I'm… so, by today, tomorrow, I'll send you all kinds of stuff. Yeah. You guys take a look at it, and then you got that. I'm pretty well… the Head of HR's away, so I'm around all week next week, all week the week after.
+
+450
+00:54:56.480 --> 00:55:08.349
+hr.manager: But I'd really love for us, you're right, let's have a call again, maybe at the end of next week, or same time next week. Yeah. And we can do another touch base, you can pick my brain.
+
+451
+00:55:08.650 --> 00:55:27.299
+Margaret Foster: Yeah, we can go through all of the documents, we're gonna make a lot of notes, I'm sure. Look at everything you send us, and then, definitely, I don't want to lose that sight of what's happening once the reviews are closed, because from what I understand, when we started this call, that handoff between the reviews are closed to it has to flow through payroll.
+
+452
+00:55:27.420 --> 00:55:29.449
+Margaret Foster: Is a big pain point for you today.
+
+453
+00:55:29.450 --> 00:55:31.489
+hr.manager: Ugh, it's horrible.
+
+454
+00:55:31.490 --> 00:55:34.480
+Margaret Foster: Alright, so I want to know why it's horrible.
+
+455
+00:55:34.980 --> 00:55:35.599
+Margaret Foster: Yeah, it's horrible.
+
+456
+00:55:35.600 --> 00:55:37.410
+hr.manager: Think of an Excel spreadsheet.
+
+457
+00:55:37.660 --> 00:55:38.389
+Margaret Foster: Alright, well…
+
+458
+00:55:38.390 --> 00:55:38.820
+hr.manager: Apple.
+
+459
+00:55:38.820 --> 00:55:55.880
+Margaret Foster: I know some people who love Excel spreadsheets, so I can relate to your feeling, but Michelle loves spreadsheets. So let's do that. Please, if you don't mind sending us everything you're willing to share with us, we're gonna look at it, and we will put something in our calendar for sometime towards the end of next week.
+
+460
+00:55:55.880 --> 00:56:04.289
+hr.manager: Alright, sounds great. And I have all of your emails, Margaret, Michelle, Vanessa, right?
+
+461
+00:56:04.470 --> 00:56:08.020
+hr.manager: Yep. Vanessa, that's… so, Curtis, I don't have you, though.
+
+462
+00:56:08.020 --> 00:56:09.480
+Margaret Foster: And we're gonna make sure we're gonna shut down.
+
+463
+00:56:09.480 --> 00:56:12.770
+hr.manager: You'll share with Curtis? Okay, Curtis, you'll get it all.
+
+464
+00:56:12.770 --> 00:56:15.930
+Margaret Foster: I'm gonna be in our fives now. Awesome, thank you so much.
+
+465
+00:56:15.930 --> 00:56:20.609
+hr.manager: Thank you very much, we are super excited, like the Head of HR said. This is very cool.
+
+466
+00:56:20.610 --> 00:56:22.849
+Margaret Foster: Awesome, likewise. Okay, take care.
+
+467
+00:56:22.850 --> 00:56:23.730
+hr.manager: Thank you. Bye-bye.
+
+468
+00:56:23.730 --> 00:56:25.190
+Vanessa Lee: Bye.
+

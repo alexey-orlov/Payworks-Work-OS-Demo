@@ -1,0 +1,609 @@
+WEBVTT
+
+NOTE Synthetic material - generated for the Payworks Work OS; not a record of a real meeting. Customer-side speakers are role titles only; Payworks staff are fictional.
+
+00:00:03.000 --> 00:00:06.000
+Dean Murphy: There we go. Can you see me now?
+
+00:00:06.000 --> 00:00:08.000
+payroll.administrator: Yep, you're back.
+
+00:00:08.000 --> 00:00:13.000
+Dean Murphy: Sorry, my camera does that. It's fine and then it isn't.
+
+00:00:13.000 --> 00:00:15.000
+hr.manager: We've all got one of those.
+
+00:00:16.000 --> 00:00:24.000
+Dean Murphy: Um, so — quick intro and then I'm going to hand it to Michelle and mostly shut up. Michelle's the product manager for the payroll and expense side.
+
+00:00:24.000 --> 00:00:25.000
+Michelle Tremblay (she/her): Hi, both.
+
+00:00:25.000 --> 00:00:27.000
+hr.manager: Hi!
+
+00:00:27.000 --> 00:00:38.000
+Dean Murphy: And, um, the reason I asked for this is you two mentioned expenses to me on the quarterly check-in, twice, and both times I said "I'll take that back," so I'm taking it back.
+
+00:00:38.000 --> 00:00:41.000
+payroll.administrator: [laughs] I did wonder if that went anywhere.
+
+00:00:41.000 --> 00:00:43.000
+Dean Murphy: It went here.
+
+00:00:43.000 --> 00:00:54.000
+Michelle Tremblay (she/her): It did. Um, so — this is very much a listening call. There's nothing to show you. We're building an expense piece and I want to understand what you actually do today, warts and all.
+
+00:00:54.000 --> 00:00:55.000
+hr.manager: Sure.
+
+00:00:55.000 --> 00:01:01.000
+Michelle Tremblay (she/her): Is it alright if I record? It just means I'm listening rather than typing. It stays inside our product team.
+
+00:01:01.000 --> 00:01:02.000
+hr.manager: That's fine.
+
+00:01:02.000 --> 00:01:03.000
+payroll.administrator: Fine.
+
+00:01:04.000 --> 00:01:07.000
+Michelle Tremblay (she/her): Thank you. So — how big are you now? Dean said seventy-five?
+
+00:01:07.000 --> 00:01:14.000
+hr.manager: Seventy-five. Seventy-six as of Monday. One office, and then we've got, um, six people fully remote.
+
+00:01:14.000 --> 00:01:15.000
+Michelle Tremblay (she/her): One location.
+
+00:01:15.000 --> 00:01:23.000
+hr.manager: One location. Everybody's in the same building except the remote folks and the two sales guys who are basically never in the building.
+
+00:01:23.000 --> 00:01:25.000
+Michelle Tremblay (she/her): And who does expenses?
+
+00:01:25.000 --> 00:01:26.000
+payroll.administrator: Me.
+
+00:01:26.000 --> 00:01:27.000
+Michelle Tremblay (she/her): Just you?
+
+00:01:27.000 --> 00:01:33.000
+payroll.administrator: Just me. I do payroll, I do expenses, I do the benefits enrolment, I do the T4s.
+
+00:01:33.000 --> 00:01:35.000
+hr.manager: She does everything, is the answer.
+
+00:01:35.000 --> 00:01:41.000
+payroll.administrator: I do everything with a number in it. She does everything with a feeling in it. That's the split.
+
+00:01:41.000 --> 00:01:44.000
+Michelle Tremblay (she/her): [laughs] That's the cleanest org chart I've heard all year.
+
+00:01:44.000 --> 00:01:46.000
+hr.manager: It's accurate, though.
+
+00:01:47.000 --> 00:01:51.000
+Michelle Tremblay (she/her): Okay. So take me through an expense. Somebody spends money. Then what.
+
+00:01:52.000 --> 00:02:02.000
+payroll.administrator: So there's a form. It's an Excel file, it lives on the shared drive, it's called Expense Claim Template and it has the year in the filename which is a whole problem in itself.
+
+00:02:02.000 --> 00:02:03.000
+Michelle Tremblay (she/her): [laughs] Why's that a problem?
+
+00:02:03.000 --> 00:02:11.000
+payroll.administrator: Because people have last year's on their desktop. So I get claims on the 2024 form with the old mileage rate on it and I have to redo the math.
+
+00:02:11.000 --> 00:02:12.000
+Michelle Tremblay (she/her): Ah.
+
+00:02:12.000 --> 00:02:23.000
+payroll.administrator: So they fill in the form, they attach the receipts, and they email it to me. Or to their manager and then to me, depending on who taught them, which is not consistent.
+
+00:02:23.000 --> 00:02:24.000
+Michelle Tremblay (she/her): And the receipts are…?
+
+00:02:24.000 --> 00:02:26.000
+payroll.administrator: PDFs, mostly. Emails.
+
+00:02:26.000 --> 00:02:27.000
+Michelle Tremblay (she/her): Not paper?
+
+00:02:27.000 --> 00:02:38.000
+payroll.administrator: Hardly ever paper. I'd say — of the ones I got last month, maybe three were photos of a paper receipt. Everything else was a PDF or somebody forwarding me the confirmation email.
+
+00:02:38.000 --> 00:02:39.000
+Michelle Tremblay (she/her): Huh. Okay.
+
+00:02:39.000 --> 00:02:47.000
+hr.manager: That surprises you? I feel like that surprised you. [laughs]
+
+00:02:47.000 --> 00:02:57.000
+Michelle Tremblay (she/her): It's — no, it's genuinely useful. I've been spending a lot of time with a customer where the whole thing is people photographing paper in a truck, and I think I'd started assuming that was the problem.
+
+00:02:57.000 --> 00:02:58.000
+payroll.administrator: Not here.
+
+00:02:58.000 --> 00:03:08.000
+payroll.administrator: Our people buy things online. It's a conference registration, or it's a client dinner where the restaurant emails you the receipt, or it's somebody's put a software subscription on their personal Visa.
+
+00:03:08.000 --> 00:03:09.000
+Michelle Tremblay (she/her): Say more about that last one?
+
+00:03:09.000 --> 00:03:21.000
+payroll.administrator: Oh, that one drives me up the wall. So somebody needs a tool, it's twenty-nine dollars a month, they put it on their card and expense it, and now it's on my expense claims forever.
+
+00:03:21.000 --> 00:03:22.000
+Michelle Tremblay (she/her): Every month.
+
+00:03:22.000 --> 00:03:32.000
+payroll.administrator: Every month, for years. I counted in the spring, we had eleven of those. Eleven recurring subscriptions coming through as personal expense claims.
+
+00:03:32.000 --> 00:03:33.000
+hr.manager: And nobody had approved any of them centrally.
+
+00:03:33.000 --> 00:03:44.000
+payroll.administrator: Well, they'd been approved — a manager clicked yes on the first one twenty-two months ago. Nobody's looked since. It's four hundred dollars a month of subscriptions that nobody's decided on.
+
+00:03:44.000 --> 00:03:47.000
+Michelle Tremblay (she/her): So the recurring thing is invisible.
+
+00:03:47.000 --> 00:03:53.000
+payroll.administrator: It's invisible because it's twenty-nine dollars at a time. Nothing under fifty dollars gets looked at twice, ever.
+
+00:03:53.000 --> 00:03:56.000
+Michelle Tremblay (she/her): That's a really interesting one, thank you.
+
+00:03:56.000 --> 00:04:00.000
+Michelle Tremblay (she/her): Um, volume — how many claims a month, roughly?
+
+00:04:00.000 --> 00:04:07.000
+payroll.administrator: Twenty-five-ish. It's not a lot. And it's the same fifteen or twenty people, honestly. Most of the company never expenses anything.
+
+00:04:07.000 --> 00:04:08.000
+Michelle Tremblay (she/her): And in dollars?
+
+00:04:08.000 --> 00:04:16.000
+payroll.administrator: About six thousand a month. Some months less. And then one month a year it's fourteen, because the sales guys go to the big conference.
+
+00:04:16.000 --> 00:04:17.000
+Michelle Tremblay (she/her): [laughs] Right.
+
+00:04:17.000 --> 00:04:25.000
+payroll.administrator: One trip is four thousand dollars in one claim. Flights, hotel, the booth stuff. That's a quarter of my monthly volume in a single email.
+
+00:04:25.000 --> 00:04:29.000
+Michelle Tremblay (she/her): And how much of your time does the whole thing take?
+
+00:04:29.000 --> 00:04:33.000
+payroll.administrator: A day and a half a month. And half of that is chasing.
+
+00:04:33.000 --> 00:04:34.000
+Michelle Tremblay (she/her): Chasing what?
+
+00:04:34.000 --> 00:04:44.000
+payroll.administrator: People. It's not that the receipt's hard to get, it's that somebody hasn't submitted anything since May and then in August I get four months in one go.
+
+00:04:44.000 --> 00:04:45.000
+hr.manager: It's always the same person, too.
+
+00:04:45.000 --> 00:04:53.000
+payroll.administrator: It's always the same three people. And then I've got a claim spanning four months and half of it's in a prior quarter that's closed.
+
+00:04:53.000 --> 00:04:55.000
+Michelle Tremblay (she/her): Do you have a rule about that? Like a deadline?
+
+00:04:55.000 --> 00:04:57.000
+payroll.administrator: We have a rule. Sixty days.
+
+00:04:57.000 --> 00:04:58.000
+Michelle Tremblay (she/her): And?
+
+00:04:58.000 --> 00:05:04.000
+payroll.administrator: And I've never once enforced it. Because what am I going to do, not pay somebody back for a hotel?
+
+00:05:04.000 --> 00:05:05.000
+hr.manager: Yeah, that's not happening.
+
+00:05:05.000 --> 00:05:14.000
+payroll.administrator: So the rule's decorative. If the system nudged them at day fifteen — not me, the system — I think ninety percent of it goes away.
+
+00:05:14.000 --> 00:05:15.000
+Michelle Tremblay (she/her): A reminder.
+
+00:05:15.000 --> 00:05:24.000
+payroll.administrator: A reminder that isn't from me. Because right now the reminder is from me, and then I'm the nag, and that's a relationship cost in a company this size. You see these people at lunch.
+
+00:05:24.000 --> 00:05:26.000
+Michelle Tremblay (she/her): Mm. That's a good point.
+
+00:05:27.000 --> 00:05:31.000
+Michelle Tremblay (she/her): Okay, approvals. Who says yes?
+
+00:05:31.000 --> 00:05:34.000
+hr.manager: The manager. That's it. That's the whole policy.
+
+00:05:34.000 --> 00:05:35.000
+Michelle Tremblay (she/her): No dollar limits?
+
+00:05:35.000 --> 00:05:41.000
+hr.manager: Over five thousand it goes to the owner but that has happened, what, twice? Ever?
+
+00:05:41.000 --> 00:05:43.000
+payroll.administrator: Twice. The conference and the trade show booth.
+
+00:05:43.000 --> 00:05:47.000
+Michelle Tremblay (she/her): So functionally it's one approval for everything.
+
+00:05:47.000 --> 00:05:52.000
+hr.manager: One approval for everything, and honestly I think that's correct for us.
+
+00:05:52.000 --> 00:05:54.000
+payroll.administrator: And I think it isn't, so.
+
+00:05:54.000 --> 00:05:56.000
+Michelle Tremblay (she/her): Oh, good. Let's do this.
+
+00:05:56.000 --> 00:05:57.000
+hr.manager: [laughs] Here we go.
+
+00:05:57.000 --> 00:06:00.000
+Michelle Tremblay (she/her): No, genuinely, this is the useful bit. You go first.
+
+00:06:00.000 --> 00:06:11.000
+payroll.administrator: Okay. So what I would want is a number — say two hundred and fifty dollars — and under that, it just goes. No approval. Straight to me, straight onto the pay.
+
+00:06:11.000 --> 00:06:12.000
+Michelle Tremblay (she/her): Auto-approved.
+
+00:06:12.000 --> 00:06:22.000
+payroll.administrator: Auto-approved. Because right now a manager is clicking yes on a nineteen dollar parking receipt, and they're not reading it. Nobody reads a nineteen dollar parking receipt.
+
+00:06:22.000 --> 00:06:23.000
+Michelle Tremblay (she/her): Right.
+
+00:06:23.000 --> 00:06:32.000
+payroll.administrator: So it's a fake control that costs me three days of waiting. And then over two-fifty, the manager actually has to look at it, and maybe they would, because there'd be four of them a month instead of twenty.
+
+00:06:32.000 --> 00:06:34.000
+Michelle Tremblay (she/her): Okay. And you disagree.
+
+00:06:34.000 --> 00:06:36.000
+hr.manager: I do, and I'll tell you why.
+
+00:06:36.000 --> 00:06:47.000
+hr.manager: Um. Two reasons. One is small and one's the real one. The small one is that we're seventy-five people. Every threshold you add is a rule somebody has to know, and we don't have anybody whose job it is to know rules.
+
+00:06:47.000 --> 00:06:48.000
+Michelle Tremblay (she/her): Mm-hmm.
+
+00:06:48.000 --> 00:07:00.000
+hr.manager: Like, at a thousand people you need tiers because nobody can see everything. At seventy-five, the manager already knows what their four people are doing. Adding a tier doesn't add oversight, it adds a thing to configure.
+
+00:07:00.000 --> 00:07:01.000
+payroll.administrator: But they're not looking.
+
+00:07:01.000 --> 00:07:11.000
+hr.manager: They're not reading, but they are seeing. That's the real reason. The thing the manager gets out of that email isn't a control, it's information.
+
+00:07:11.000 --> 00:07:12.000
+Michelle Tremblay (she/her): Say more?
+
+00:07:12.000 --> 00:07:24.000
+hr.manager: So if one of my people is expensing parking three times a week, I want to notice that. Not to stop it. To go, oh, are you driving to a client every day? Should we be talking about that? Is that in your workload?
+
+00:07:24.000 --> 00:07:25.000
+payroll.administrator: Hm.
+
+00:07:25.000 --> 00:07:37.000
+hr.manager: And if you auto-approve everything under two-fifty, that entire signal disappears from the manager's world. It goes to you, and you're brilliant, but you're not their manager, you're not going to know that means something.
+
+00:07:37.000 --> 00:07:41.000
+payroll.administrator: …Okay, that's actually a better argument than the one I expected.
+
+00:07:41.000 --> 00:07:43.000
+hr.manager: I've had time to think about it, I knew you'd bring it up. [laughs]
+
+00:07:43.000 --> 00:07:47.000
+Michelle Tremblay (she/her): Is there a version that gets you both what you want?
+
+00:07:47.000 --> 00:07:49.000
+payroll.administrator: …Maybe. Say it as a question.
+
+00:07:49.000 --> 00:07:58.000
+Michelle Tremblay (she/her): Well — is the thing you need actually approval, or is it visibility? Because if the manager saw it but didn't have to click, does that work?
+
+00:07:58.000 --> 00:07:59.000
+hr.manager: That works for me.
+
+00:07:59.000 --> 00:08:01.000
+payroll.administrator: That works for me too, if it genuinely doesn't hold the money.
+
+00:08:01.000 --> 00:08:07.000
+Michelle Tremblay (she/her): So under two-fifty it pays, and the manager gets told rather than asked.
+
+00:08:07.000 --> 00:08:15.000
+hr.manager: Told, but not in an email, please. I get a hundred and something emails a day and a "for your information" email is a deleted email.
+
+00:08:15.000 --> 00:08:16.000
+Michelle Tremblay (she/her): Where, then?
+
+00:08:16.000 --> 00:08:26.000
+hr.manager: I'd want it as a list. Like, when I go in to do something else, there's a "here's what your team spent this month" and I look at it once. That's a much better shape than twenty emails.
+
+00:08:26.000 --> 00:08:28.000
+Michelle Tremblay (she/her): That's a really helpful distinction, thank you.
+
+00:08:28.000 --> 00:08:32.000
+payroll.administrator: And it'd catch the subscriptions, actually. If you see them in a list.
+
+00:08:32.000 --> 00:08:33.000
+hr.manager: Oh, that's true.
+
+00:08:33.000 --> 00:08:39.000
+payroll.administrator: Because eleven twenty-nine-dollar things in a list looks like something. Eleven separate emails over a month looks like nothing.
+
+00:08:39.000 --> 00:08:41.000
+Michelle Tremblay (she/her): [laughs] Yeah. That's exactly right.
+
+00:08:42.000 --> 00:08:47.000
+Michelle Tremblay (she/her): Um, can I ask about the money reaching people? How does that work now?
+
+00:08:47.000 --> 00:08:50.000
+payroll.administrator: On the pay. It's always been on the pay.
+
+00:08:50.000 --> 00:08:51.000
+Michelle Tremblay (she/her): Not through A/P?
+
+00:08:51.000 --> 00:09:00.000
+payroll.administrator: We don't really have an A/P function, I mean, I do that too, but for staff reimbursements it goes on the pay because it's one less thing.
+
+00:09:00.000 --> 00:09:01.000
+Michelle Tremblay (she/her): And your payroll is…?
+
+00:09:01.000 --> 00:09:07.000
+payroll.administrator: Semi-monthly. Fifteenth and the last business day. Cutoff is two business days before.
+
+00:09:07.000 --> 00:09:09.000
+Michelle Tremblay (she/her): So the wait is never more than two weeks.
+
+00:09:09.000 --> 00:09:15.000
+payroll.administrator: Never more than two weeks and usually less. Nobody complains about the speed. Genuinely, that's not one of my problems.
+
+00:09:15.000 --> 00:09:19.000
+Michelle Tremblay (she/her): Okay, that's good to know, because it's a big problem for somebody else I've talked to.
+
+00:09:19.000 --> 00:09:24.000
+payroll.administrator: I can imagine it would be if you're running it through A/P on a different cycle.
+
+00:09:24.000 --> 00:09:29.000
+Michelle Tremblay (she/her): Is there anything that goes wrong with it being on the pay?
+
+00:09:29.000 --> 00:09:31.000
+payroll.administrator: One thing. And it's a stupid thing.
+
+00:09:31.000 --> 00:09:32.000
+Michelle Tremblay (she/her): Those are my favourites.
+
+00:09:32.000 --> 00:09:43.000
+payroll.administrator: The pay statement just says a number. It says "expenses, three hundred and forty dollars." And then somebody comes to my desk and says, what's the three-forty, and I have to go back to their email from three weeks ago.
+
+00:09:43.000 --> 00:09:45.000
+Michelle Tremblay (she/her): Every time?
+
+00:09:45.000 --> 00:09:53.000
+payroll.administrator: Two or three times a pay. Not everybody. But enough that I'd pay real money for the statement to just say which claims it was.
+
+00:09:53.000 --> 00:09:55.000
+hr.manager: And I get some of those too, because they come to me first.
+
+00:09:55.000 --> 00:09:57.000
+payroll.administrator: Oh, do you? I didn't know that.
+
+00:09:57.000 --> 00:10:01.000
+hr.manager: All the time. I just forward them to you and you think it started with you.
+
+00:10:01.000 --> 00:10:04.000
+payroll.administrator: [laughs] Great. So double it.
+
+00:10:04.000 --> 00:10:06.000
+Michelle Tremblay (she/her): [laughs] So the real number is five or six a pay.
+
+00:10:06.000 --> 00:10:07.000
+payroll.administrator: Apparently.
+
+00:10:08.000 --> 00:10:12.000
+Michelle Tremblay (she/her): Last big one. Mobile. Do you need any of this on a phone?
+
+00:10:12.000 --> 00:10:13.000
+payroll.administrator: Yes.
+
+00:10:13.000 --> 00:10:14.000
+hr.manager: No.
+
+00:10:14.000 --> 00:10:16.000
+Michelle Tremblay (she/her): [laughs] Perfect. Go.
+
+00:10:16.000 --> 00:10:26.000
+payroll.administrator: I mean — submitting, yes. If I'm at a conference and I've just paid for a taxi, I want to deal with it there, not carry it home in my head for a week.
+
+00:10:26.000 --> 00:10:27.000
+Michelle Tremblay (she/her): Submitting.
+
+00:10:27.000 --> 00:10:35.000
+payroll.administrator: Submitting. Not the whole thing. I don't need to run a payroll on a phone, God forbid. But snapping the taxi receipt and being done with it, yes.
+
+00:10:35.000 --> 00:10:37.000
+Michelle Tremblay (she/her): And you said no.
+
+00:10:37.000 --> 00:10:39.000
+hr.manager: I said no to approving on a phone.
+
+00:10:39.000 --> 00:10:40.000
+Michelle Tremblay (she/her): Why?
+
+00:10:40.000 --> 00:10:47.000
+hr.manager: Because if you can approve it at a red light, you're not reading it. And then why did we ask you.
+
+00:10:47.000 --> 00:10:48.000
+Michelle Tremblay (she/her): Hm.
+
+00:10:48.000 --> 00:11:00.000
+hr.manager: I watched this happen with time off. We put time-off approvals on the phone and the approval rate went to basically a hundred percent overnight, and it wasn't because everybody's requests got better.
+
+00:11:00.000 --> 00:11:01.000
+payroll.administrator: That's fair, actually.
+
+00:11:01.000 --> 00:11:11.000
+hr.manager: It's a tap. It's the same tap as clearing a notification. Your thumb does it before your brain arrives. And with time off that's mostly fine, honestly, but with money I don't love it.
+
+00:11:11.000 --> 00:11:13.000
+Michelle Tremblay (she/her): Would it change if it was small amounts?
+
+00:11:13.000 --> 00:11:22.000
+hr.manager: If it's under two-fifty I don't care at all, because — see, this is annoying — under two-fifty she's right and it shouldn't need approving anyway.
+
+00:11:22.000 --> 00:11:23.000
+payroll.administrator: [laughs] Thank you.
+
+00:11:23.000 --> 00:11:32.000
+hr.manager: But the four-thousand-dollar conference claim? No. I want that person at a desk with the receipts open. And I'd rather the system just didn't let them do it on a phone at all.
+
+00:11:32.000 --> 00:11:34.000
+Michelle Tremblay (she/her): You'd want it blocked, not just discouraged.
+
+00:11:34.000 --> 00:11:41.000
+hr.manager: Blocked. Because "discouraged" means a grey box that says "are you sure" and everyone taps yes on those too.
+
+00:11:41.000 --> 00:11:43.000
+Michelle Tremblay (she/her): [laughs] That's the second time that's come up this month.
+
+00:11:43.000 --> 00:11:45.000
+hr.manager: From who?
+
+00:11:45.000 --> 00:11:51.000
+Michelle Tremblay (she/her): Our account team relayed the same thing from a finance person at a much bigger company. Different words, exact same instinct. Which I find interesting, because it's not a size thing then.
+
+00:11:51.000 --> 00:11:53.000
+hr.manager: It's a thumbs thing.
+
+00:11:53.000 --> 00:11:56.000
+Michelle Tremblay (she/her): It's a thumbs thing. I'm writing that down.
+
+00:11:57.000 --> 00:12:01.000
+Michelle Tremblay (she/her): One more thing I want to ask about and then I'll let you go.
+
+00:12:01.000 --> 00:12:03.000
+hr.manager: Sure, we're good for time.
+
+00:12:03.000 --> 00:12:07.000
+Michelle Tremblay (she/her): Have you looked at buying something separate for expenses?
+
+00:12:07.000 --> 00:12:09.000
+payroll.administrator: We looked at Expensify last year.
+
+00:12:09.000 --> 00:12:10.000
+Michelle Tremblay (she/her): And?
+
+00:12:10.000 --> 00:12:18.000
+payroll.administrator: It was about nine dollars a head, so for seventy-five people that's eight grand a year. And it's a good product, I'm not going to pretend otherwise.
+
+00:12:18.000 --> 00:12:19.000
+Michelle Tremblay (she/her): So what stopped it?
+
+00:12:19.000 --> 00:12:29.000
+payroll.administrator: The owner asked me how many hours it saves, and I said maybe a day a month, and a day of my time is not eight thousand dollars, so.
+
+00:12:29.000 --> 00:12:30.000
+Michelle Tremblay (she/her): That's a very clean answer.
+
+00:12:30.000 --> 00:12:39.000
+payroll.administrator: And then I'd still be exporting it into the payroll to get it onto the pay, so I'd have bought a second system and kept the manual step. That was the actual killer.
+
+00:12:39.000 --> 00:12:40.000
+Michelle Tremblay (she/her): Right.
+
+00:12:40.000 --> 00:12:49.000
+hr.manager: For us the maths is completely different than for a big company, I think. Eight thousand dollars is a real number here. It's a piece of a person.
+
+00:12:49.000 --> 00:12:50.000
+Michelle Tremblay (she/her): Understood.
+
+00:12:50.000 --> 00:12:58.000
+hr.manager: Whereas if it's part of what we already pay you for, and it's just — there, in the thing we already use — that's a completely different conversation.
+
+00:12:58.000 --> 00:12:59.000
+payroll.administrator: That's the whole point, yeah.
+
+00:12:59.000 --> 00:13:05.000
+Michelle Tremblay (she/her): That's useful and I'm not going to pretend I don't like hearing it. [laughs]
+
+00:13:05.000 --> 00:13:08.000
+hr.manager: Can I ask for one thing that's probably not what you're building?
+
+00:13:08.000 --> 00:13:09.000
+Michelle Tremblay (she/her): Please.
+
+00:13:09.000 --> 00:13:19.000
+hr.manager: Employees seeing their own history. So somebody can go in and see, I submitted this, it was approved, it was paid on the fifteenth, here's the receipt. Without asking either of us.
+
+00:13:19.000 --> 00:13:21.000
+payroll.administrator: Nobody will ever look at that.
+
+00:13:21.000 --> 00:13:22.000
+hr.manager: They will.
+
+00:13:22.000 --> 00:13:31.000
+payroll.administrator: They won't. They'll come to my desk. They come to my desk to ask what their vacation balance is and it's on the screen in front of them in the self-service.
+
+00:13:31.000 --> 00:13:33.000
+hr.manager: Because they don't know it's there.
+
+00:13:33.000 --> 00:13:41.000
+payroll.administrator: They've been told it's there for four years. At some point it's not a discoverability problem, it's that people would rather ask a person.
+
+00:13:41.000 --> 00:13:43.000
+hr.manager: Well, some of that's on us for always answering.
+
+00:13:43.000 --> 00:13:45.000
+payroll.administrator: …Yeah, alright, that's probably true.
+
+00:13:45.000 --> 00:13:48.000
+Michelle Tremblay (she/her): This is a great meeting, by the way. You two should do a podcast.
+
+00:13:48.000 --> 00:13:50.000
+hr.manager: [laughs] We do, it's just in the kitchen.
+
+00:13:51.000 --> 00:13:57.000
+Michelle Tremblay (she/her): Um, last thing — would you be open to looking at something in a few weeks? It'd be rough, it wouldn't look like Payworks.
+
+00:13:57.000 --> 00:13:59.000
+payroll.administrator: Yeah, I'd do that.
+
+00:13:59.000 --> 00:14:03.000
+hr.manager: Me too. Half an hour, not more, we're both a bit slammed until end of September.
+
+00:14:03.000 --> 00:14:07.000
+Michelle Tremblay (she/her): Half an hour is all I'd need. Dean will set it up.
+
+00:14:07.000 --> 00:14:08.000
+Dean Murphy: I will, yeah.
+
+00:14:08.000 --> 00:14:14.000
+Michelle Tremblay (she/her): And thank you, honestly — the disagreement about the threshold is the most useful ten minutes I've had this month.
+
+00:14:14.000 --> 00:14:17.000
+payroll.administrator: We disagree about that roughly weekly, so.
+
+00:14:17.000 --> 00:14:20.000
+hr.manager: [laughs] It's a running thing. Now it's documented.
+
+00:14:20.000 --> 00:14:22.000
+Michelle Tremblay (she/her): Now it's documented. Thanks both.
+
+00:14:22.000 --> 00:14:23.000
+payroll.administrator: Thanks. Bye.
+
+00:14:23.000 --> 00:14:24.000
+hr.manager: Bye!
