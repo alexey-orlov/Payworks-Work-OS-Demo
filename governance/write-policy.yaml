@@ -1,0 +1,194 @@
+# Write Policy — which files agents change freely, and which need a human first.
+#
+# This registry is the single traceable list of protected context. The OS admin
+# edits it here; everything that enforces the policy reads from here:
+#   - .claude/hooks/write-guard.sh    (write time: native approval prompt on gated paths)
+#   - .claude/hooks/auto-commit.sh    (turn end: auto-commits/pushes auto-tier work,
+#                                      HOLDS gated paths for you — the auto-sync engine;
+#                                      in the `pr` landing strategy it commits them on
+#                                      your own branch instead, never on the target)
+#   - .github/workflows/wiki-lint.yml (weekly audit: derives its path list from this
+#                                      file at run time — nothing to keep in sync)
+#   - .github/scripts/gated-paths.sh  (generates the server-side mirrors of the list:
+#                                      .github/CODEOWNERS for GitHub, the required-
+#                                      reviewer path filter for Azure Repos)
+#
+# Tier semantics — THE canonical statement. Other docs (governance/CLAUDE.md, the
+# write-back contract, proposals/CLAUDE.md) point here and never restate it:
+#   auto  — DEFAULT for any path not listed below. Agents write and commit directly,
+#           and push directly while auto-sync is on. Covers raw material, records
+#           (summaries, decisions, results), deliverables (PRDs, analyses), the quarter
+#           page, and navigation CLAUDE.md files outside the gated trees.
+#   gated — the steering files and the system's own rules, one list, two gates:
+#           (1) write time — the agent shows the change and you approve Claude Code's
+#               native prompt BEFORE anything is written. That prompt is tagged
+#               "🔒 GATED FILE — Team OS write policy" and quotes this file back to
+#               you: the comment heading above the matched entry, the entry's
+#               trailing # comment, and the pattern — write those comments for a
+#               person, they are the "why" the approver reads;
+#           (2) land time — these paths never reach the target branch by automation.
+#               Direct strategies (ff-only / merge-commit): auto-sync never commits or
+#               pushes them; you land them deliberately (say "commit and push the
+#               gated changes", or use git yourself). PR strategy (`settings →
+#               auto-merge → strategy: pr`, for a PR-only target): auto-sync commits
+#               them on YOUR branch and pushes that branch, but they reach the target
+#               only through a pull request an admin approves — `/propose` opens it
+#               when you are done iterating (GitHub: the desktop Create PR button
+#               does the same).
+#           Headless/scheduled runs cannot ask: they file a proposal in
+#           governance/proposals/ instead of writing. (With governance/** gated as a
+#           whole, that inbox is gated too — before running anything headless, list
+#           the governance rule files below instead of the folder.)
+#           Historical names — "confirm tier" / "Tier 2" and "admin tier" — were
+#           collapsed into this single gated tier on 2026-08-11; older skill prose
+#           still using those names means this tier.
+#
+# Paths are repo-root-relative. A whole directory is written `dir/**` (the hooks also read
+# a bare `dir/` the same way, but keep `dir/**` so the optional GitHub ruleset can copy the
+# list as-is). Globs use shell fnmatch (`*` does not cross `/`, `**` does).
+#
+# Keep this list SHORT and coarse — whole directories plus the few single files that
+# steer everything; a path is gated if it sits under any entry.
+
+version: 2
+
+# Who reviews the weekly protected-path audit and owns changes to this file.
+# The write-guard recognises stewards by matching `git config user.name` / `user.email`
+# against this value (case-insensitive substring), so "Name <email>" is the safest form.
+steward: "[Your Name]"   # ← fill during setup (see Team table in root CLAUDE.md)
+
+# Server-side reviewers for gated paths — the admin group that must approve a pull
+# request touching them. Read by .github/scripts/gated-paths.sh, which generates
+# .github/CODEOWNERS (GitHub) and prints the Azure Repos required-reviewer path filter.
+# Setup steps: os-installation/admin-setup-github.md / admin-setup-azure-devops.md.
+reviewers:
+  github-team: "@[org]/os-admins"   # ← GitHub team handle; must have write access to the repo
+  azure-group: "[Project]\\OS-Admins"  # ← Azure DevOps group shown in the branch policy (informational)
+
+tiers:
+  gated:
+    # Steering files — the distilled context every session leans on.
+    - product-development/feature-index.yaml                       # the product map
+    - product-development/toolchain.yaml                           # per-surface tool/approach choices — skills route by it instead of re-asking
+    - product-development/product/strategy/business-context/**     # who we are — company, ICP, personas, pricing, stakeholders, segments, platform model
+    - product-development/product/handbook/templates/**            # templates shape every future document
+    - product-development/engineering/**                           # build realities — tech constraints, code registry + grounding contract, plans, codebase maps
+    # System rules — the OS itself.
+    - CLAUDE.md                                                    # root — steers every session (carries the business-fundamentals mirror block)
+    - governance/**                                                # the write policy + write-back contract, plus the ledger, health reports and proposals inbox
+    - os-installation/**                                           # install + setup guides, customization state, MCP integration logs
+    - Documentation/**                                             # the customer-facing documentation site and its single source — what the whole team is told
+    - .claude/**                                                   # skills, agents, hooks, settings, team learnings
+    - .github/**                                                   # CI — the weekly lint + gated-path audit
+
+# Living pages — edit-in-place current-truth files (auto tier unless listed above).
+# Informational: /wiki-lint verifies each exists, carries an updated date (frontmatter
+# `updated:`, or the legacy `_updated:` line — both readable), and stays within its
+# size budget. Extend this list as the wiki grows.
+living-pages:
+  - product-development/product/initiatives/*.md
+  - product-development/product/customers/accounts/*/account-context.md
+  - product-development/product/strategy/business-context/business-info.md
+  - product-development/product/strategy/business-context/segmentation-matrix.md
+  - product-development/product/strategy/business-context/stakeholders.md
+  - product-development/product/strategy/current-quarter.md
+  - product-development/product/competitive-research/competitive-landscape.md
+  - product-development/product/competitive-research/competitive-matrix*.md
+  - product-development/product/competitive-research/competitors/*/teardown.md   # none on a fresh install — fine
+  - product-development/product/strategy/business-context/platform-model.md
+  - product-development/engineering/tech-constraints.md
+
+# ---------------------------------------------------------------------------
+# Automation settings — the auto-sync switchboard.
+#
+# Read by .claude/hooks/auto-commit.sh at every turn end (no restart needed).
+# They live here, next to the tier list they respect, so the rule and the
+# behaviour cannot drift apart.
+#
+# Flip them with /auto-sync on direct|pr / off (recommended) or by hand — this file is
+# itself in the list above, so either way the change needs your in-session yes.
+# Two modes: direct (auto-merge.strategy ff-only|merge-commit — main accepts pushes;
+# gated files held for the steward) and pr (strategy pr — main is pull-request-only;
+# gated files travel via /propose). /customize-os asks which one the instance wants.
+# ---------------------------------------------------------------------------
+settings:
+
+  # Commit the turn's work automatically when Claude finishes responding.
+  auto-commit:
+    enabled: false
+
+    # Which changed files may be committed. Gated paths (the list above) are ALWAYS
+    # held back for you to land, whatever this says — scope only narrows the rest:
+    #   auto-tier           — every changed path NOT in the list above (default; the
+    #                         setting that matches the write-guard)
+    #   product-development — only such paths under product-development/ (leaves
+    #                         governance/, os-installation/, … for you to commit)
+    #   all                 — legacy alias of auto-tier, kept for older configs
+    scope: auto-tier
+
+    # Commit subject prefix — see "Commit prefixes" in the root CLAUDE.md.
+    message-prefix: "context:"
+
+  # After a successful commit: land the work on the target branch and push it.
+  # Direct strategies — already on the target (sessions run on main): nothing to
+  # merge, this block only governs the push; on a side branch (worktree sessions):
+  # merge into the target first, then push. PR strategy — see `pr` below.
+  auto-merge:
+    enabled: false
+    target-branch: main
+
+    #   ff-only      — merge only when target can fast-forward. No checkout, no
+    #                  merge commit, nothing to leave half-done. Recommended when
+    #                  the target accepts direct pushes.
+    #   merge-commit — always create a merge commit. Requires checking the target
+    #                  out and back; the hook restores your branch on any failure.
+    #   pr           — the target is PULL-REQUEST-ONLY on the server (branch policy /
+    #                  ruleset — see the admin setup guides in os-installation/). The
+    #                  session works on its own branch (created from the target when
+    #                  needed); each turn the hook makes two commits — everyday files,
+    #                  then gated files — drains the everyday commits to the target
+    #                  through a background pull request that merges itself, rebases
+    #                  the branch, and keeps the gated commits on the branch (pushed,
+    #                  no PR) until you say "propose the gated changes" (/propose).
+    #                  Knobs: the pr-flow block below.
+    strategy: ff-only
+
+    # Refuse to merge a side branch whose history touched protected paths (the hook
+    # never commits those itself; a human may have committed some on the branch).
+    # Those land deliberately, by you. (Direct strategies only — the pr strategy
+    # never merges the branch; it drains everyday commits one by one.)
+    block-protected-tiers: true
+
+    # Push the target branch to origin after each commit (and merge, if any).
+    # /auto-sync on sets this true; pushing publishes, so the flip itself always
+    # goes through the write prompt. In the pr strategy this governs every push
+    # (session branch + drain branches + PRs) — false = commit locally only.
+    push: false
+
+  # Knobs for the pr strategy — read only when auto-merge.strategy is `pr`.
+  pr-flow:
+    # Session branch = <branch-prefix><git user.name, slugified>. Created from the
+    # target the first time the hook runs on the target itself; desktop worktree
+    # sessions already sit on their own branch and keep it.
+    branch-prefix: "sync/"
+
+    # Which CLI opens and merges the pull requests:
+    #   auto — detect from the origin URL (github.com / GHES → gh, dev.azure.com /
+    #          visualstudio.com → az). gh — GitHub CLI (`gh auth login`).
+    #   az   — Azure CLI with the azure-devops extension (`az login`,
+    #          `az extension add --name azure-devops`). none — push the branches,
+    #          open no PRs (the hook prints what to merge by hand).
+    # Missing or unauthenticated tool → same as none, and the turn-end note says so.
+    pr-tool: auto
+
+    # Commit subject prefix for gated-path commits on the session branch.
+    gated-prefix: "gated:"
+
+  # Behaviour of the write-time prompt for people who are NOT the steward above,
+  # in the pr strategy only (direct strategies always ask everyone):
+  #   ask  — the native approval prompt, as for the steward (default, stricter)
+  #   warn — the write goes through with a visible warning that the change lands
+  #          on their branch and reaches the target only via an approved PR.
+  #          Safe only once the server-side rule is in place.
+  write-guard:
+    non-steward: ask

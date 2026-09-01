@@ -1,0 +1,162 @@
+﻿# Payworks — Team OS
+
+Your team's shared knowledge base. Every document, decision, metric definition, and customer insight lives in a structure that AI agents and humans can query.
+
+> Keep this file under ~150 lines — it loads every session.
+
+## Company & Product Fundamentals
+
+> Mirrors `business-info.md`. This block loads every session, so every task starts knowing who we are. Change one, change both.
+
+- **Company / product:** Payworks — a six-module Canadian payroll and HR suite on one shared database (Payroll · Human Resources · Time Management · Absence Management · Employee Self Service · Workforce Analytics), for Canadian businesses and the accountants and bookkeepers who advise them
+- **Stage & size:** [GAP: stage, headcount and ARR not stated in any source] · 25+ years operating · Canada only, all 13 provincial and territorial jurisdictions · **43,550 active accounts**
+- **Primary customer (ICP):** Administrator and Owner at a Canadian SMB — median 14 employees, 93% of accounts under 100 — across all provinces, with Ontario and Québec the FY27 growth concentration. **Accountants and bookkeepers are the decisive influence and the distribution channel**
+- **Core problem we solve:** Canadian payroll and HR run on disconnected systems across 13 jurisdictions of distinct employment and tax rules, carried by generalists with no backup — where a missed remittance hits real paycheques and creates personal liability
+- **Business model:** per-module recurring subscription (modules billed separately; ESS on 97.7% of accounts, every other module a minority) · [GAP: no pricing tiers or price points stated in any source]
+- **North Star metric:** [GAP: none labelled. Nearest stated candidates — client retention rate, revenue impact, NPS (KPI Framework Tier 1 examples); FY27 bar is retention 94%+. Run `/define-north-star` to settle it]
+- **Main competitors:** **Wagepoint** — "the most frequently cited competitor in win/loss conversations" (Payroll Hub VP2 Product Brief). [GAP: no other competitor is named anywhere, and no strategy or competitive document names any — the largest open gap in the business context; see `product/competitive-research/`]
+- **This period's focus (FY27):** the coupled bet — AI-native payroll (Aurora) scaled through the accountant & bookkeeper channel, concentrated in Ontario and Québec. Detail in `product/strategy/current-quarter.md`
+- **Won't do:** general-purpose HR feature-count parity · enterprise upmarket · outside Canada · AI positioned as autonomous
+
+**Read `product-development/product/strategy/business-context/business-info.md` in full before any Product Brief, pricing, positioning, metric-definition, competitive, or strategy work.** The block above is the summary. That file is the source of truth for personas, value proposition, GTM motion, market sizing, and product principles. When the work sizes, weights, or targets customer segments — counts by vertical, size band, module, or province — also read `segmentation-matrix.md` in the same folder; it is the only source for those numbers. **Note: ARR by segment is not available** — the customer base export carries no revenue field, so segment work is account-weighted until a billing export lands.
+
+**House terms:** this team says **module** (not area), **Product Brief** / **VP Product Brief** (not PRD), **Micro Job** (not job spec), **Micro Jobs Breakdown**, **Value Package (VP)** with **Milestones**, **Initiative**, and **KPI Framework** (three tiers: Outcome / Product / Quality). Slash commands and machine identifiers stay canonical.
+
+## Team
+
+> **Roster not yet filled.** The source documents define roles and what each approves, but supply no roster. Add names, handles and escalation paths from the org chart; role responsibilities are already recorded in `business-context/stakeholders.md`. With a Slack or GitHub MCP connected, `/connect-mcps` can pull most of this.
+
+| Function | Team Member | GitHub | Slack ID | After-Hours Escalation |
+|----------|-------------|--------|----------|------------------------|
+| VP, Product Management (approves Product Briefs) | [GAP] | [GAP] | [GAP] | [GAP] |
+| Senior Manager, Product Management | [GAP] | [GAP] | [GAP] | [GAP] |
+| Product Operations Manager (SOP + Roadmap Hub owner) | [GAP] | [GAP] | [GAP] | [GAP] |
+| PM Lead (first escalation) | [GAP] | [GAP] | [GAP] | [GAP] |
+| Product Manager / APM | [GAP] | [GAP] | [GAP] | [GAP] |
+| Business Analyst | [GAP] | [GAP] | [GAP] | — |
+| Product Designer | [GAP] | [GAP] | [GAP] | — |
+| Engineering | [GAP] | [GAP] | [GAP] | [GAP] |
+
+## Slack Channels
+
+> Channel purposes are stated in the Roadmap Hub SOP; names and IDs are not. Fill them from the workspace, or run `/connect-mcps` to pull them.
+
+| Channel | ID | Visibility | Purpose |
+|---------|----|--------|---------|
+| [GAP: product team channel] | [GAP] | [GAP] | Product team discussion; where updates land between weekly emails |
+| [GAP: GTM channel] | [GAP] | [GAP] | Go-to-market coordination across the four GTM stage gates |
+| [GAP: one channel per initiative] | [GAP] | [GAP] | Status and flags for the Roadmap Hub owner |
+
+> Not Slack: the **Claude Project Context Pack** is where Dev and BA questions get answered — *"Every question answered must be written back into the pack, not sent in Slack or email."* The weekly **"Product Roadmap & GTM Status"** email goes to the management team via Outlook.
+
+## Doc Index
+
+**When looking up artifacts (PRDs, RFCs, plans, schemas, dashboards, experiments, tickets), the graph has two halves:** `product-development/feature-index.yaml` is the catalog — which areas and features exist, and whether each is planned / live / retired; the work and its artifacts live on **initiative pages** (`product/initiatives/{slug}.md`), which declare their target features/areas in frontmatter. For a feature's artifacts: find the initiatives targeting it (grep `features:` in initiatives/, or the Console's Product map page rolls it up), then follow their artifact rows.
+
+### Read Order for Common Queries
+
+Don't load every CLAUDE.md eagerly. Follow these read orders:
+
+| Query | Read order |
+|-------|-----------|
+| *"What does the company / product actually do?"* | Fundamentals block above → `product/strategy/business-context/business-info.md` for the full picture |
+| *"Who are our customers, and what do they pay?"* | `product/strategy/business-context/business-info.md` (ICP, personas, pricing) → `product/customers/accounts/{Y}/` for a named account |
+| *"How many accounts / how much ARR sits in segment X (vertical, size band, use case)?"* | `product/strategy/business-context/segmentation-matrix.md` → `product/customers/accounts/portfolio.yaml` for the accounts behind a cell |
+| *"Who do we compete with / how do we compare on X?"* | `product/competitive-research/competitive-landscape.md` → `competitive-matrix.md` for capability detail → `competitors/{slug}/teardown.md` for one competitor |
+| *"What are this quarter's OKRs / priorities?"* | `product/strategy/current-quarter.md` → `product/strategy/okr-guide.md` only when writing new ones |
+| *"Who is stakeholder X, what do they care about, how do I get buy-in?"* | `product/strategy/business-context/stakeholders.md` → Team table above for handles |
+| *"What's the state of feature X?"* | `feature-index.yaml` (catalog: planned / live / retired + shipped date) → the initiative pages whose `features:` frontmatter target it (current work + artifact trail) |
+| *"What's the state of initiative Y (current work)?"* | `product/initiatives/{slug}.md` → its linked artifacts and decisions |
+| *"Give me an overview of area / initiative / feature X"* | run `/overview {slug}` — one-screen orientation composed from the registries; `onboarding {area}` for the new-PM cut |
+| *"Starting or stress-testing a new bet / feature?"* | `product/handbook/de-risk-a-bet.md` → the stage skill for your moment |
+| *"Process this meeting / call transcript?"* | run `/process-meeting` — files transcript + summary, routes records, updates the ledger |
+| *"Something new worth keeping (thread, doc, fact)?"* | run `/context-update` — routes it by type, updates pages, navigation, and the ledger |
+| *"Is the repo healthy / what's stale?"* | run `/wiki-lint` → latest report in `governance/health/` |
+| *"What did customer Y say last call?"* | `product/customers/accounts/{Y}/calls/summaries/{latest}.md` → transcript only if the summary falls short |
+| *"Why did we choose Z?"* | `product/decisions/` → the dated decision file |
+| *"How do we calculate metric M?"* | `analytics/metrics/{area}/` → linked query → schema only if column-level detail needed |
+| *"Where's the data for X?"* | `analytics/data-catalog.yaml` → schema doc only if needed |
+| *"What does the code actually do for feature X (behavior, limits, is it live)?"* | `engineering/code-repos.yaml` → run `/code-qa` — concise PM-language answer, evidence on request |
+| *"What framework should I use for this strategy call?"* | `product/strategy/frameworks/` → the named framework |
+| *"How should I write this?"* | `product/handbook/writing-guides/{audience}.md` |
+| *"I'm new here"* | `os-installation/` → `first-session-checklist.md` |
+| *"A transcript / recording arrived — process it"* | paste or path → `/process-meeting`; integration drops land in `product-development/inbox/` → swept by `/context-update` |
+
+| Area | File | Description |
+|------|------|-------------|
+| Feature index | `product-development/feature-index.yaml` | The product map: areas → features catalog with durable facts (status, shipped date, description) — artifacts hang off initiative pages; links contract in `governance/link-schema.yaml` |
+| Toolchain | `product-development/toolchain.yaml` | Per-surface tool/approach choices plus live-connection records — nine surfaces (design grounding, user insights, ticketing, meeting transcripts, knowledge base, analytics, feature requests, team chat, calendar). Choices written by `/customize-os` (guided targets) and the OS Console (approach/system fields); `connection:` blocks written only by `/connect-mcps` after a tested connect; read by the consuming skills before they ask |
+| Initiatives | `product-development/product/initiatives/` | One living page per current work effort — status, artifacts, decisions, open loops in one place |
+| Governance | `governance/` | The admin surface — `CLAUDE.md` (system map), `write-policy.yaml` (tier registry + auto-sync switches), `link-schema.yaml` (the link registry: entities + required/optional links per artifact type), `write-back-contract.md`, `processed.txt` (ingestion ledger), `health/` (lint reports), `proposals/` (pending gated-change proposals) |
+| Write-back contract | `governance/write-back-contract.md` | Mandatory closing steps for every repo-writing skill — how files stay findable |
+| Data catalog | `product-development/analytics/data-catalog.yaml` | Warehouse table registry — owner, refresh, upstream, used-by |
+| **Business context** | `product-development/product/strategy/business-context/` | `business-info.md` — company, product, ICP, personas, pricing, market, values; `stakeholders.md` — stakeholder profiles and communication preferences; `segmentation-matrix.md` — account counts + ARR by vertical × size band × use-case category. Living masters: edit in place, keep current |
+| Product | `product-development/product/CLAUDE.md` | Product context, PRDs, customers, decisions |
+| PRDs | `product-development/product/PRDs/` | PRDs by product area, plus worked examples in `examples/` |
+| Customers | `product-development/product/customers/CLAUDE.md` | The tracked customers and their specifics — account context, calls, transcripts |
+| User insights | `product-development/product/user-insights/CLAUDE.md` | Everything learned from users — cross-interview syntheses, raw interviews, feature requests, interview guides, journey maps |
+| Competitive research | `product-development/product/competitive-research/CLAUDE.md` | Competitor matrix and per-competitor teardowns |
+| Strategy | `product-development/product/strategy/` | `current-quarter.md` (this quarter's OKRs), `roadmaps/`, `business-context/`, `frameworks/` |
+| Decisions | `product-development/product/decisions/CLAUDE.md` | Non-architectural decisions with reasoning |
+| Handbook | `product-development/product/handbook/` | How we work — `templates/` (blank scaffolds — copy, don't edit), `writing-guides/` (by audience), `de-risk-a-bet.md` (canonical bet chain) |
+| Meetings | `product-development/product/meetings/` | Meeting records — recurring series (standup, sprint planning, bi-weekly — rename to your cadences) + event meetings (`kickoff/`, `stakeholder-review/`, `workshop/`, `other/`), each docs / transcripts / summaries; `retros/` for retrospective writeups |
+| Engineering | `product-development/engineering/CLAUDE.md` | Implementation plans, code-repo registry + codebase maps — code grounding for `/code-qa` (worked example until real repos land) |
+| Analytics | `product-development/analytics/CLAUDE.md` | Metrics, queries, schemas, dashboards, experiments, investigations |
+| OS installation | `os-installation/` | Install guide, first-session checklist, Claude Code guides |
+| Reviewer personas | `.claude/agents/reviewers/` | Nine review lenses for `/product-brief-challenge`, `/strategy-sprint`, and `/micro-job-challenge` |
+| Inbox | `product-development/inbox/` | Integration drop zone — transcripts land here; sweeps gate them, `/process-meeting` files them to their canonical home |
+| Feature requests | `product-development/product/user-insights/feature-requests/` | One dated record per customer request — evidence, draft ticket, tracker push state; pushed by `/create-tickets push` |
+| Code repos | `product-development/engineering/code-repos.yaml` | Which repos implement the product — remote, coverage, entry points, deployed ref, access tier; optional SHA-stamped maps in `engineering/codebases/` |
+| Reports | `product-development/product/reports/` | Periodic rollups — weekly reviews, portfolio pulses, status updates, batch-day digests; writers split by filename prefix |
+| Planning | `product-development/product/planning/` | Daily plans + weekly priorities (`/daily-plan`, `/weekly-plan`); read back by `/weekly-review` for plan-vs-actual |
+| Launches | `product-development/product/launches/` | Filled launch checklists and gate records, one per INITIATIVE (`{initiative-slug}-launch-checklist.md`, `{initiative-slug}-gate-{date}.md`) — launches are launches of initiatives |
+| Documentation | `Documentation/` | The customer-facing documentation a team is sent — one self-contained site (`work-os-docs.html`, GitHub / Azure Repos switch), built from the single source in `src/content.js`. Gated. Change it with `/docs-update` (edit a specific thing, or `sync` to bring every stated fact back in line with the repo) |
+| OS Console | `os-console/` | Local web UI over this repo — friendly navigation, initiative grouping, steering/template management, setup + governance status, activity log. Run `python3 os-console/server.py` → http://127.0.0.1:4820, or with zero setup open `os-console/console.html` — a read-only snapshot (rebuilt on every push) that switches to the full console automatically when one is running. Derives everything from the canonical registries; saves respect the write policy and commit with the `console:` prefix |
+
+## Four Rules
+
+1. **Summaries first, raw data in subfolders.** A one-hour call becomes a 500-token summary in `summaries/`. Raw transcripts sit in `transcripts/` for when the summary isn't enough. Every level of nesting is a context-saving decision.
+2. **Every folder has a CLAUDE.md navigation file.** Update it when you add files — append new entries to the END of the list, never re-sort (re-sorting causes merge conflicts; only `/wiki-lint` re-orders, and only where duplicate entries collided).
+3. **The repo gets updated before a feature ships.** Run `/feature-launch-gate`. No exceptions. *"The feature is not rolled out until the repository is updated."* Between launches, `/wiki-lint` (weekly + on every PR) catches what slipped — it fixes the mechanical drift itself and lists everything else as plain-language suggestions for a person to approve.
+4. **Corrections become rules.** When the user corrects agent behavior or a durable takeaway surfaces, run the capture loop in `.claude/team-learnings.md` — generalize to the root cause, route by narrowest scope, propose through the write policy.
+
+## Governance
+
+- **Write policy** — `governance/write-policy.yaml` is the single authoritative registry of protected context, two tiers: **auto** (default — agents write and commit directly; with auto-sync on, each turn also lands on `main` — directly, or through a self-merging pull request when `main` is PR-only — and pushes to origin) and **gated** (steering files + system rules — approve the exact change at the native write prompt; automation never lands them on `main`: direct strategies hold them for you to land deliberately, the pr strategy keeps them on your branch until `/propose` opens the pull request an admin approves; headless runs file a proposal in `governance/proposals/` instead). Two modes — `/auto-sync on direct` (open `main`: non-gated pushed every turn, gated held for you) or `/auto-sync on pr` (pull-request-only `main`: branch per person, gated via `/propose`); `/auto-sync off`. Enforced by the write-guard and auto-commit hooks; audited weekly. Full map: `governance/CLAUDE.md`.
+- **One writer per surface** — table in `governance/write-back-contract.md`.
+- **Mirror rule** — the Fundamentals block above summarizes `business-info.md`; whoever changes one updates the other in the same change.
+- **Failure visibility** — an automation that can drop work must surface its own failure; a silent success-shaped exit is the bug.
+- **Commit prefixes** — `context:` for wiki folds and lint fixes; normal conventions otherwise.
+
+## Privacy Contract
+
+The following content lives in personal OSes only and is **never** committed to this team repo:
+
+- Personal context and working-preference files (`personal-context-*.md`, `working-preferences*.md`)
+- Career material — job-interview prep and interview debriefs
+- 1:1 notes with direct reports, coaching notes, performance feedback
+- Comp, equity, cap-table, and M&A discussions
+- Board memos and investor updates
+- API keys, warehouse credentials, and machine-local environment setup
+
+If you find any of these in this repo, treat it as an incident: revert the commit, rotate any leaked secrets, notify the owner.
+
+## Where Different Roles Check In Work
+
+| Role | Primary Folders | What to Check In |
+|------|----------------|------------------|
+| PM | `product/decisions/`, `product/customers/accounts/`, `product/PRDs/`, `product/strategy/` | Decision logs, call summaries, PRDs, strategy |
+| Engineer | `engineering/plans/`, `engineering/tech-constraints.md` | Implementation plans; tech constraints + do-not-re-implement registry |
+| Designer | `product/PRDs/` (rationale sections) | Design rationale, UX findings (design artifacts live in Figma, linked from the initiative page) |
+| Analyst | `analytics/metrics/`, `analytics/queries/`, `analytics/experiments/`, `analytics/investigations/` | Metric definitions, SQL, experiment results |
+| Strategy / Ops | `product/competitive-research/`, `product/strategy/`, `product/handbook/` | Competitive intel, vision docs, conventions |
+
+## Enforcement on the server (GitHub or Azure Repos)
+
+Admin, once, before the team starts: `os-installation/admin-setup-github.md` or `admin-setup-azure-devops.md` — two roles, `main` pull-request-only, gated paths need an OS-admin's approval (GitHub: ruleset + generated `.github/CODEOWNERS`; Azure: required-reviewer policy with the generated path filter). Day-to-day auto-tier work still lands on `main` by itself — with `/auto-sync on` in the pr strategy the hook opens and merges those pull requests. Background, the weekly lint Action, and the optional layers (GitHub push ruleset, classic branch protection): `os-installation/claude-code/scheduled-governance.md`.
+
+## Credits
+
+Authored and maintained by [SoftServe](https://www.softserveinc.com).
+
+Everything in this repository — the structural patterns (`feature-index.yaml`, `data-catalog.yaml`, product-area subfoldering, the SKILL.md folder convention), the skills, strategy frameworks, templates, and reviewer personas — is SoftServe intellectual property. Use as-is, not for resale, no guarantees. See [LICENSE](LICENSE).

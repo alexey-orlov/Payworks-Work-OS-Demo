@@ -1,0 +1,501 @@
+# Customization facts annex — /customize-os, target: context-core
+# The resume point, audit trail, and what re-runs diff against.
+# Every installed value traces to a source below. Quotes <=25 words.
+
+_updated: 2026-08-30
+_org: Payworks
+_mode: instance
+
+sources:
+  - id: S1
+    name: "Payworks Product Strategy (FY27)"
+    path: "~/Library/CloudStorage/OneDrive-SoftServe,Inc/Projects/Payworks AIPM Jumpstart/demo-build/sources-text/Payworks_Product_Strategy.txt"
+    kind: deck
+    dated: "FY27"
+    user-label: "FY27 strategy — arena, compounding mechanism, coupled bet, portfolio roles, refusals, FY27 test numbers"
+  - id: S2
+    name: "Product Vision"
+    path: ".../sources-text/Product Vision.txt"
+    kind: deck
+    dated: unstated
+    user-label: "problem, 7 personas, vision, intelligence layer, 6 product principles"
+  - id: S3
+    name: "Product Roadmap & Company"
+    path: ".../sources-text/Product_Roadmap & Company.txt"
+    kind: deck
+    dated: unstated
+    user-label: "company priorities, strategic initiatives, 24-month roadmap"
+  - id: S4
+    name: "Payworks Architecture & JTBD"
+    path: ".../sources-text/Payworks_Architecture_JTBD.txt"
+    kind: deck
+    dated: unstated
+    user-label: "the six modules, their capabilities, JTBD and pain points"
+  - id: S5
+    name: "Terminology Proposal (DRAFT)"
+    path: ".../sources-text/Terminology_Proposal_DRAFT.txt"
+    kind: doc
+    dated: "July 2026"
+    user-label: "DRAFT — For Review; renames UNDECIDED, current terms stand"
+  - id: S6
+    name: "Product Development Workflow SOP (DRAFT, revised)"
+    path: ".../sources-text/Product_Development_Workflow_SOP_revised (2)(DRAFT).txt"
+    kind: doc
+    dated: "2026-07-28"
+    user-label: "DRAFT — Proposed Revisions, unpublished; owner Product Operations"
+  - id: S7
+    name: "Product Roadmap Hub Maintenance SOP v1.2 (DRAFT)"
+    path: ".../sources-text/Product_Roadmap_Hub_Maintenance_SOP_v1.2 (DRAFT).txt"
+    kind: doc
+    dated: "July 2026"
+    user-label: "DRAFT; title says v1.2, metadata table says v1.1 — unresolved"
+  - id: S8
+    name: "Customer Base report August 2026"
+    path: "~/Library/CloudStorage/OneDrive-SoftServe,Inc/Projects/Payworks AIPM Jumpstart/payworks-files/Customer Base report_August_2026 (1).xlsx"
+    kind: export
+    dated: "2026-08 (snapshot 2026-08-31)"
+    user-label: >
+      Real customer base, 44,866 rows x 59 cols. AGGREGATES ONLY into the repo — no customer
+      names, IDs, parent companies, franchise brands, or staff names copied. Read from the
+      XLSX, not the .txt extraction (the .txt drops empty cells and misaligns columns past
+      ParentCompany).
+  - id: S9
+    name: "Competition landscape"
+    path: ".../sources-text/Competition landscape.txt"
+    kind: deck
+    dated: unstated
+    user-label: "EMPTY — title slide 'List Claude can leverage for research' plus five blank slides. No competitor named."
+  - id: chat
+    name: "Dispatcher brief"
+    path: "chat, 2026-08-30"
+    kind: doc
+    dated: "2026-08-30"
+    user-label: "org = Payworks, domain = payworks.ca, house vocabulary already settled"
+
+# Sources present in the folder but NOT consumed by context-core — parked for later targets.
+deferred-sources:
+  - path: ".../sources-text/ProductBrief_Companies_VP2.txt"
+    consuming-target: initiatives
+  - path: ".../sources-text/ProductBrief_FirmManagement_VP2.txt"
+    consuming-target: initiatives
+  - path: ".../sources-text/ProductBrief_PayrollHub_VP2 (3).txt"
+    consuming-target: initiatives
+  - path: ".../sources-text/JTBD- Companies VP2.txt"
+    consuming-target: initiatives
+  - path: ".../sources-text/Companies-VP2-BA-Handoff.txt"
+    consuming-target: initiatives
+  - path: ".../sources-text/MJ-01_Companies_VP2.txt … MJ-04_Companies_VP2.txt"
+    consuming-target: "initiatives (also candidate examples for job-spec-template derivation)"
+  - path: ".../sources-text/Payworks_AIPM_Session2.txt, AI PM Jumpstart Session 3 deck, Work OS admins deck"
+    consuming-target: "none — SoftServe's own decks; context, not client fact. Never sourced for client facts."
+
+items:
+  # ── company-basics ──────────────────────────────────────────────────────────
+  bi-basic-info:
+    status: filled
+    value: "Payworks; Canadian payroll & HR software (B2B SaaS); payworks.ca; Canada only, 13 jurisdictions; two Canadian data centres; SOC 1 & SOC 2"
+    quote: "Shared Canadian Database · Two Canadian Data Centres · SOC 1 & SOC 2 Certified · Zero Data Rekeying"
+    source-id: S4
+    note: >
+      Internal GAPs marked in-file: stage, founded year, headcount, revenue, funding, HQ city.
+      "25+ years" / "25 years of Canadian payroll ground truth" is an operating-history claim
+      (S4, S1) and was deliberately NOT converted into a founding year. Domain from chat.
+  bi-core-product:
+    status: filled
+    value: "Six-module Canadian payroll and HR suite on one shared database; evolving to an intelligent system of action; sub-products Aurora and Orbit Pulse"
+    quote: "We are evolving from Canada's most trusted system of record into an intelligent system of action"
+    source-id: S2
+  bi-product-categories:
+    status: filled
+    value: "Payroll · Human Resources · Time Management · Absence Management · Employee Self Service · Workforce Analytics; plus portfolio roles (retention floor / wallet-share expansion / correctness amplifiers)"
+    quote: "Six integrated modules. One shared database. Built for Canadian employers."
+    source-id: S4
+  fi-areas:
+    status: resolved
+    installed_by: initiatives
+    value: >
+      Six modules with their named capability groups, resolved verbatim from S4 slides 3,5,7,9,11,13.
+      Payroll (Company Setup / Processing / Outputs & Reporting / Integrations); Human Resources
+      (Employee Record / Lifecycle Tools / Organisation Config / Benefits Admin); Time Management
+      (Time Capture / Scheduling / Rules Engine / Availability & Requests); Absence Management
+      (Policy Config / Request Workflow / Accrual & Compliance / Reporting & Integration);
+      Employee Self Service (Pay & Documents / Personal Info / Time & Attendance / Leave);
+      Workforce Analytics (Pre-Built Collections / Custom Reporting PRO / Dashboards / Integrations).
+      Full capability lists in the S4 extraction. NOT written to feature-index.yaml by this target —
+      the catalog has one writer.
+    quote: "COMPANY SETUP · Pay Groups · Pay Elements (Earnings / Deductions / Benefits / Accruals) · Journal Entry & GL Accounts"
+    source-id: S4
+    note: "S4 states no status (planned/live/retired) and no shipped dates for any capability — the catalog seeding will need those from Payworks."
+  root-fundamentals:
+    status: filled
+    value: "H1 = 'Payworks — Team OS'; fundamentals block mirrors business-info.md; house-terms line added"
+    quote: "(derived — mirror rule)"
+    source-id: S1
+    note: "Mirror rule honoured: written in the same run as business-info.md; active-account total 43,550 agrees across root CLAUDE.md, business-info Key Metrics, and segmentation General matrix."
+
+  # ── customers ───────────────────────────────────────────────────────────────
+  bi-customer-segments:
+    status: filled
+    value: "Canadian businesses and their accountants; Canadian SMB payroll and HR workflow; franchisee operators 2–20+ locations; accountants/bookkeepers as channel"
+    quote: "We serve seven distinct personas across the Canadian SMB payroll and HR workflow"
+    source-id: S2
+  bi-icp:
+    status: filled
+    value: "Administrator/Owner at a Canadian SMB (median 13 employees, 93% under 100), all 13 jurisdictions, ON and QC first; accountants/bookkeepers decisive"
+    quote: "Concentrated first in Ontario and Québec, where the compliance moat has the most bite."
+    source-id: S1
+    note: "Size distribution computed from S8. Buying triggers, current solution, tech-stack requirement all GAP-marked in-file."
+  bi-personas:
+    status: filled
+    value: "Seven personas: Employee, Manager, Administrator, Business Owner, Franchisee Owner, Accountant, Bookkeeper — descriptors from S2, goals/pains from S4 role JTBD"
+    quote: "Each of these personas has different usage patterns, different moments of risk, and different definitions of \"done.\""
+    source-id: S2
+    note: >
+      S4 uses six role labels (Admin, Manager, Employee, Bookkeeper, Accountant, Owner) and never
+      says "Franchisee Owner" — so Franchisee Owner carries only the S2 descriptor and is GAP-marked
+      for goals/pains. Motivations and decision criteria are unstated for most personas. The
+      first-person lines in the file are S4's JTBD phrasing, labelled "Stated need", not invented quotes.
+
+  # ── value-prop ──────────────────────────────────────────────────────────────
+  bi-problem:
+    status: filled
+    value: "Disconnected systems that don't scale; 13 jurisdictions of distinct rules with Québec worst-handled; generalists without backup; missed remittance = real paycheques + personal liability"
+    quote: "Canadian businesses are managing payroll and HR in ways that don't scale."
+    source-id: S2
+  bi-solution:
+    status: filled
+    value: "One suite on one shared database plus an always-on, role-aware, grounded, transparent intelligence layer that does not decide or act unconfirmed"
+    quote: "It is the way the platform thinks alongside its users — a knowledgeable colleague looking over their shoulder"
+    source-id: S2
+  bi-uvp:
+    status: filled
+    value: "Correctness → trust → safe choice. Compounding mechanism Data → AI → Trust. Canadian compliance as home ground; service no competitor matches; channel lowers CAC"
+    quote: "25 years of Canadian payroll data feeds AI capability that produces correctness at scale, which compounds into trust"
+    source-id: S1
+    note: "The 'vs. each competitor' half is GAP-marked in-file — no competitor is named anywhere."
+
+  # ── strategy-goals ──────────────────────────────────────────────────────────
+  bi-mission:
+    status: filled
+    value: "Vision: become the platform that makes Canadian businesses feel like they have a full HR and payroll department"
+    quote: "Payworks is becoming the platform that makes Canadian businesses feel like they have a full HR and payroll department"
+    source-id: S2
+    note: "No labelled MISSION statement and no 3–5 year horizon exist — both GAP-marked in-file."
+  bi-okrs:
+    status: filled
+    value: "Arena, compounding mechanism, coupled bet (Aurora + A&B channel), portfolio roles, four strategic refusals"
+    quote: "Product and channel are one coupled bet, not two."
+    source-id: S1
+  q-objectives:
+    status: filled
+    value: "FY27 test: Ontario 6% share, Québec 3%, retention 94%+, multi-module 32→35%, Aurora live in market, AI attributed to revenue. Plus win-loss gaps 37% TM / 39% HR, NRR toward 105%+"
+    quote: "FY27 test: Ontario 6% share, Québec 3%, retention 94%+, multi-module 32→35%, Aurora live in market, AI attributed to revenue."
+    source-id: S1
+    note: "No owners named against any target; no baselines for share, retention or NRR. Both GAP-marked in-file. This is an ANNUAL frame — the sources contain no quarterly OKRs."
+  q-themes:
+    status: filled
+    value: "Four company priorities + five corporate strategic initiatives + the three portfolio themes"
+    quote: "Compete and win across Canada — delivering value, modernizing, and scaling with efficiency"
+    source-id: S3
+  q-inflight:
+    status: filled
+    value: "24 named roadmap items plus five shared foundations, grouped by module"
+    quote: "ROADMAP OVERVIEW Next 24 Months NOW NEXT LATER"
+    source-id: S3
+    note: >
+      CRITICAL CAVEAT recorded in-file: the deck's NOW/NEXT/LATER columns survive extraction but the
+      item-to-column mapping does NOT. No item was assigned a bucket. Nothing is asserted as
+      currently in flight.
+  q-notdoing:
+    status: filled
+    value: "Four strategic refusals + the four product-level bounds on the intelligence layer"
+    quote: "WHAT WE WILL NOT DO Compete on general-purpose HR feature count · chase enterprise upmarket · expand outside Canada · position AI as autonomous."
+    source-id: S1
+
+  # ── business-model ──────────────────────────────────────────────────────────
+  bi-revenue-model:
+    status: gap
+    value: "Per-module recurring billing is inferable from S8's per-module charge dates and run counts; Analytics has a Pro tier; channel/affinity program tags exist"
+    quote: "Better price-to-value fit  — Pricing & packaging"
+    source-id: S3
+    note: >
+      GAP because the substance of the section — pricing model, tiers, price points — is stated
+      NOWHERE. S8 has no revenue, price, or contract-value field. Close with a price book or
+      billing export.
+  bi-key-metrics:
+    status: filled
+    value: >
+      Retention 94%+ (FY27 bar); multi-module 32→35%; NRR toward 105%+; ON 6% / QC 3% share targets;
+      win-loss gaps 37% TM / 39% HR; 43,550 active accounts (computed, S8); module adoption rates
+      (computed, S8). KPI Framework three tiers + required fields from S6.
+    quote: "grows multi-module adoption 32→35% and NRR toward 105%+"
+    source-id: S1
+    note: >
+      ARR, ARPU, North Star, DAU/MAU, activation, NPS, CAC/LTV all GAP-marked in-file. The computed
+      multi-module figures (26.6% / 28.9%) are recorded as a DIFFERENT metric from the strategy's
+      32%, since Payworks' own definition is unstated.
+
+  # ── team-channels ───────────────────────────────────────────────────────────
+  root-team:
+    status: gap
+    value: "Eight role rows installed with Payworks' real role titles (VP PM, Senior Manager PM, Product Operations Manager, PM Lead, PM/APM, BA, Product Designer, Engineering); every name, handle, ID and escalation cell is [GAP] (master-template placeholders replaced 2026-08-30 after the verify step caught them)"
+    quote: "(withheld — S6/S7 name three individuals; not copied per the engagement's no-names rule)"
+    source-id: S6
+    note: "GAP because the item's substance is per-teammate identity, which no source supplies and which must not be invented."
+  root-slack:
+    status: gap
+    value: "Three channel purposes installed (product team, GTM, per-initiative); names and IDs [GAP]"
+    quote: "Check Slack for any updates that came in after the email (initiative channels, GTM channel, product team)."
+    source-id: S7
+    note: "Close with /connect-mcps once Slack is connected."
+  bi-communication:
+    status: filled
+    value: "Slack channels by purpose; weekly Outlook management email; Claude Project Context Pack as the write-back knowledge centre; Monday.com; intranet Hub; ShareFile/SharePoint"
+    quote: "Every question answered must be written back into the pack, not sent in Slack or email."
+    source-id: S6
+
+  # ── stakeholders ────────────────────────────────────────────────────────────
+  st-exec:
+    status: filled
+    value: "VP, Product Management (with Senior Manager PM constitutes 'Product Leadership', approves Product Brief + KPI Framework); VP of Product (roadmap escalation)"
+    quote: "\"Product Leadership Approval\" in this context refers to leadership sign-off on the Product Brief — not Value Package."
+    source-id: S6
+    note: >
+      Names [GAP] by design. CEO, VP Engineering and Head of Design appear in NO source and are
+      GAP-marked. Open ambiguity flagged in-file: 'VP, Product Management' vs 'VP of Product' may
+      be one role or two.
+  st-functional:
+    status: filled
+    value: "Senior Manager PM; Product Operations Manager; PM Lead; Design/Product Designer; Engineering/Dev — each with what they own and what they gate"
+    quote: "Designer owns the Dev-Ready Prototype."
+    source-id: S6
+    note: "Sales, Customer Success, Marketing and QA appear in no source — GAP-marked in-file, and flagged as material given the channel-led strategy."
+  st-ics:
+    status: filled
+    value: "PM/APM (owns every handoff artifact); Business Analyst as 'the exception engineer', not a requirements translator"
+    quote: "BA is the exception engineer — extending the exception list with implementation-level exceptions (database constraints, API limitations, legacy system quirks)"
+    source-id: S6
+  st-external:
+    status: filled
+    value: "Design Partners — 3–5 named external clients, biweekly co-creation calls, distinct from Early Access; plus the accountant & bookkeeper channel (2,983 tagged accounts)"
+    quote: "A small group of 3–5 named external clients who co-create with the product team before and during build."
+    source-id: S6
+    note: "Which firms/partners those are is [GAP] by design — no customer identities enter this repo."
+  st-comms:
+    status: filled
+    value: "Communication matrix built from stated cadences (per-VP approval gate, weekly management email, biweekly design partners, exception escalations) + SOP Appendix A1 ownership table"
+    quote: "This update is sent weekly to management team members. Reach out with questions or to flag updates between editions."
+    source-id: S7
+    note: "Neither SOP contains an actual RACI; the file says so rather than fabricating one."
+
+  # ── segmentation ────────────────────────────────────────────────────────────
+  seg-axes:
+    status: filled
+    value: "Size bands Micro 1–19 / Small 20–99 / Mid 100–499 / Large 500+ / Unknown; verticals = NAICS sector from Industry (top 10 + Other + Unclassified); categories = the six modules"
+    quote: "(computed from S8, active base, 43,335 accounts with EECount>0, nearest-rank: median 14, p75 34, p90 77, p95 126, p99 369)"
+    source-id: S8
+    note: >
+      Band thresholds are a RECOMMENDED DEFAULT, not a Payworks decision — no source states their
+      bands, and the OS template's SMB/Corp/Ent would file 97% of the base as SMB. Recorded as
+      Open — Other. EECount's own definition (current headcount vs employees paid YTD) is unstated.
+      CORRECTION 2026-08-30: the first draft quoted median 13 / p75 33 / p90 76 / p95 124 / p99 367,
+      which were computed on the RAW 44,866-row export before de-duplication and the active filter.
+      Caught by the verify step; recomputed on the active base and corrected in
+      segmentation-matrix.md, business-info.md and root CLAUDE.md.
+  seg-rules:
+    status: filled
+    value: "Account = one CustID (not one parent company); active = regular payroll within 12 months of the 2026-08-31 snapshot; 34 duplicate CustIDs de-duplicated; ARR unavailable"
+    quote: "(computed from S8)"
+    source-id: S8
+  seg-general:
+    status: filled
+    value: "43,550 active accounts across 12 vertical rows x 5 size bands. Excluded: 1,086 >24mo, 163 12–24mo, 15 future-dated, 18 never-run/unparseable"
+    quote: "(computed from S8)"
+    source-id: S8
+    note: >
+      ARR columns are [GAP] — S8 contains NO revenue, price, contract-value or billing-amount field.
+      Nothing was estimated or modelled. Unclassified vertical is 18.3% of the base (blank Industry)
+      and is kept as its own row rather than folded into Other.
+  seg-categories:
+    status: filled
+    value: "Five per-module matrices (ESS 42,547 · Analytics 12,230 · Time 8,163 · Absence 7,131 · HR 5,277) plus four multi-module definitions and a province cut"
+    quote: "(computed from S8)"
+    source-id: S8
+    note: >
+      The GRW flag (12,433 accounts, own charge date and run count) is UNMAPPED — the export never
+      defines it. 98% overlap with AnalyticsV2 is noted but not treated as identity.
+
+  # ── market-competition (all GAP) ────────────────────────────────────────────
+  bi-market-size:
+    status: gap
+    value: null
+    quote: null
+    source-id: null
+    note: "No TAM/SAM/SOM, market value, growth rate or trend figure in any source. Only the ON 6% / QC 3% FY27 share targets. Web-enrichable."
+  bi-competitive-landscape:
+    status: gap
+    value: >
+      One competitor named: Wagepoint, from the deferred Payroll Hub VP2 Product Brief — "the most
+      frequently cited competitor in win/loss conversations". No strategy or competitive document
+      names any rival; positioning is stated only relatively. Internal evidence: win-loss gaps
+      37% TM / 39% HR.
+    quote: "the primary reason our customers trust us over platforms that treat Canada as an afterthought"
+    source-id: S2
+    note: >
+      S9 ('Competition landscape' deck) is a title slide reading "List Claude can leverage for
+      research" plus five blank slides. Largest single gap. CORRECTION 2026-08-30: the first draft
+      claimed "no competitor is named in ANY source" — falsifiable, since Wagepoint appears in a
+      provided (deferred) initiative document. Claim narrowed and Wagepoint installed with its source.
+  cl-competitors:  {status: gap, note: "competitive-landscape.md not in this run's scope AND no competitor data exists. Web-enrichable once the target list is provided."}
+  cl-positioning:  {status: gap, note: "judgment content; needs the competitor list first. Never web-fillable."}
+  cl-thesis:       {status: gap, note: "the differentiation thesis IS resolved (compounding mechanism, in business-info UVP) but competitive-landscape.md was not written by this run."}
+  cl-winlose:      {status: gap, note: "partial internal evidence exists — 37% TM / 39% HR win-loss gaps, recorded in business-info. File not written by this run."}
+  cm-general:      {status: gap, note: "competitive-matrix.md not in this run's scope; needs the competitor list first."}
+
+  # ── gtm ─────────────────────────────────────────────────────────────────────
+  bi-sales-motion:
+    status: filled
+    value: "Channel-led through accountants and bookkeepers, coupled to Aurora; 2,983 tagged accounts (6.9%), thin in QC (86); GTM stage gates 1–4"
+    quote: "Accountants and bookkeepers are the distribution mechanism — how Canadian SMBs actually choose payroll. One firm brings a book of clients."
+    source-id: S1
+    note: "Deal cycle, ACV, sales-team structure all GAP-marked in-file."
+  bi-marketing:
+    status: gap
+    value: null
+    quote: null
+    source-id: null
+    note: >
+      No marketing or acquisition channel mix in any source. Affinity tags in S8 (Chamber 1,875,
+      CFIB 697, Chamber HR Plus 225) suggest association partnerships are a real motion, but no
+      source describes them as such — recorded as an observation, not a claim.
+
+  # ── product-dev ─────────────────────────────────────────────────────────────
+  bi-dev-process:
+    status: filled
+    value: >
+      Initiative → Value Package → Milestone → Micro-Job. Phase 1 + three Claude chats; gates =
+      Readiness Bar, Product Leadership Approval, four Pressure Tests, Translation Checkpoint.
+      DoD per artifact. Cadence 1–2 micro-jobs ahead of Dev. 7-phase Build Track + 4 GTM gates.
+      Tools: Monday.com, Claude Projects, intranet Hub, SharePoint/ShareFile, Slack/Outlook/Teams.
+      Includes the Document Naming Conventions table.
+    quote: "✓ CHECKPOINT: Product Brief and KPI Framework approved by Product Leadership. Do not begin Chat 2 until this is complete."
+    source-id: S6
+    note: >
+      Both SOPs are unpublished DRAFTs. All five artifact templates in S6 Appendix B are
+      '[PLACEHOLDER] — to be built by Product Ops'. Four child SOPs and the parent 'AI-First Product
+      Development Lifecycle — Team Overview (May 2026)' are referenced but were not provided.
+      No design tool is named (Figma absent); Jira/Confluence/Azure DevOps absent.
+  bi-team-structure:
+    status: filled
+    value: "Roles named (PM, APM, PM Lead, Product Leadership, Product Ops, BA, Designer, Dev, MGT Product, VP of Product) + Design Partners; two escalation ladders"
+    quote: "The AI PDLC defines distinct ownership for PM, Product Designer, and BA at every stage."
+    source-id: S6
+    note: "No headcount, no squads/pods, no reporting lines — GAP-marked in-file."
+
+  # ── culture ─────────────────────────────────────────────────────────────────
+  bi-values:
+    status: gap
+    value: null
+    quote: null
+    source-id: null
+    note: "No company values statement in any source. Nearest artifacts (four company priorities, six product principles) are not labelled as values and were not relabelled."
+  bi-principles:
+    status: filled
+    value: "Six product principles verbatim, plus the four product-level bounds on the intelligence layer"
+    quote: "These principles are the criteria against which we evaluate product decisions. When tradeoffs arise, they should guide us."
+    source-id: S2
+
+  # ── later-tier, other owners ────────────────────────────────────────────────
+  pm-all:
+    status: gap
+    value: >
+      Source material EXISTS but platform-model.md was not in this run's scope. Resolved from S4:
+      org structure (Companies / Divisions / Locations); Positions, Job Profiles & Group Codes;
+      Pay Groups; Pay Elements typed Earnings/Deductions/Benefits/Accruals; Time Off Types with
+      Company Default Presets and Assignment Templates; Union/Labour Relations; Benefit Plan Setup
+      & Rate Charts. Approvals: Run Schedule & Approval Workflow, Payroll Limits & Controls,
+      Manager Approve/Edit/Reject, ESS self-updates with configurable admin oversight.
+      Localization: English/French, FR limited in some ESS workflows; Québec via MRQ remittances
+      and RL-1 alongside CRA/T4. Compliance: SOC 1 & SOC 2, two Canadian data centres, provincial
+      ESA and stat-holiday rules.
+    quote: "Org structure (Companies / Divisions / Locations) · Positions, Job Profiles & Group Codes · Union / Labour Relations"
+    source-id: S4
+    note: "Owner is PM + Engineer. The annexed value above is install-ready — a short follow-up run can land it without re-extraction."
+  tc-all:
+    status: gap
+    value: null
+    quote: null
+    source-id: null
+    note: "Engineer-owned. No stack, API convention, NFR floor or do-not-re-implement material in any source."
+
+# Shared facts — settled ONCE, written to every consumer surface from this single value.
+facts:
+  company-product-oneliner:
+    value: "Payworks — a six-module Canadian payroll and HR suite on one shared database, for Canadian businesses and the accountants and bookkeepers who advise them"
+    source-id: "S1+S2+S4"
+    consumers-agree: [bi-basic-info, bi-core-product, root-fundamentals]
+  icp:
+    value: "Administrator and Owner at a Canadian SMB (median 13 employees, 93% under 100), 13 jurisdictions, ON and QC first; accountants/bookkeepers decisive"
+    source-id: "S1+S2+S8"
+    consumers-agree: [bi-icp, root-fundamentals]
+  problem-statement:
+    value: "Disconnected payroll/HR systems across 13 jurisdictions of distinct rules, carried by generalists without backup, where errors hit paycheques and create personal liability"
+    source-id: S2
+    consumers-agree: [bi-problem, root-fundamentals]
+  pricing-shape:
+    value: "GAP — per-module recurring subscription is the only inferable shape; no tiers or price points stated anywhere"
+    source-id: null
+    consumers-agree: [bi-revenue-model, root-fundamentals]
+  arr:
+    value: "GAP — no revenue figure in any source; the customer base export has no revenue field. Account total used instead: 43,550 active accounts"
+    source-id: S8
+    consumers-agree: [bi-key-metrics, root-fundamentals, seg-general]
+    mirror-check: "43,550 identical in root CLAUDE.md fundamentals, business-info Key Metrics, segmentation General matrix total — verified 2026-08-30"
+  north-star:
+    value: "GAP — none labelled. Candidates: client retention rate / revenue impact / NPS (KPI Tier 1 examples); FY27 bar retention 94%+"
+    source-id: S6
+    consumers-agree: [bi-key-metrics, root-fundamentals]
+  competitor-list:
+    value: >
+      Wagepoint only, sourced from the deferred Payroll Hub VP2 Product Brief. No strategy or
+      competitive document names any rival; the competition deck is empty. Full landscape = GAP.
+    source-id: "S9 (empty) + deferred ProductBrief_PayrollHub_VP2"
+    consumers-agree: [bi-competitive-landscape, cl-competitors, cm-general, root-fundamentals]
+  quarter-focus:
+    value: "FY27 — the coupled bet: AI-native payroll (Aurora) scaled through the accountant & bookkeeper channel, concentrated in Ontario and Québec"
+    source-id: S1
+    consumers-agree: [q-themes, root-fundamentals]
+  segments:
+    value: "Size bands Micro/Small/Mid/Large by EECount; verticals = NAICS sector; province as a strategy-critical extra axis"
+    source-id: S8
+    consumers-agree: [bi-customer-segments, seg-axes]
+  product-areas:
+    value: "Six MODULES (Payworks' word, not 'areas'): Payroll · Human Resources · Time Management · Absence Management · Employee Self Service · Workforce Analytics"
+    source-id: S4
+    consumers-agree: [bi-product-categories, fi-areas]
+
+# Conflicts the precedence rules settled — disclosed, never resolved silently.
+conflicts-settled:
+  - item: "Terminology — Micro-Job vs 'Feature Unit', JTBD vs 'Problem Statement'"
+    winner: "current terms (Micro Job, JTBD) — S5 is an unapproved DRAFT with zero decision boxes checked"
+    loser: "S5's proposed renames"
+    rule: "a decided state beats a proposal; the dispatcher confirmed the renames are UNDECIDED"
+  - item: "Module short vs full names (ESS/Analytics vs Employee Self Service/Workforce Analytics)"
+    winner: "full names (S4 slides 11–15)"
+    loser: "slide 1–2 shorthand"
+    rule: "not a conflict — shorthand; full names used, short forms noted"
+  - item: "Roadmap Hub SOP version"
+    winner: "unresolved — recorded as stated"
+    loser: null
+    rule: "title block says v1.2, metadata table and footer say v1.1; both recorded rather than picked"
+  - item: "'Product Leadership Approval' rename status"
+    winner: "recorded as both — S5 Sections 1–2 tag it '← PROPOSED' while Section 4 says 'Complete — already done'"
+    loser: null
+    rule: "internal contradiction in one source; surfaced, not resolved"
+  - item: "Customer base file — .txt extraction vs .xlsx"
+    winner: ".xlsx (S8)"
+    loser: "the .txt extraction in sources-text/"
+    rule: >
+      the .txt drops empty cells, leaving 39–57 fields against a 59-column header and misaligning
+      every column past ParentCompany. The XLSX preserves cell references. Aggregating from the
+      .txt would have produced silently wrong numbers.

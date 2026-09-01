@@ -1,0 +1,18 @@
+# Claude Code Guides
+
+Advanced Claude Code techniques, beyond the basics in the install guide.
+
+**Read this when:** You are getting more out of Claude Code than the basics.
+
+## Contents
+
+### Files
+
+- [building-custom-agents.md](building-custom-agents.md) — Authoring subagents with persistence and specialization
+- [context-management.md](context-management.md) — Keeping the context window useful on long sessions
+- [parallel-agents-guide.md](parallel-agents-guide.md) — Running agents concurrently instead of sequentially
+- [plan-mode-best-practices.md](plan-mode-best-practices.md) — When to use plan mode and how to get good plans
+- [prompt-testing-guide.md](prompt-testing-guide.md) — Reference techniques for optimizing prompts
+- [ralph-wiggum.md](ralph-wiggum.md) — Autonomous iterative loops (the "Ralph Wiggum" technique / official plugin) for long-running Claude Code work
+- [scheduled-governance.md](scheduled-governance.md) — Enforcement once the repo is on GitHub: push ruleset for gated paths, the wiki-lint Action (PR check + weekly health issue), branch protection for gated system changes, capture integrations via the inbox, and the weekly-digest runner (single-runner rule)
+- [code-access.md](code-access.md) — Granting sessions read access to product repos: additionalDirectories in the gitignored settings.local.json, read-only deny rules, clone flags, the headless workspace-trust gotcha, and remote fallbacks
