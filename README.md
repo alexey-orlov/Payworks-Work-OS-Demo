@@ -1,4 +1,4 @@
-﻿# Team OS
+# Team OS
 
 A shared knowledge base for a product team — structured so both humans and AI agents can find things without searching.
 

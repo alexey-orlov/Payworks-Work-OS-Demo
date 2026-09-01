@@ -1,4 +1,4 @@
-﻿# Segmentation Matrix
+# Segmentation Matrix
 
 _updated: 2026-08-30 · snapshot: 2026-08-31 (August 2026 Customer Base report) · owner: [GAP: assign an owner]
 

@@ -1,4 +1,4 @@
-﻿# Write-Back Contract
+# Write-Back Contract
 
 Every skill that writes a file into this repo closes the loop in the same way. This file is
 the contract's source of truth; each writing skill carries a short "Write-back (mandatory)"

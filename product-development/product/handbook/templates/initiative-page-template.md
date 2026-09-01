@@ -1,4 +1,4 @@
-﻿---
+---
 status: exploring
 note: "[one line: where this stands right now]"
 updated: [YYYY-MM-DD]

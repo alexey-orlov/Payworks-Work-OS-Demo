@@ -1,4 +1,4 @@
-﻿# Tech Constraints — the build realities every job spec must respect
+# Tech Constraints — the build realities every job spec must respect
 
 The engineering facts a requirements doc can't guess: stack and conventions, hard platform limits, and the registry of things that already exist and must not be re-implemented. `/micro-job-draft` matches every draft against this file (its Constraints and Engineering-confirmations sections cite it); `/micro-jobs-breakdown` reads it when sequencing. Unfilled sections make those skills mark output `[GAP: tech constraints unfilled — feasibility unverified]`.
 

@@ -1,4 +1,4 @@
-﻿# /ralph-wiggum
+# /ralph-wiggum
 
 **Purpose:** Run autonomous iterative loops until a task is completely and accurately done
 

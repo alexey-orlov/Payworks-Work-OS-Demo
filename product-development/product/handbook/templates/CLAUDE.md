@@ -1,4 +1,4 @@
-﻿# Templates
+# Templates
 
 Blank templates with bracketed placeholders. Copy, do not edit in place.
 

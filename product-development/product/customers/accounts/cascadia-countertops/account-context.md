@@ -35,5 +35,5 @@ initiatives: [performance-management-discovery]
 
 ## History
 
-- 2026-07-22 — Prototype review, employee and manager surfaces: the mobile gate, dollar-value merit increases, and the CEO approval chain in detail → [source record](../../../../inbox/payworks-source-material/2026-07-22-cascadia-countertops-interview-2.vtt) *(staged — summary lands when `/process-meeting` files it)*
-- 2026-07-15 — Discovery interview + HR-admin prototype review: credential tracking, the Competency Evaluation Map, and the missing analytics module → [source record](../../../../inbox/payworks-source-material/2026-07-15-cascadia-countertops-interview-1.txt) *(staged)*
+- 2026-07-22 — Prototype review, employee and manager surfaces: the mobile gate, dollar-value merit increases, and the CEO approval chain in detail → [transcript](../../../user-insights/transcripts/2026-07-22-cascadia-countertops-interview.md) · [session report](../../../user-insights/2026-07-22-interview-insights.md)
+- 2026-07-15 — Discovery interview + HR-admin prototype review: credential tracking, the Competency Evaluation Map, and the missing analytics module → [transcript](../../../user-insights/transcripts/2026-07-15-cascadia-countertops-interview.md)

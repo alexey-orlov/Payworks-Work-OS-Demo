@@ -14,7 +14,7 @@ tag-amendments: []
 Raw material, immutable. Customer-side speakers appear under role tokens; the record was
 anonymized on import. Corrections belong in the summary, never here.
 
-**Summary:** [../2026-07-15-interview-insights.md](../2026-07-15-interview-insights.md)
+**Summary:** ../2026-07-15-interview-insights.md `[GAP: session report not written — re-run `/process-meeting` on this transcript]`
 **Filed from:** `product-development/inbox/payworks-source-material/2026-07-15-cascadia-countertops-interview-1.txt`
 
 WEBVTT

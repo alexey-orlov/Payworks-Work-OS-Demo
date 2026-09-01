@@ -1,4 +1,4 @@
-﻿# Product map — the AREAS → FEATURES catalog. The durable half of the product graph.
+# Product map — the AREAS → FEATURES catalog. The durable half of the product graph.
 #
 # Structure: areas: → {area-slug} → features: → {feature-slug} → durable facts.
 # An area is a product in a multi-product business, or a large functional section of

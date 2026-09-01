@@ -1,4 +1,4 @@
-﻿# PRDs
+# PRDs
 
 Product requirements documents, subfoldered by product area. **Files key by INITIATIVE
 slug** — one PRD per initiative (`{initiative-slug}-product-brief.md`), filed under the initiative's

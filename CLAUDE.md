@@ -1,4 +1,4 @@
-﻿# Payworks — Team OS
+# Payworks — Team OS
 
 Your team's shared knowledge base. Every document, decision, metric definition, and customer insight lives in a structure that AI agents and humans can query.
 

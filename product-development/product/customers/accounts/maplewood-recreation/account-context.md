@@ -36,4 +36,4 @@ initiatives: [performance-management-discovery, employee-onboarding]
 
 ## History
 
-- 2026-07-08 — Discovery interview + prototype review with the HR business partner and the payroll manager: board/executive compensation split, the PDF rollback, and the closing onboarding/offboarding exchange → [source record](../../../../inbox/payworks-source-material/2026-07-08-maplewood-recreation-interview.vtt) *(staged — summary lands when `/process-meeting` files it)*
+- 2026-07-08 — Discovery interview + prototype review with the HR business partner and the payroll manager: board/executive compensation split, the PDF rollback, and the closing onboarding/offboarding exchange → [transcript](../../../user-insights/transcripts/2026-07-08-maplewood-recreation-interview.md) · [session report](../../../user-insights/2026-07-08-interview-insights.md)

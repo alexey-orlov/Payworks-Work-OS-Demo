@@ -1,10 +1,10 @@
-﻿---
+---
 status: active
 note: "Cross-module scoping — origin evidence is one customer artifact and a 45-second exchange; the offboarding half is still owed"
 updated: 2026-08-31
 owner: "Claire Sutton"
 areas: [onboarding, human-resources, payroll, employee-self-service]
-features: []
+features: [onboarding-checklists, employee-records, remote-onboarding-tasks, offboarding, roe-and-year-end]
 customers: [maplewood-recreation]
 ---
 
@@ -31,7 +31,7 @@ customers: [maplewood-recreation]
 
 ## Sources
 
-- [2026-07-08 Maplewood Recreation interview](../../inbox/payworks-source-material/2026-07-08-maplewood-recreation-interview.vtt) — the origin exchange, at the very end of the call
+- [2026-07-08 Maplewood Recreation interview](../user-insights/transcripts/2026-07-08-maplewood-recreation-interview.md) — the origin exchange, at the very end of the call
 - Maplewood's onboarding process map (Excel, emailed to Margaret Foster) — **not in the repo**; hold the file until it can be folded in through `/context-update`
 - [customers/accounts/maplewood-recreation](../customers/accounts/maplewood-recreation/account-context.md) — the account, its seasonal workforce and its ROE volume
 - [strategy/current-quarter.md](../strategy/current-quarter.md) — HR 2.0 on the roadmap and the 39% HR win-loss gap
@@ -45,7 +45,7 @@ customers: [maplewood-recreation]
 - Micro Jobs Breakdown: -
 - Micro Jobs: -
 - Impact sizing: -
-- User insights: -
+- User insights: [2026-07-08 session report](../user-insights/2026-07-08-interview-insights.md) — the origin exchange
 - Competitive analysis: -
 - Pre-mortem: -
 - Eng plan: -
@@ -69,6 +69,7 @@ customers: [maplewood-recreation]
 
 ## Activity
 
+- 2026-08-13 — Northwind named onboarding unprompted in the last four minutes of a follow-up call — the second account to raise it, and the first to name Employee Self Service as the half that matters ([summary](../customers/accounts/northwind-landscaping/calls/summaries/2026-08-13.md))
 - 2026-08-31 — Initiative page created; origin recorded from the Maplewood record with the evidence limits stated on the page.
-- 2026-07-08 — Origin: the Maplewood onboarding/offboarding exchange; onboarding process map received, offboarding map promised.
+- 2026-07-08 — Origin: the Maplewood onboarding/offboarding exchange; onboarding process map received, offboarding map promised. ([session report](../user-insights/2026-07-08-interview-insights.md))
 - 2026-08-26 — Two decisions made at internal product sync: onboarding reuses expense VP2 MJ-01 profile foundation (pre-hire state + named extension point added); pilot scoped to ESS only targeting November. ([summary](../meetings/other/summaries/2026-08-26-internal-product-sync.md))

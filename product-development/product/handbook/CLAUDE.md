@@ -1,4 +1,4 @@
-﻿# Handbook
+# Handbook
 
 How we work: blank templates, team writing conventions, and the canonical de-risk chain. Reference material only — records of work live elsewhere (filled launch checklists in [../launches/](../launches/), rollups in [../reports/](../reports/)).
 

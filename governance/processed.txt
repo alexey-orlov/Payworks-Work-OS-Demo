@@ -1,4 +1,4 @@
-product-development/product/user-insights/transcripts/2026-08-27-northwind-landscaping-call.md
+product-development/product/meetings/other/transcripts/2026-08-26-internal-product-sync.md
 product-development/product/user-insights/transcripts/2026-06-22-northwind-landscaping-interview-1.md
 product-development/product/user-insights/transcripts/2026-06-22-northwind-landscaping-interview-2.md
 product-development/product/user-insights/transcripts/2026-06-22-northwind-landscaping-interview-3.md
@@ -14,5 +14,5 @@ product-development/product/user-insights/transcripts/2026-08-05-northwind-lands
 product-development/product/user-insights/transcripts/2026-08-12-harbourview-grocers-interview.md
 product-development/product/user-insights/transcripts/2026-08-13-northwind-landscaping-call.md
 product-development/product/user-insights/transcripts/2026-08-18-birchbark-books-call.md
-product-development/product/meetings/other/transcripts/2026-08-26-internal-product-sync.md
 product-development/product/user-insights/transcripts/2026-08-20-acme-corp-call.md
+product-development/product/user-insights/transcripts/2026-08-27-northwind-landscaping-call.md

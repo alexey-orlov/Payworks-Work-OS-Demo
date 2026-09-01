@@ -1,4 +1,4 @@
-﻿---
+---
 initiatives: [expense-management-vp2]
 areas: [expense-management]
 ---

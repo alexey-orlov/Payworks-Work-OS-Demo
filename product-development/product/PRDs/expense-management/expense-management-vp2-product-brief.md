@@ -1,4 +1,4 @@
-﻿---
+---
 initiatives: [expense-management-vp2]
 areas: [expense-management]
 customers: [northwind-landscaping, acme-corp, birchbark-books]
@@ -152,7 +152,7 @@ Expense Management (A/B 2.0) is named on the FY27 24-month roadmap under Account
 
 If we let a claimant capture a receipt *and its site code* at the point of purchase on a phone, then the finance-side coding effort per claim will fall far enough to remove the month-end keying block (2.5 days at Northwind) and the claim-to-paid interval will fall from weeks to one pay cycle, because the only moment the site is reliably known is the moment the person is standing at it.
 
-**Key hypotheses** — full inventory in [`reviews/expense-management-vp2-assumption-map.md`](reviews/expense-management-vp2-assumption-map.md) once it exists.
+**Key hypotheses** — full inventory in [PENDING: reviews/expense-management-vp2-assumption-map.md — run /assumption-map] once it exists.
 
 | Hypothesis | Risk lens | Confidence | Validation route | Priority |
 |------------|-----------|------------|------------------|----------|

@@ -1,10 +1,11 @@
-﻿# Customization Status — Payworks
+# Customization Status — Payworks
 
 ---
-updated: 2026-08-30
+updated: 2026-09-01
 mode: "instance"
 naming: "house — PRD→Product Brief, job spec→Micro Job, jobs breakdown→Micro Jobs Breakdown, area→module (mapped 2026-08-30)"
 auto-sync: "undecided"
+command-aliases: "product-brief-draft→prd-draft · product-brief-challenge→prd-challenge · micro-jobs-breakdown→jobs-breakdown · micro-job-draft→job-spec-draft · micro-job-challenge→job-spec-challenge · pm-ba-handoff→pm-handoff (installed 2026-09-01 as .claude/commands/ aliases; skill folders keep their OS names so master updates still apply)"
 ---
 
 ## Sequence
@@ -16,9 +17,10 @@ auto-sync: "undecided"
 | 3 | `design-system` | not started | — |
 | 4 | `research-source` | not started | — |
 | 5 | `demo-readiness` | not started | — |
-| 6 | `naming-conventions` | not started | House terms are RECORDED in the header and installed in business-info's Document Naming Conventions block, but the repo-wide sweep has NOT run |
+| 6 | `naming-conventions` | **installed** | Corrected 2026-09-01: the row said `not started`, but the sweep had in fact run — house terms are in repo prose and six skill folders had been renamed by hand. The hand rename was a fork; it is replaced by `.claude/commands/` aliases (header above), so `/product-brief-draft` and the other five resolve while the skill folders keep their OS names |
 | 7 | `prd-template` · `micro-jobs-breakdown-template` · `job-spec-template` | not started | Owned by a separate run. Real Payworks examples exist — see Deferred sources |
 | 8 | `metric-conventions` | **complete** | KPI Framework (three tiers + required fields) installed into business-info's Metric Reporting Conventions block from the workflow SOP |
+| 9 | `instance-handoff` | **passed 2026-09-01** | Mechanical lint clean (0 errors); `.claude/` + `.github/` restored and tracked after a web-upload delivery dropped all 116 dotfiles; every slash command named in repo prose resolves; state file reconciled against the tree |
 | — | auto-sync close | not started | Deliberately not run this session — the dispatcher handles it |
 
 ## Deferred sources
@@ -91,6 +93,22 @@ Parked, not dropped. Each will be consumed by the target named.
 
 - **Log:**
   - 2026-08-30 (alexey-orlov) — First run. Read the playbook and manifest; labelled 10 sources; dispatched three `context-extractor` batches over the strategy/vision/roadmap, architecture/terminology, and SOP documents; aggregated the customer base workbook directly from XLSX after finding the `.txt` extraction column-misaligned. Installed five steering surfaces plus the facts annex. Coverage 31 filled · 1 resolved · 14 GAP of 46. Auto-sync close deliberately skipped (handled by the dispatcher). Nothing committed.
+  - 2026-09-01 (alexey-orlov) — Audit repair pass. Restored the runtime layer lost in delivery
+    (`.claude/` — 60 skills, agents, hooks, settings — plus `.github/` workflows and scripts; the
+    GitHub web upload had dropped every dotfile). Installed six `.claude/commands/` aliases for the
+    house command names instead of re-forking skill folders. Repaired the data the write-back
+    contract had never been enforced against: 32 byte-order marks stripped (they made frontmatter
+    parse as empty), 5 transcripts that filing had COPIED rather than moved removed from the inbox,
+    all 10 Northwind conversations relinked from the account page (8 links had been dead), 18
+    artifact→initiative joins written including the 2026-08-13 call that touches three initiatives
+    and had reached none of them, 2 `[PENDING:]` markers replaced with the files that already
+    existed, 7 folder contents lists created and 88 nav lines appended, 7 mis-counted relative paths
+    repaired, and 21 links to records that were never filed replaced with honest `[GAP:]` markers
+    rather than invented content. `employee-onboarding` now names its 5 target features, so the
+    feature→initiative rollup works. Lint: 141 errors → 0. Five warnings remain and are deliberate:
+    three competitive pages cite staged source briefs (needs a decision on a durable home for source
+    documents), three artifact filenames use house terms rather than the canonical chain suffixes,
+    and CODEOWNERS still has a placeholder owner.
   - 2026-08-30 (alexey-orlov) — Verify step (fresh-context agent, independent re-derivation of every computed figure). Manifest coverage and shared-fact agreement passed; five defects found and fixed: (1) EECount percentiles had been computed on the raw export instead of the active base — median 13→14, p75 33→34, p90 76→77, p95 124→126, p99 367→369, corrected in three files; (2) province rollup PE/NF/YT/NU/NT 954→955, and a total row added so the table reconciles to 43,550; (3) distinct franchise brands ~90→35; (4) master-template placeholders (`[github]`, `[slack-id]`, `[phone or page link]`, `[id]`, `#[…]`) still sitting in the root Team and Slack tables, replaced with `[GAP]`; (5) the claim "no competitor is named in any source" was falsifiable — **Wagepoint** appears in a provided (deferred) Product Brief; claim narrowed and Wagepoint installed with its source. Also noted the one repaired source typo in the `Other Services (except Public Administration` label. Every other number re-derived exactly.
 
 ## Data handling note

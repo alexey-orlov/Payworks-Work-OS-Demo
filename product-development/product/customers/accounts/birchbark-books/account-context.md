@@ -7,12 +7,13 @@ initiatives: []
 
 # Birchbark Books & Accounting (birchbark-books) — Account Context
 
-> **Synthetic account — no research records behind it.** Birchbark is a composite
-> bookkeeping practice, created so the **Accountant** and **Bookkeeper** personas — half
-> the FY27 strategy, and the channel that "brings a book of clients" — have a customer
-> voice in this repo instead of appearing only in strategy documents. Nothing on this
-> page is a customer quote, and no History line points at a transcript, because there
-> are none.
+> **Synthetic account, now with one real record.** Birchbark is a composite bookkeeping
+> practice, created so the **Accountant** and **Bookkeeper** personas — half the FY27
+> strategy, and the channel that "brings a book of clients" — have a customer voice in
+> this repo instead of appearing only in strategy documents. **The firmographics below
+> are still illustrative** — treat them as the shape of the practice, not as findings.
+> The 2026-08-18 channel research call in History IS a filed research record, and
+> anything sourced to it is evidence like any other.
 
 ## Who they are
 
@@ -28,4 +29,4 @@ initiatives: []
 
 ## History
 
-- No calls or interviews on record. This account is synthetic and carries no transcripts; if a real conversation ever lands, file it through `/process-meeting` and this section starts for real.
+- 2026-08-18 — Channel research call with the Firm Principal and Senior Bookkeeper — framed explicitly as research, not sales. Cross-client expense visibility, firm templates, receipt retention and advance change notice → [summary](calls/summaries/2026-08-18.md) · [transcript](../../../user-insights/transcripts/2026-08-18-birchbark-books-call.md)

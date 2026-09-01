@@ -7,12 +7,14 @@ initiatives: []
 
 # Acme Corp (acme-corp) — Account Context
 
-> **Synthetic account — no research records behind it.** Acme Corp is the worked example
+> **Synthetic account, now with one real record.** Acme Corp began as the worked example
 > Payworks uses in its own proposal material: a 75-employee Canadian business with one HR
 > Manager and one Payroll Administrator. It exists here so the **Administrator** and
 > **Manager** personas have a small, uncomplicated customer voice to speak through,
-> against a design-partner set that skews large and multi-site. Nothing on this page is
-> a customer quote, and no History line points at a transcript, because there are none.
+> against a design-partner set that skews large and multi-site. **The firmographics below
+> are still illustrative** — treat them as the shape of the account, not as findings. The
+> 2026-08-20 expense discovery call in History IS a filed research record, and anything
+> sourced to it is evidence like any other.
 
 ## Who they are
 
@@ -30,4 +32,4 @@ initiatives: []
 
 ## History
 
-- No calls or interviews on record. This account is synthetic and carries no transcripts; if a real conversation ever lands, file it through `/process-meeting` and this section starts for real.
+- 2026-08-20 — Expense discovery call, account-initiated after expenses came up twice on the quarterly check-in — a listening call, nothing demoed. Receipt formats, approval thresholds, reminders and pay-statement detail, from the HR Manager and Payroll Administrator → [summary](calls/summaries/2026-08-20.md) · [transcript](../../../user-insights/transcripts/2026-08-20-acme-corp-call.md)

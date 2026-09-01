@@ -1,4 +1,4 @@
-﻿# Link Schema — the one registry of entities and the links every artifact type carries.
+# Link Schema — the one registry of entities and the links every artifact type carries.
 #
 # This file is to LINKS what write-policy.yaml is to WRITES: the single authoritative
 # registry, read by everything that enforces or resolves them:

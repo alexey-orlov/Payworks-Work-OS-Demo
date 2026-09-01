@@ -9,3 +9,4 @@ Dated repo-health reports, newest last. Written only by `/wiki-lint` (single-wri
 ### Files
 
 _Empty. `/wiki-lint` appends a line here for every report it writes._
+- [wiki-lint-stale-fixture.md](wiki-lint-stale-fixture.md) — Deliberate Stale Item — Wiki-Lint Demo Fixture — This file records one deliberately stale nav entry introduced so that /wiki-lint has

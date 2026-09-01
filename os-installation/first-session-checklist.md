@@ -1,4 +1,4 @@
-﻿# First Session Checklist
+# First Session Checklist
 
 Verify your Team OS is working perfectly.
 

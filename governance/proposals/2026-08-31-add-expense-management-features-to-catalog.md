@@ -53,6 +53,6 @@ apply with an in-session yes.
 
 ## Related
 
-- [expense-management-vp1](../product-development/product/initiatives/expense-management-vp1.md)
-- [expense-management-vp2](../product-development/product/initiatives/expense-management-vp2.md)
-- [2026-08-06-expense-approval-threshold](../product-development/product/decisions/2026-08-06-expense-approval-threshold.md)
+- [expense-management-vp1](../../product-development/product/initiatives/expense-management-vp1.md)
+- [expense-management-vp2](../../product-development/product/initiatives/expense-management-vp2.md)
+- [2026-08-06-expense-approval-threshold](../../product-development/product/decisions/2026-08-06-expense-approval-threshold.md)

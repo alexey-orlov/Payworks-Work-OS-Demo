@@ -17,8 +17,8 @@ Two consequential decisions were made and ratified on the record. First, employe
 
 ## Decisions Made
 
-1. **Onboarding reuses expense VP2 employee profile foundation (MJ-01)** — see [decisions/2026-08-26-onboarding-profile-foundation.md](../../decisions/2026-08-26-onboarding-profile-foundation.md)
-2. **Onboarding pilot scoped to Employee Self Service only** — see [decisions/2026-08-26-onboarding-pilot-ess-scope.md](../../decisions/2026-08-26-onboarding-pilot-ess-scope.md)
+1. **Onboarding reuses expense VP2 employee profile foundation (MJ-01)** — see [decisions/2026-08-26-onboarding-profile-foundation.md](../../../decisions/2026-08-26-onboarding-profile-foundation.md)
+2. **Onboarding pilot scoped to Employee Self Service only** — see [decisions/2026-08-26-onboarding-pilot-ess-scope.md](../../../decisions/2026-08-26-onboarding-pilot-ess-scope.md)
 
 ## Action Items
 

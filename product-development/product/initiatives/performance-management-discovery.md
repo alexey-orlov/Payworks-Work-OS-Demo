@@ -45,7 +45,7 @@ customers: [northwind-landscaping, harbourview-grocers, maplewood-recreation, ca
 - Micro Jobs Breakdown: [performance-management-discovery-micro-jobs-breakdown.md](../PRDs/performance-management/performance-management-discovery-micro-jobs-breakdown.md) — 4 active jobs + 1 deferred; Draft; 2026-08-31
 - Micro Jobs: -
 - Impact sizing: -
-- User insights: [performance-management-2026-08-31.md](../user-insights/performance-management-2026-08-31.md) — cross-interview synthesis, 13 records, 4 accounts
+- User insights: [performance-management-2026-08-31.md](../user-insights/performance-management-2026-08-31.md) — cross-interview synthesis, 13 records, 4 accounts; per-session reports: [2026-06-22](../user-insights/2026-06-22-interview-insights.md) · [2026-06-23](../user-insights/2026-06-23-interview-insights.md) · [2026-06-24](../user-insights/2026-06-24-interview-insights.md) · [2026-07-08](../user-insights/2026-07-08-interview-insights.md) · [2026-07-10](../user-insights/2026-07-10-interview-insights.md) · [2026-07-22](../user-insights/2026-07-22-interview-insights.md)
 - Competitive analysis: -
 - Pre-mortem: -
 - Eng plan: -
@@ -72,12 +72,13 @@ customers: [northwind-landscaping, harbourview-grocers, maplewood-recreation, ca
 - 2026-08-31 — Product Brief drafted at Planning Review stage (`performance-management-discovery-product-brief.md`); assumption map created with 5 rated hypotheses (`performance-management-discovery-assumption-map.md`). Status: Draft.
 - 2026-08-31 — Cross-interview synthesis filed (`performance-management-2026-08-31.md`); all 13 records filed to transcript archive.
 - 2026-08-31 — Initiative page created; the thirteen-record corpus and the four accounts registered against it.
+- 2026-08-13 — Northwind follow-up call: two open loops closed on the review pilot; the call also opened an unplanned onboarding thread in its final four minutes ([summary](../customers/accounts/northwind-landscaping/calls/summaries/2026-08-13.md))
 - 2026-08-12 — Harbourview prototype review: the wage ladder, and the finding that their increases are automatic and rating-independent.
-- 2026-08-05 — Northwind reverse demo: the full merit workflow walked end to end, from QuickBase to the Owner's signature to the payroll upload.
+- 2026-08-05 — Northwind reverse demo: the full merit workflow walked end to end, from QuickBase to the Owner's signature to the payroll upload. ([summary](../customers/accounts/northwind-landscaping/calls/summaries/2026-08-05.md))
 - 2026-07-29 — Harbourview discovery interview: BOS ratings, hire-date-driven cadence, roughly 1,000 review setups a year.
-- 2026-07-22 — Cascadia prototype review: manager mobile named as the adoption gate; dollar-per-hour increases, not percentages.
-- 2026-07-17 — Northwind HR leadership call: the Head of HR asked to be part of the pilot — *"we want to be part of your pilot to make it right."*
+- 2026-07-22 — Cascadia prototype review: manager mobile named as the adoption gate; dollar-per-hour increases, not percentages. ([session report](../user-insights/2026-07-22-interview-insights.md))
+- 2026-07-17 — Northwind HR leadership call: the Head of HR asked to be part of the pilot — *"we want to be part of your pilot to make it right."* ([summary](../customers/accounts/northwind-landscaping/calls/summaries/2026-07-17.md))
 - 2026-07-15 — Cascadia discovery interview: credential tracking, the Competency Evaluation Map, and the missing analytics module.
-- 2026-07-10 — Northwind site supervisor: had run his last review round on paper, off a template found online.
-- 2026-07-08 — Maplewood interview: board-and-executive compensation split, and the PDF rollback driven by a confidentiality exposure.
-- 2026-06-22 → 06-24 — Northwind discovery series opened with five interviews across three management tiers.
+- 2026-07-10 — Northwind site supervisor: had run his last review round on paper, off a template found online. ([session report](../user-insights/2026-07-10-interview-insights.md))
+- 2026-07-08 — Maplewood interview: board-and-executive compensation split, and the PDF rollback driven by a confidentiality exposure. ([session report](../user-insights/2026-07-08-interview-insights.md))
+- 2026-06-22 → 06-24 — Northwind discovery series opened with five interviews across three management tiers. ([session reports](../user-insights/2026-06-22-interview-insights.md) · [06-23](../user-insights/2026-06-23-interview-insights.md) · [06-24](../user-insights/2026-06-24-interview-insights.md))

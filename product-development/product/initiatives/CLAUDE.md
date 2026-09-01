@@ -1,4 +1,4 @@
-﻿# Initiatives
+# Initiatives
 
 One living page per initiative — the current-work layer that joins what the functional
 folders separate. An initiative is a work effort ("XYZ v2.0", "XYZ global expansion")

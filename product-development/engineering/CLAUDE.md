@@ -1,4 +1,4 @@
-﻿# Engineering
+# Engineering
 
 Implementation plans, plus the code-repo registry, the code-grounding contract, and the codebase maps that ground product answers in real code.
 

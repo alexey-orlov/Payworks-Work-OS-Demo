@@ -1,4 +1,4 @@
-﻿# Platform Model — how the product actually works underneath
+# Platform Model — how the product actually works underneath
 
 The platform facts every job spec has to line up with: how access is really decided, what names and states are fixed, which domains are compliance-bound, and where things live. `/micro-job-draft` and `/micro-jobs-breakdown` read this file to ground capabilities, permission matrices, and constraints in reality instead of folklore. Unfilled sections make those skills mark their output `[GAP: platform model unfilled — constraints unverified]`.
 

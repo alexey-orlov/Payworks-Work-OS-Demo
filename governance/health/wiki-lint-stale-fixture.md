@@ -18,7 +18,7 @@ stale entry once the demo is complete.
 **What it should say:** A one-line entry for the performance-management synthesis:
 
 ```
-- [performance-management-2026-08-31.md](performance-management-2026-08-31.md) — Cross-interview synthesis across 13 records, 4 accounts, 2026-06-22→2026-08-12
+- [performance-management-2026-08-31.md](../../product-development/product/user-insights/performance-management-2026-08-31.md) — Cross-interview synthesis across 13 records, 4 accounts, 2026-06-22→2026-08-12
 ```
 
 ## Why it was left stale

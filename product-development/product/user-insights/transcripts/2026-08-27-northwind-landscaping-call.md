@@ -10,7 +10,7 @@ themes: [receipt-capture, approval-chain, payroll-integration, mobile, offline, 
 
 # Transcript — Northwind Landscaping Expense Call 2026-08-27
 
-**Summary:** [../../../customers/accounts/northwind-landscaping/calls/summaries/2026-08-27.md](../../../customers/accounts/northwind-landscaping/calls/summaries/2026-08-27.md)
+**Summary:** [../../../customers/accounts/northwind-landscaping/calls/summaries/2026-08-27.md](../../customers/accounts/northwind-landscaping/calls/summaries/2026-08-27.md)
 
 > Raw transcript — immutable from filing. Corrections belong in the summary.
 > Customer-side speakers appear as role titles only (controller, hr.manager).

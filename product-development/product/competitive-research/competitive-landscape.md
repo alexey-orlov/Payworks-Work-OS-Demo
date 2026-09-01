@@ -1,4 +1,4 @@
-﻿# Competitive Landscape
+# Competitive Landscape
 
 _updated: 2026-08-31 · owner: Michelle Tremblay_
 

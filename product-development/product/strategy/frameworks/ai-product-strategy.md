@@ -1,4 +1,4 @@
-﻿# AI Product Strategy Framework
+# AI Product Strategy Framework
 
 **Purpose:** Strategic considerations for building AI-powered products. Context for AI product decisions and positioning.
 

@@ -1,0 +1,50 @@
+# Rebuild the console's zero-setup file (os-console/console.html) on every
+# push to main, and commit it back. The paths-ignore filter keeps the bot's
+# own commit from re-triggering the build. GH_TOKEN lets the snapshot's
+# "Proposed changes" view bake real pull-request data via the preinstalled gh.
+name: build-console
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'os-console/console.html'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-console
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history — the snapshot bakes per-file last-change dates
+
+      # The builder is Node standard library only — no install step, ever.
+      # This pins the floor rather than trusting whatever the runner image ships.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build console.html
+        run: node os-console/build-console.js
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- os-console/console.html && [ -z "$(git status --porcelain os-console/console.html)" ]; then
+            echo "console.html unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add os-console/console.html
+          git commit -m "console: rebuild console.html"
+          git push

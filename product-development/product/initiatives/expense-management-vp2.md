@@ -1,4 +1,4 @@
-﻿---
+---
 status: active
 note: "In definition — no VP Product Brief yet; the Controller conversation is the open evidence gap"
 updated: 2026-08-31
@@ -14,7 +14,7 @@ customers: [northwind-landscaping]
 
 - The second Value Package of the Expense Management module — the wallet-share expansion bet named in the FY27 strategy alongside Perform, Onboarding and Comp. VP1 shipped mobile-first to a limited group; VP2 is the package that has to stand on its own with clients and through the accountant-and-bookkeeper channel.
 - **In definition.** No VP Product Brief exists yet. What exists is a thin problem statement, VP1's shipped scope, and one first-hand customer thread.
-- **The evidence base is deliberately narrow, and saying so matters.** Across thirteen design-partner records, expense management appears in exactly one: the 2026-08-05 Northwind reverse demo, for roughly ninety seconds at the end of the call. Everything else this initiative might claim about expense behaviour is currently unbacked.
+- **The evidence base is deliberately narrow, and saying so matters.** The evidence base opened up late. Until 2026-08-18 expense appeared in exactly one record — ninety seconds at the end of the 2026-08-05 Northwind reverse demo. Four calls since (Birchbark 08-18, Acme 08-20, Northwind 08-13 and the 08-27 Controller session) make receipt capture, approval thresholds and the payroll-register boundary first-hand evidence rather than hypotheses.
 - What that one thread gives us: claims route **claimant → approver → accounts payable**, *not* through payroll; the claimant is satisfied (*"I usually get my expense account in a relatively fast manner, so I have no complaints"*); expense support currently sits in QuickBase alongside safety and claims tracking; and the pain, if any, is on the A/P side and unmeasured.
 - What it does **not** give us: receipts, mobile capture, corporate cards, approval thresholds, reimbursement volumes or cycle times. None of those words appear on any record. They are hypotheses.
 - "Done" for VP2 = a Value Package a Payworks client and a channel firm can both run expenses on end to end, with the payroll-side and A/P-side boundaries settled rather than assumed.
@@ -32,7 +32,7 @@ customers: [northwind-landscaping]
 
 ## Sources
 
-- [2026-08-05 Northwind reverse demo](../../inbox/payworks-source-material/2026-08-05-northwind-landscaping-client-call-reverse-demo.vtt) — the only first-hand expense evidence in the corpus; the expense thread is at the end of the call
+- [2026-08-05 Northwind reverse demo](../user-insights/transcripts/2026-08-05-northwind-landscaping-call.md) — the only first-hand expense evidence in the corpus; the expense thread is at the end of the call
 - [expense-management-vp1](expense-management-vp1.md) — what shipped, and the scope decisions behind it
 - [strategy/current-quarter.md](../strategy/current-quarter.md) — the FY27 test and the win-loss gaps this work is measured against
 - [strategy/business-context/business-info.md](../strategy/business-context/business-info.md) — personas, channel motion, portfolio role of the expansion modules
@@ -41,14 +41,14 @@ customers: [northwind-landscaping]
 
 ## Artifacts
 
-- VP Product Brief: [PENDING: product/PRDs/expense-management/expense-management-vp2-product-brief.md]
+- VP Product Brief: [expense-management-vp2-product-brief.md](../PRDs/expense-management/expense-management-vp2-product-brief.md) — Draft; 2026-08-31
 - Assumption map: -
 - Challenge report: -
-- Micro Jobs Breakdown: [PENDING: product/PRDs/expense-management/expense-management-vp2-micro-jobs-breakdown.md]
-- Micro Jobs: -
+- Micro Jobs Breakdown: [expense-management-vp2-micro-jobs-breakdown.md](../PRDs/expense-management/expense-management-vp2-micro-jobs-breakdown.md) — MJ-01–MJ-04 + MJ-05 deferred; Draft; 2026-08-31
+- Micro Jobs: [MJ-01 Claim record and site coding](../PRDs/expense-management/expense-management-vp2-mj-01-claim-record-micro-job.md) — drafted; MJ-02–MJ-04 not drafted
 - Impact sizing: -
-- User insights: -
-- Competitive analysis: -
+- User insights: per-call summaries in Activity below — no cross-interview synthesis yet (one initiative-wide record short of the 4 this needs)
+- Competitive analysis: [Dayforce teardown](../competitive-research/competitors/dayforce/teardown.md) — approval workflows, scoped to expense-management · payroll; 2026-08-31
 - Pre-mortem: -
 - Eng plan: -
 - Metrics: -
@@ -57,6 +57,7 @@ customers: [northwind-landscaping]
 
 ## Decisions
 
+- 2026-08-06 — [Expense VP1 Scope — Mobile-First](../decisions/2026-08-06-expense-vp1-scope-mobile-first.md) — VP1 shipped mobile-first; desktop parity and the A&B channel view deferred into this Value Package
 - 2026-08-06 — [Expense Approval Threshold](../decisions/2026-08-06-expense-approval-threshold.md) — $5k default, 150-employee auto-on, cross-module into Payroll
 - 2026-08-26 — [Onboarding Profile Foundation](../decisions/2026-08-26-onboarding-profile-foundation.md) — MJ-01 shared with employee onboarding; gains pre-hire state + named extension point; MJ-02 (receipt capture) pushed right 3–4 weeks
 
@@ -72,8 +73,11 @@ customers: [northwind-landscaping]
 ## Activity
 
 - 2026-08-27 — Controller expense discovery call with Northwind Landscaping: first substantive client-side evidence on receipt capture (site attribution is the unlock, photo is table stakes), approval chain (position-based, per-yard, auto-escalate, desktop-enforce above threshold), payroll register integration (non-taxable, pre-lock visible, clickable drill-down, auto-roll at cutoff), and status visibility ("approved, paying on the 11th"). Four feature-request records filed. Renewal horizon confirmed; A/P clerk invited to next session in 3–4 weeks. ([summary](../customers/accounts/northwind-landscaping/calls/summaries/2026-08-27.md))
+- 2026-08-20 — Acme Corp expense discovery call: a 75-employee account with digital receipts already, asking for mobile approval to be blocked rather than discouraged ([summary](../customers/accounts/acme-corp/calls/summaries/2026-08-20.md))
+- 2026-08-18 — Birchbark Books channel research call: cross-client expense visibility, firm-level templates and receipt retention, from the bookkeeping side ([summary](../customers/accounts/birchbark-books/calls/summaries/2026-08-18.md))
+- 2026-08-13 — Northwind follow-up call touched expense in passing while closing review-pilot loops ([summary](../customers/accounts/northwind-landscaping/calls/summaries/2026-08-13.md))
 - 2026-08-31 — GL reconciliation (expense-to-GL mapping and journal-entry export) added to VP2 M2 scope boundary in the Product Brief (§7, §11). Two gap markers placed: Engineering format-compatibility unverified; no first-hand customer ask on record yet. Catalog entries for the expense-management area proposed (gated).
 - 2026-08-31 — Request triage: "Match submission/approval to device", "Define approval routing without rulesets burden", and "Attach receipts in form they arrive" routed Act Now ([board](../strategy/feature-requests-expense-management-vp2.md)); receipt capture and approval-threshold hypotheses confirmed from both channel (birchbark-books) and direct-client (acme-corp) sides.
 - 2026-08-31 — Initiative page created; scope framed against VP1 and the single expense record, with the evidence gap stated rather than filled.
-- 2026-08-05 — Expense surfaced unprompted on the Northwind reverse demo: current flow is claimant → Head of HR → accounts payable, and the Controller was offered as the next conversation.
+- 2026-08-05 — Expense surfaced unprompted on the Northwind reverse demo: current flow is claimant → Head of HR → accounts payable, and the Controller was offered as the next conversation. ([summary](../customers/accounts/northwind-landscaping/calls/summaries/2026-08-05.md))
 - 2026-08-26 — Internal product sync: MJ-01 profile foundation agreed as shared with employee onboarding; gains pre-hire state + named extension point; MJ-02 (receipt capture) pushed right 3–4 weeks. Acme visit surfaced second signal against mobile approvals and physical capture assumptions. ([summary](../meetings/other/summaries/2026-08-26-internal-product-sync.md))

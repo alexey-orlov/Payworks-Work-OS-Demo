@@ -32,5 +32,5 @@ initiatives: [performance-management-discovery]
 
 ## History
 
-- 2026-08-12 — Prototype review + current-workflow walkthrough: the wage ladder, the DocuSign envelope cost, and the automatic-increase finding → [source record](../../../../inbox/payworks-source-material/2026-08-12-harbourview-grocers-prototype-review.txt) *(staged — summary lands when `/process-meeting` files it)*
-- 2026-07-29 — Discovery interview (recording starts mid-meeting): review process, mobile ask, the $50 mystery-shopper award and the payroll-checkbox failure → [source record](../../../../inbox/payworks-source-material/2026-07-29-harbourview-grocers-interview.txt) *(staged)*
+- 2026-08-12 — Prototype review + current-workflow walkthrough: the wage ladder, the DocuSign envelope cost, and the automatic-increase finding → [transcript](../../../user-insights/transcripts/2026-08-12-harbourview-grocers-interview.md)
+- 2026-07-29 — Discovery interview (recording starts mid-meeting): review process, mobile ask, the $50 mystery-shopper award and the payroll-checkbox failure → [transcript](../../../user-insights/transcripts/2026-07-29-harbourview-grocers-interview.md)

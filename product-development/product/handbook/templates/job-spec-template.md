@@ -1,4 +1,4 @@
-﻿---
+---
 initiatives: [initiative-slug]
 ---
 

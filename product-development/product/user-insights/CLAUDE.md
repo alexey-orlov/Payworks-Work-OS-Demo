@@ -7,8 +7,13 @@ Everything learned from users, in one tree — cross-interview synthesis reports
 ## Contents
 
 ### Files
-
-_None yet — `/process-meeting` files `{date}-interview-insights.md` per session, `/user-research-synthesis` files `{topic}-{date}.md` across sessions. Add a one-line entry here for each._
+- [2026-06-22-interview-insights.md](2026-06-22-interview-insights.md) — Customer Interview Insights — 2026-06-22 — Three discovery interviews run back to back on one day at Northwind Landscaping, each
+- [2026-06-23-interview-insights.md](2026-06-23-interview-insights.md) — Customer Interview Insights — 2026-06-23 — Source: transcripts/2026-06-23-northwind-landscaping-interview.md — discovery interview + prototype review, Northwind…
+- [2026-06-24-interview-insights.md](2026-06-24-interview-insights.md) — Customer Interview Insights — 2026-06-24 — Source transcript: transcripts/2026-06-24-northwind-landscaping-interview.md
+- [2026-07-08-interview-insights.md](2026-07-08-interview-insights.md) — Customer Interview Insights — 2026-07-08 — Session report for one discovery interview + prototype review with Maplewood Recreation.
+- [2026-07-10-interview-insights.md](2026-07-10-interview-insights.md) — Customer Interview Insights — 2026-07-10 — Source material: transcripts/2026-07-10-northwind-landscaping-interview.md
+- [2026-07-22-interview-insights.md](2026-07-22-interview-insights.md) — Customer Interview Insights — 2026-07-22 — Prototype review of the Performance Management module with Cascadia Countertops — one
+- [performance-management-2026-08-31.md](performance-management-2026-08-31.md) — Performance Management — Cross-Interview Synthesis — Basis: 13 filed records across 4 design-partner accounts, 2026-06-22 → 2026-08-12.
 
 ### Subfolders
 

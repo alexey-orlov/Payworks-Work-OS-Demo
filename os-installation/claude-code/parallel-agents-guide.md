@@ -1,4 +1,4 @@
-﻿# Parallel Agents Guide
+# Parallel Agents Guide
 
 Run multiple AI agents simultaneously to accomplish complex tasks faster.
 

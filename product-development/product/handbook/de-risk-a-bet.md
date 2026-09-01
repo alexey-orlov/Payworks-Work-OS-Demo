@@ -1,4 +1,4 @@
-﻿# De-Risk a Bet
+# De-Risk a Bet
 
 The canonical sequence for stress-testing a bet from first idea to shipped feature. Each stage answers a different question at a different moment; skipping a stage is fine (see below), reordering them usually isn't — attack a plan before rehearsing its launch, map assumptions before attacking them.
 

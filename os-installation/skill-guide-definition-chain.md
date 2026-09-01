@@ -1,4 +1,4 @@
-﻿# Skill Guide — Instance Setup and the Definition Chain
+# Skill Guide — Instance Setup and the Definition Chain
 
 How six skills work, one page each: the setup skill that teaches the OS your org's context, tools, and document formats, and the five skills that carry a bet from idea to buildable contract.
 

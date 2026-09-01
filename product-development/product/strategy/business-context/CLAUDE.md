@@ -1,4 +1,4 @@
-﻿# Business Context
+# Business Context
 
 Company, product, market, and business-model fundamentals — the substrate every other artifact in this repo assumes.
 

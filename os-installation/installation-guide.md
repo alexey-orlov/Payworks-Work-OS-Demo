@@ -1,4 +1,4 @@
-﻿# Installation Guide
+# Installation Guide
 
 Get your Team OS up and running in 15 minutes.
 
